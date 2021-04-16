@@ -1,0 +1,20 @@
+Guidelines: (To be placed in HTML in landing page)
+===================
+
+Before starting please follow the instructions on the Latency Test.
+During this latency recording you dont play anything.
+Connect you speakers to the laptop and make sure the microphone is placed close to the ear phones.
+Press the Take 1 button and you will hear the faint tick sound coming from the earphones 
+(which at this moment you should not be wearing).
+When the "take" is finished press submit.
+After submitting the latency recording, you should be able to hear the ticks on the play back.
+Now you are ready to record a perfromance.
+
+(Please note: It is advised to used the Edge browser if you are using Windows 10 and not Firefox.)
+
+Please listen back to your performance before submiting.
+It the volume is low try incfreasing the Gain on your mircophone in the Control Panel.
+(Becare full not to have ti too-high or it might distort)
+Switch off Echo Cancellation and Noise Reduction features in your sound configurations.
+If no good recording can be achieved, please contact administrator.
+
