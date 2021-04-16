@@ -1,0 +1,17 @@
+Name: Just Looking
+Type: Bassline
+Description:The Technical Elements to focus on are
+• Accented syncopation
+• Dynamics
+The signature riff of this song appears at the chorus, where the bass plays an
+accented, syncopated motif. You’ll need to play with complete precision and a
+hard accent on the two notes where this is written. There is also a wide range
+of dynamics to observe, including an unexpected subito p at bar 25. These are
+important for the drama of the song, so aim for maximum contrast between
+soft and loud.
+Number of Repitions: 1
+Allowed Submissions: 1
+Counter visualization: no
+BPM: 98
+Countdown number of beats: (2 bar count in)
+Melody length (in beats): 

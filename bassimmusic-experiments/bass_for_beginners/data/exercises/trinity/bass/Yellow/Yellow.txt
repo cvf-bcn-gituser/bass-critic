@@ -1,0 +1,15 @@
+Name: Yellow
+Type: Bassline
+Description:Two technical elements are featured in this song:
+• Repeated notes
+• Syncopation
+The tempo isn’t too fast, so keep a steady grip on the repeated notes in the intro
+and verse to avoid a rushed feel and do your best to play them evenly. The chorus
+features a new rhythm with syncopation, so count carefully and aim for accuracy
+here.
+Number of Repitions: 1
+Allowed Submissions: 1
+Counter visualization: no
+BPM: 87
+Countdown number of beats: 
+Melody length (in beats): 

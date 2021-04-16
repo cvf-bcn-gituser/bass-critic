@@ -1,0 +1,17 @@
+Name: RoadRunner
+Type: Bassline
+Description:Two technical elements are featured in this song:
+• Syncopation
+• Articulation
+Syncopation appears mainly in the intro. Aim for precision here, and play
+melodically, which will provide contrast with the repeated notes that make up the
+next section. Articulation is important throughout — especially in accented notes at
+end of the intro (and where this material returns) and in the verse. Here, the tenuto
+markings suggest a full-length, slightly emphasised note, while the brackets suggest
+an underemphasised or ‘ghosted’ note.
+Number of Repitions: 1
+Allowed Submissions: 1
+Counter visualization: no
+BPM: 128
+Countdown number of beats: 1.5 bars
+Melody length (in beats): 

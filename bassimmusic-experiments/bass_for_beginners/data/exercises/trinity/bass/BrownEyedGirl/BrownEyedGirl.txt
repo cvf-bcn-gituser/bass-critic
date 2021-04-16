@@ -1,0 +1,15 @@
+Name: Brown Eyed Girl
+Type: Bassline
+Description:Two technical elements are featured in this song
+• Note lengths
+• Rhythmic accuracy
+There are a range of different note lengths and rests in this bass part. Make sure
+these are accurate, as the rests and silences play an important part in creating the
+groove. Related to this is rhythmic accuracy, and there is a lot of rhythmic detail in
+all sections of this song to pay careful attention to.
+Number of Repitions: 1
+Allowed Submissions: 1
+Counter visualization: no
+BPM: 132
+Countdown number of beats: 10
+Melody length (in beats): 
