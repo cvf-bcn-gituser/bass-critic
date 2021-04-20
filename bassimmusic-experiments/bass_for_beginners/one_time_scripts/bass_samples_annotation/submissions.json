@@ -1,0 +1,2026 @@
+[
+    {
+        "id": 157,
+        "duration": 15.766349206349206,
+        "session_id": "4d9ubcb6hg99v8qm7d2qnim243r242gs",
+        "path": "submissions/157_recording-0-2019-03-11T22-44-18-920Z-0.wav",
+        "created": "2019-03-11T22:44:20.837772Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 165,
+        "duration": 15.614943310657596,
+        "session_id": "lef1jw8pcapet97u458i2qqa5y5nnqvw",
+        "path": "submissions/165_recording-0-2019-03-13T12-20-23-601Z-0.wav",
+        "created": "2019-03-13T12:20:23.306344Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 187,
+        "duration": 15.766349206349206,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/187_recording-0-2019-03-13T18-52-20-147Z-0.wav",
+        "created": "2019-03-13T18:52:20.557141Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 188,
+        "duration": 15.766349206349206,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/188_recording-0-2019-03-13T18-52-43-786Z-0.wav",
+        "created": "2019-03-13T18:52:44.139046Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 200,
+        "duration": 27.956825396825398,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/200_recording-0-2019-03-15T16-50-27-691Z-0.wav",
+        "created": "2019-03-15T17:49:19.808620Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 207,
+        "duration": 28.792743764172336,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/207_recording-0-2019-03-15T17-22-22-741Z-0.wav",
+        "created": "2019-03-15T18:21:10.462355Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 231,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/231_recording-0-2019-03-20T10-26-29-251Z-0.wav",
+        "created": "2019-03-20T10:26:29.678239Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 237,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/237_recording-0-2019-03-20T10-42-59-548Z-0.wav",
+        "created": "2019-03-20T10:43:00.014022Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 238,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/238_recording-0-2019-03-20T10-43-25-477Z-0.wav",
+        "created": "2019-03-20T10:43:25.804112Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 244,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/244_recording-0-2019-03-20T10-53-47-630Z-0.wav",
+        "created": "2019-03-20T10:53:50.369326Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 251,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/251_recording-0-2019-03-20T11-02-33-346Z-0.wav",
+        "created": "2019-03-20T11:02:35.665465Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 258,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/258_recording-0-2019-03-20T11-14-28-551Z-0.wav",
+        "created": "2019-03-20T11:14:28.733897Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 267,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/267_recording-0-2019-03-20T11-24-29-782Z-0.wav",
+        "created": "2019-03-20T11:24:29.930313Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 276,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/276_recording-0-2019-03-20T11-36-14-237Z-0.wav",
+        "created": "2019-03-20T11:36:14.395796Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 277,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/277_recording-0-2019-03-20T11-36-36-526Z-0.wav",
+        "created": "2019-03-20T11:36:36.678360Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 278,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/278_recording-0-2019-03-20T11-38-15-759Z-0.wav",
+        "created": "2019-03-20T11:38:15.973526Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 287,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/287_recording-0-2019-03-20T11-49-29-058Z-0.wav",
+        "created": "2019-03-20T11:49:29.217572Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 296,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/296_recording-0-2019-03-20T12-17-07-734Z-0.wav",
+        "created": "2019-03-20T12:17:07.949773Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 297,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/297_recording-0-2019-03-20T12-17-50-112Z-0.wav",
+        "created": "2019-03-20T12:17:50.290323Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 305,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/305_recording-0-2019-03-20T12-44-39-289Z-0.wav",
+        "created": "2019-03-20T12:44:39.546994Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 306,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/306_recording-0-2019-03-20T12-46-24-544Z-0.wav",
+        "created": "2019-03-20T12:46:24.761887Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 307,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/307_recording-0-2019-03-20T12-46-52-587Z-0.wav",
+        "created": "2019-03-20T12:46:52.739702Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 315,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/315_recording-0-2019-03-20T13-02-51-726Z-0.wav",
+        "created": "2019-03-20T13:02:51.916885Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 316,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/316_recording-0-2019-03-20T13-05-23-515Z-0.wav",
+        "created": "2019-03-20T13:05:23.688769Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 326,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/326_recording-0-2019-03-20T13-35-46-841Z-0.wav",
+        "created": "2019-03-20T13:35:47.053054Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 333,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/333_recording-0-2019-03-20T14-14-00-092Z-0.wav",
+        "created": "2019-03-20T14:14:00.262085Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 339,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/339_recording-0-2019-03-20T14-41-14-985Z-0.wav",
+        "created": "2019-03-20T14:41:15.200484Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 348,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/348_recording-0-2019-03-20T14-52-59-665Z-0.wav",
+        "created": "2019-03-20T14:52:59.844800Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 356,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/356_recording-0-2019-03-20T15-03-40-445Z-0.wav",
+        "created": "2019-03-20T15:03:40.627776Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 365,
+        "duration": 15.74312925170068,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/365_recording-0-2019-03-20T15-22-12-861Z-0.wav",
+        "created": "2019-03-20T15:22:13.069107Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 372,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/372_recording-0-2019-03-20T15-38-23-992Z-0.wav",
+        "created": "2019-03-20T15:38:24.228362Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 373,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/373_recording-0-2019-03-20T15-39-15-411Z-0.wav",
+        "created": "2019-03-20T15:39:15.569004Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 377,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/377_recording-0-2019-03-20T15-59-28-290Z-0.wav",
+        "created": "2019-03-20T15:59:28.474522Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 385,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/385_recording-0-2019-03-20T16-10-27-523Z-0.wav",
+        "created": "2019-03-20T16:10:27.704066Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 409,
+        "duration": 15.74312925170068,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/409_recording-0-2019-03-21T12-28-28-861Z-0.wav",
+        "created": "2019-03-21T12:28:28.925301Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 416,
+        "duration": 15.74312925170068,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/416_recording-0-2019-03-21T12-51-28-848Z-0.wav",
+        "created": "2019-03-21T12:51:28.936318Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 417,
+        "duration": 15.74312925170068,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/417_recording-0-2019-03-21T12-52-50-423Z-0.wav",
+        "created": "2019-03-21T12:52:50.560471Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 423,
+        "duration": 15.766349206349206,
+        "session_id": "oc16cdndabgedcltfbczcow4lahd4jm3",
+        "path": "submissions/423_recording-0-2019-03-21T13-32-20-655Z-0.wav",
+        "created": "2019-03-21T13:32:21.235174Z",
+        "exercise_id": 17
+    },
+    {
+        "id": 160,
+        "duration": 39.96154195011338,
+        "session_id": "4d9ubcb6hg99v8qm7d2qnim243r242gs",
+        "path": "submissions/160_recording-0-2019-03-11T22-49-38-553Z-0.wav",
+        "created": "2019-03-11T22:49:42.256538Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 168,
+        "duration": 39.97866213151927,
+        "session_id": "lef1jw8pcapet97u458i2qqa5y5nnqvw",
+        "path": "submissions/168_recording-0-2019-03-13T12-26-08-081Z-0.wav",
+        "created": "2019-03-13T12:26:08.381149Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 192,
+        "duration": 39.96154195011338,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/192_recording-0-2019-03-13T18-57-12-827Z-0.wav",
+        "created": "2019-03-13T18:57:13.610696Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 203,
+        "duration": 52.01269841269841,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/203_recording-0-2019-03-15T16-58-26-801Z-0.wav",
+        "created": "2019-03-15T17:57:50.086086Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 204,
+        "duration": 39.938321995464854,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/204_recording-0-2019-03-15T17-03-47-513Z-0.wav",
+        "created": "2019-03-15T18:02:41.009549Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 210,
+        "duration": 59.07156462585034,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/210_recording-0-2019-03-15T17-44-27-177Z-0.wav",
+        "created": "2019-03-15T18:43:23.381296Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 234,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/234_recording-0-2019-03-20T10-32-23-461Z-0.wav",
+        "created": "2019-03-20T10:32:24.394154Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 241,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/241_recording-0-2019-03-20T10-46-52-969Z-0.wav",
+        "created": "2019-03-20T10:46:54.224521Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 247,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/247_recording-0-2019-03-20T10-58-47-424Z-0.wav",
+        "created": "2019-03-20T10:58:50.788674Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 253,
+        "duration": 39.9847619047619,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/253_recording-0-2019-03-20T11-03-58-490Z-0.wav",
+        "created": "2019-03-20T11:03:59.255148Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 263,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/263_recording-0-2019-03-20T11-21-39-475Z-0.wav",
+        "created": "2019-03-20T11:21:39.822774Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 270,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/270_recording-0-2019-03-20T11-28-41-855Z-0.wav",
+        "created": "2019-03-20T11:28:42.141447Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 271,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/271_recording-0-2019-03-20T11-29-53-707Z-0.wav",
+        "created": "2019-03-20T11:29:54.046174Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 281,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/281_recording-0-2019-03-20T11-45-17-754Z-0.wav",
+        "created": "2019-03-20T11:45:18.613597Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 282,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/282_recording-0-2019-03-20T11-46-39-813Z-0.wav",
+        "created": "2019-03-20T11:46:40.102331Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 291,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/291_recording-0-2019-03-20T11-52-32-934Z-0.wav",
+        "created": "2019-03-20T11:52:33.728901Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 321,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/321_recording-0-2019-03-20T13-10-33-181Z-0.wav",
+        "created": "2019-03-20T13:10:33.877356Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 336,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/336_recording-0-2019-03-20T14-22-20-161Z-0.wav",
+        "created": "2019-03-20T14:22:20.651254Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 345,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/345_recording-0-2019-03-20T14-50-15-756Z-0.wav",
+        "created": "2019-03-20T14:50:16.174944Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 352,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/352_recording-0-2019-03-20T14-58-02-007Z-0.wav",
+        "created": "2019-03-20T14:58:03.201535Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 353,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/353_recording-0-2019-03-20T14-59-05-623Z-0.wav",
+        "created": "2019-03-20T14:59:05.985306Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 361,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/361_recording-0-2019-03-20T15-13-30-795Z-0.wav",
+        "created": "2019-03-20T15:13:31.226714Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 362,
+        "duration": 39.9847619047619,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/362_recording-0-2019-03-20T15-14-36-350Z-0.wav",
+        "created": "2019-03-20T15:14:36.729976Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 368,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/368_recording-0-2019-03-20T15-28-56-165Z-0.wav",
+        "created": "2019-03-20T15:28:56.537343Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 381,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/381_recording-0-2019-03-20T16-06-38-202Z-0.wav",
+        "created": "2019-03-20T16:06:38.641216Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 382,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/382_recording-0-2019-03-20T16-07-50-691Z-0.wav",
+        "created": "2019-03-20T16:07:51.105540Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 389,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/389_recording-0-2019-03-20T16-16-24-706Z-0.wav",
+        "created": "2019-03-20T16:16:25.050241Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 393,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/393_recording-0-2019-03-20T16-40-31-884Z-0.wav",
+        "created": "2019-03-20T16:40:32.966323Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 413,
+        "duration": 39.9847619047619,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/413_recording-0-2019-03-21T12-38-29-126Z-0.wav",
+        "created": "2019-03-21T12:38:29.300250Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 427,
+        "duration": 39.96154195011338,
+        "session_id": "oc16cdndabgedcltfbczcow4lahd4jm3",
+        "path": "submissions/427_recording-0-2019-03-21T13-43-20-527Z-0.wav",
+        "created": "2019-03-21T13:43:23.569640Z",
+        "exercise_id": 25
+    },
+    {
+        "id": 158,
+        "duration": 15.975328798185942,
+        "session_id": "4d9ubcb6hg99v8qm7d2qnim243r242gs",
+        "path": "submissions/158_recording-0-2019-03-11T22-45-18-718Z-0.wav",
+        "created": "2019-03-11T22:45:21.465882Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 166,
+        "duration": 15.829319727891157,
+        "session_id": "lef1jw8pcapet97u458i2qqa5y5nnqvw",
+        "path": "submissions/166_recording-0-2019-03-13T12-21-24-265Z-0.wav",
+        "created": "2019-03-13T12:21:23.930483Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 189,
+        "duration": 15.975328798185942,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/189_recording-0-2019-03-13T18-53-32-265Z-0.wav",
+        "created": "2019-03-13T18:53:32.655570Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 190,
+        "duration": 15.975328798185942,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/190_recording-0-2019-03-13T18-53-54-472Z-0.wav",
+        "created": "2019-03-13T18:53:54.830551Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 201,
+        "duration": 28.88562358276644,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/201_recording-0-2019-03-15T16-52-49-353Z-0.wav",
+        "created": "2019-03-15T17:51:41.596910Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 208,
+        "duration": 29.071383219954647,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/208_recording-0-2019-03-15T17-25-26-865Z-0.wav",
+        "created": "2019-03-15T18:24:21.849721Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 232,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/232_recording-0-2019-03-20T10-27-42-512Z-0.wav",
+        "created": "2019-03-20T10:27:42.830940Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 239,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/239_recording-0-2019-03-20T10-44-17-368Z-0.wav",
+        "created": "2019-03-20T10:44:26.365288Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 245,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/245_recording-0-2019-03-20T10-55-27-550Z-0.wav",
+        "created": "2019-03-20T10:55:27.902156Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 250,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/250_recording-0-2019-03-20T11-02-08-380Z-0.wav",
+        "created": "2019-03-20T11:02:09.348151Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 259,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/259_recording-0-2019-03-20T11-15-40-041Z-0.wav",
+        "created": "2019-03-20T11:15:40.268948Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 260,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/260_recording-0-2019-03-20T11-16-27-244Z-0.wav",
+        "created": "2019-03-20T11:16:27.444276Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 268,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/268_recording-0-2019-03-20T11-25-02-905Z-0.wav",
+        "created": "2019-03-20T11:25:08.576699Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 279,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/279_recording-0-2019-03-20T11-40-45-345Z-0.wav",
+        "created": "2019-03-20T11:40:45.584270Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 288,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/288_recording-0-2019-03-20T11-49-56-632Z-0.wav",
+        "created": "2019-03-20T11:49:56.795324Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 289,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/289_recording-0-2019-03-20T11-50-32-107Z-0.wav",
+        "created": "2019-03-20T11:50:32.269415Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 298,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/298_recording-0-2019-03-20T12-20-14-771Z-0.wav",
+        "created": "2019-03-20T12:20:14.986510Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 299,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/299_recording-0-2019-03-20T12-21-04-741Z-0.wav",
+        "created": "2019-03-20T12:21:05.925671Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 308,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/308_recording-0-2019-03-20T12-48-39-363Z-0.wav",
+        "created": "2019-03-20T12:48:39.580642Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 309,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/309_recording-0-2019-03-20T12-49-15-483Z-0.wav",
+        "created": "2019-03-20T12:49:15.636751Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 310,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/310_recording-0-2019-03-20T12-49-43-821Z-0.wav",
+        "created": "2019-03-20T12:49:43.971392Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 317,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/317_recording-0-2019-03-20T13-06-08-063Z-0.wav",
+        "created": "2019-03-20T13:06:08.225438Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 318,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/318_recording-0-2019-03-20T13-06-42-574Z-0.wav",
+        "created": "2019-03-20T13:06:42.730000Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 327,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/327_recording-0-2019-03-20T13-38-11-386Z-0.wav",
+        "created": "2019-03-20T13:38:11.606036Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 328,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/328_recording-0-2019-03-20T13-39-26-327Z-0.wav",
+        "created": "2019-03-20T13:39:26.480150Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 329,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/329_recording-0-2019-03-20T13-40-17-811Z-0.wav",
+        "created": "2019-03-20T13:40:18.220881Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 334,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/334_recording-0-2019-03-20T14-15-31-411Z-0.wav",
+        "created": "2019-03-20T14:15:31.624923Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 340,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/340_recording-0-2019-03-20T14-42-14-087Z-0.wav",
+        "created": "2019-03-20T14:42:14.272531Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 341,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/341_recording-0-2019-03-20T14-42-43-980Z-0.wav",
+        "created": "2019-03-20T14:42:44.153825Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 342,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/342_recording-0-2019-03-20T14-43-08-192Z-0.wav",
+        "created": "2019-03-20T14:43:08.372476Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 349,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/349_recording-0-2019-03-20T14-53-29-829Z-0.wav",
+        "created": "2019-03-20T14:53:30.019618Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 350,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/350_recording-0-2019-03-20T14-54-04-366Z-0.wav",
+        "created": "2019-03-20T14:54:04.994379Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 357,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/357_recording-0-2019-03-20T15-05-02-563Z-0.wav",
+        "created": "2019-03-20T15:05:04.387273Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 358,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/358_recording-0-2019-03-20T15-05-31-399Z-0.wav",
+        "created": "2019-03-20T15:05:31.631373Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 366,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/366_recording-0-2019-03-20T15-23-53-199Z-0.wav",
+        "created": "2019-03-20T15:23:53.436698Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 374,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/374_recording-0-2019-03-20T15-42-04-055Z-0.wav",
+        "created": "2019-03-20T15:42:04.504281Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 378,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/378_recording-0-2019-03-20T16-00-38-032Z-0.wav",
+        "created": "2019-03-20T16:00:38.212811Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 379,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/379_recording-0-2019-03-20T16-01-36-874Z-0.wav",
+        "created": "2019-03-20T16:01:37.043856Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 386,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/386_recording-0-2019-03-20T16-11-43-425Z-0.wav",
+        "created": "2019-03-20T16:11:43.650158Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 410,
+        "duration": 15.975328798185942,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/410_recording-0-2019-03-21T12-30-42-980Z-0.wav",
+        "created": "2019-03-21T12:30:43.094504Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 411,
+        "duration": 15.975328798185942,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/411_recording-0-2019-03-21T12-31-55-372Z-0.wav",
+        "created": "2019-03-21T12:31:55.466244Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 418,
+        "duration": 15.975328798185942,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/418_recording-0-2019-03-21T12-54-19-069Z-0.wav",
+        "created": "2019-03-21T12:54:19.197386Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 419,
+        "duration": 15.975328798185942,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/419_recording-0-2019-03-21T12-54-51-788Z-0.wav",
+        "created": "2019-03-21T12:54:51.887921Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 424,
+        "duration": 15.975328798185942,
+        "session_id": "oc16cdndabgedcltfbczcow4lahd4jm3",
+        "path": "submissions/424_recording-0-2019-03-21T13-32-55-964Z-0.wav",
+        "created": "2019-03-21T13:32:56.624146Z",
+        "exercise_id": 16
+    },
+    {
+        "id": 159,
+        "duration": 55.960090702947845,
+        "session_id": "4d9ubcb6hg99v8qm7d2qnim243r242gs",
+        "path": "submissions/159_recording-0-2019-03-11T22-46-52-965Z-0.wav",
+        "created": "2019-03-11T22:47:03.683000Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 167,
+        "duration": 55.85065759637188,
+        "session_id": "lef1jw8pcapet97u458i2qqa5y5nnqvw",
+        "path": "submissions/167_recording-0-2019-03-13T12-23-45-161Z-0.wav",
+        "created": "2019-03-13T12:23:45.652842Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 191,
+        "duration": 55.960090702947845,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/191_recording-0-2019-03-13T18-55-25-438Z-0.wav",
+        "created": "2019-03-13T18:55:26.485425Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 202,
+        "duration": 67.89514739229026,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/202_recording-0-2019-03-15T16-56-06-361Z-0.wav",
+        "created": "2019-03-15T17:54:56.134729Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 209,
+        "duration": 71.23882086167801,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/209_recording-0-2019-03-15T17-34-58-729Z-0.wav",
+        "created": "2019-03-15T18:34:01.968503Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 233,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/233_recording-0-2019-03-20T10-29-43-613Z-0.wav",
+        "created": "2019-03-20T10:29:45.079245Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 240,
+        "duration": 55.98331065759637,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/240_recording-0-2019-03-20T10-45-41-769Z-0.wav",
+        "created": "2019-03-20T10:45:43.960952Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 246,
+        "duration": 55.98331065759637,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/246_recording-0-2019-03-20T10-56-51-618Z-0.wav",
+        "created": "2019-03-20T10:56:53.413563Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 249,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/249_recording-0-2019-03-20T11-01-41-463Z-0.wav",
+        "created": "2019-03-20T11:01:42.257944Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 261,
+        "duration": 55.98331065759637,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/261_recording-0-2019-03-20T11-19-04-356Z-0.wav",
+        "created": "2019-03-20T11:19:05.515208Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 262,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/262_recording-0-2019-03-20T11-20-10-425Z-0.wav",
+        "created": "2019-03-20T11:20:10.879484Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 269,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/269_recording-0-2019-03-20T11-27-50-168Z-0.wav",
+        "created": "2019-03-20T11:27:50.629720Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 280,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/280_recording-0-2019-03-20T11-43-34-538Z-0.wav",
+        "created": "2019-03-20T11:43:35.430649Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 290,
+        "duration": 55.98331065759637,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/290_recording-0-2019-03-20T11-51-37-848Z-0.wav",
+        "created": "2019-03-20T11:51:38.288749Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 300,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/300_recording-0-2019-03-20T12-29-28-869Z-0.wav",
+        "created": "2019-03-20T12:29:29.343514Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 311,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/311_recording-0-2019-03-20T12-56-09-647Z-0.wav",
+        "created": "2019-03-20T12:56:10.134683Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 319,
+        "duration": 55.98331065759637,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/319_recording-0-2019-03-20T13-08-13-868Z-0.wav",
+        "created": "2019-03-20T13:08:14.310131Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 320,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/320_recording-0-2019-03-20T13-09-27-758Z-0.wav",
+        "created": "2019-03-20T13:09:28.199241Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 335,
+        "duration": 55.98331065759637,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/335_recording-0-2019-03-20T14-18-43-126Z-0.wav",
+        "created": "2019-03-20T14:18:43.716240Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 343,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/343_recording-0-2019-03-20T14-45-57-319Z-0.wav",
+        "created": "2019-03-20T14:45:57.870717Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 344,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/344_recording-0-2019-03-20T14-47-04-784Z-0.wav",
+        "created": "2019-03-20T14:47:05.326555Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 351,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/351_recording-0-2019-03-20T14-55-12-269Z-0.wav",
+        "created": "2019-03-20T14:55:12.686885Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 359,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/359_recording-0-2019-03-20T15-07-59-073Z-0.wav",
+        "created": "2019-03-20T15:07:59.630672Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 360,
+        "duration": 55.98331065759637,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/360_recording-0-2019-03-20T15-09-44-211Z-0.wav",
+        "created": "2019-03-20T15:09:44.754862Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 367,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/367_recording-0-2019-03-20T15-26-06-263Z-0.wav",
+        "created": "2019-03-20T15:26:06.796488Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 380,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/380_recording-0-2019-03-20T16-05-15-274Z-0.wav",
+        "created": "2019-03-20T16:05:15.973692Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 387,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/387_recording-0-2019-03-20T16-13-40-059Z-0.wav",
+        "created": "2019-03-20T16:13:40.552867Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 388,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/388_recording-0-2019-03-20T16-14-57-841Z-0.wav",
+        "created": "2019-03-20T16:14:58.288457Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 390,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/390_recording-0-2019-03-20T16-24-56-428Z-0.wav",
+        "created": "2019-03-20T16:24:56.868028Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 391,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/391_recording-0-2019-03-20T16-26-06-502Z-0.wav",
+        "created": "2019-03-20T16:26:06.961520Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 392,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/392_recording-0-2019-03-20T16-38-47-287Z-0.wav",
+        "created": "2019-03-20T16:38:48.585086Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 412,
+        "duration": 55.960090702947845,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/412_recording-0-2019-03-21T12-36-23-640Z-0.wav",
+        "created": "2019-03-21T12:36:23.879491Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 425,
+        "duration": 55.98331065759637,
+        "session_id": "oc16cdndabgedcltfbczcow4lahd4jm3",
+        "path": "submissions/425_recording-0-2019-03-21T13-40-16-447Z-0.wav",
+        "created": "2019-03-21T13:40:19.573486Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 426,
+        "duration": 55.960090702947845,
+        "session_id": "oc16cdndabgedcltfbczcow4lahd4jm3",
+        "path": "submissions/426_recording-0-2019-03-21T13-41-28-144Z-0.wav",
+        "created": "2019-03-21T13:41:32.370386Z",
+        "exercise_id": 27
+    },
+    {
+        "id": 156,
+        "duration": 15.209070294784581,
+        "session_id": "4d9ubcb6hg99v8qm7d2qnim243r242gs",
+        "path": "submissions/156_recording-0-2019-03-11T22-43-27-893Z-0.wav",
+        "created": "2019-03-11T22:43:35.755441Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 164,
+        "duration": 15.18827664399093,
+        "session_id": "lef1jw8pcapet97u458i2qqa5y5nnqvw",
+        "path": "submissions/164_recording-0-2019-03-13T12-19-17-430Z-0.wav",
+        "created": "2019-03-13T12:19:17.105422Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 182,
+        "duration": 15.209070294784581,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/182_recording-0-2019-03-13T18-49-27-384Z-0.wav",
+        "created": "2019-03-13T18:49:27.709254Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 183,
+        "duration": 15.209070294784581,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/183_recording-0-2019-03-13T18-49-49-199Z-0.wav",
+        "created": "2019-03-13T18:49:49.554139Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 184,
+        "duration": 15.209070294784581,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/184_recording-0-2019-03-13T18-50-16-999Z-0.wav",
+        "created": "2019-03-13T18:50:17.335200Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 185,
+        "duration": 15.209070294784581,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/185_recording-0-2019-03-13T18-50-57-997Z-0.wav",
+        "created": "2019-03-13T18:50:58.395721Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 186,
+        "duration": 15.209070294784581,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/186_recording-0-2019-03-13T18-51-38-972Z-0.wav",
+        "created": "2019-03-13T18:51:39.588967Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 199,
+        "duration": 15.139410430839002,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/199_recording-0-2019-03-15T16-49-09-677Z-0.wav",
+        "created": "2019-03-15T17:48:00.009081Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 206,
+        "duration": 27.86394557823129,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/206_recording-0-2019-03-15T17-20-43-361Z-0.wav",
+        "created": "2019-03-15T18:19:31.060907Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 230,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/230_recording-0-2019-03-20T10-25-40-953Z-0.wav",
+        "created": "2019-03-20T10:25:41.266326Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 236,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/236_recording-0-2019-03-20T10-41-39-493Z-0.wav",
+        "created": "2019-03-20T10:41:41.080930Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 243,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/243_recording-0-2019-03-20T10-52-45-267Z-0.wav",
+        "created": "2019-03-20T10:52:45.535969Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 252,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/252_recording-0-2019-03-20T11-03-00-730Z-0.wav",
+        "created": "2019-03-20T11:03:01.069539Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 256,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/256_recording-0-2019-03-20T11-13-23-089Z-0.wav",
+        "created": "2019-03-20T11:13:23.312106Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 257,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/257_recording-0-2019-03-20T11-13-46-501Z-0.wav",
+        "created": "2019-03-20T11:13:46.671282Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 266,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/266_recording-0-2019-03-20T11-24-04-623Z-0.wav",
+        "created": "2019-03-20T11:24:04.893557Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 274,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/274_recording-0-2019-03-20T11-35-16-239Z-0.wav",
+        "created": "2019-03-20T11:35:16.408462Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 275,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/275_recording-0-2019-03-20T11-35-36-344Z-0.wav",
+        "created": "2019-03-20T11:35:36.526494Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 285,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/285_recording-0-2019-03-20T11-48-33-820Z-0.wav",
+        "created": "2019-03-20T11:48:34.123574Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 286,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/286_recording-0-2019-03-20T11-48-56-792Z-0.wav",
+        "created": "2019-03-20T11:48:56.951143Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 295,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/295_recording-0-2019-03-20T12-14-54-827Z-0.wav",
+        "created": "2019-03-20T12:14:55.038185Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 303,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/303_recording-0-2019-03-20T12-41-24-387Z-0.wav",
+        "created": "2019-03-20T12:41:24.626782Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 304,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/304_recording-0-2019-03-20T12-41-56-700Z-0.wav",
+        "created": "2019-03-20T12:41:56.861210Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 314,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/314_recording-0-2019-03-20T13-01-56-775Z-0.wav",
+        "created": "2019-03-20T13:01:56.941802Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 324,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/324_recording-0-2019-03-20T13-31-17-771Z-0.wav",
+        "created": "2019-03-20T13:31:18.278301Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 325,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/325_recording-0-2019-03-20T13-31-43-746Z-0.wav",
+        "created": "2019-03-20T13:31:43.903744Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 331,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/331_recording-0-2019-03-20T14-12-35-402Z-0.wav",
+        "created": "2019-03-20T14:12:35.615826Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 332,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/332_recording-0-2019-03-20T14-13-09-429Z-0.wav",
+        "created": "2019-03-20T14:13:09.591092Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 338,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/338_recording-0-2019-03-20T14-39-49-653Z-0.wav",
+        "created": "2019-03-20T14:39:50.103283Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 347,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/347_recording-0-2019-03-20T14-52-23-878Z-0.wav",
+        "created": "2019-03-20T14:52:24.053598Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 355,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/355_recording-0-2019-03-20T15-02-46-530Z-0.wav",
+        "created": "2019-03-20T15:02:46.698291Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 364,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/364_recording-0-2019-03-20T15-21-06-476Z-0.wav",
+        "created": "2019-03-20T15:21:06.651474Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 370,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/370_recording-0-2019-03-20T15-35-48-246Z-0.wav",
+        "created": "2019-03-20T15:35:49.227577Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 371,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/371_recording-0-2019-03-20T15-36-25-746Z-0.wav",
+        "created": "2019-03-20T15:36:25.915579Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 376,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/376_recording-0-2019-03-20T15-58-52-134Z-0.wav",
+        "created": "2019-03-20T15:58:52.287039Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 384,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/384_recording-0-2019-03-20T16-09-51-732Z-0.wav",
+        "created": "2019-03-20T16:09:51.906196Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 408,
+        "duration": 15.185850340136055,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/408_recording-0-2019-03-21T12-27-59-477Z-0.wav",
+        "created": "2019-03-21T12:27:59.567905Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 415,
+        "duration": 15.185850340136055,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/415_recording-0-2019-03-21T12-50-33-745Z-0.wav",
+        "created": "2019-03-21T12:50:33.836391Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 421,
+        "duration": 15.209070294784581,
+        "session_id": "oc16cdndabgedcltfbczcow4lahd4jm3",
+        "path": "submissions/421_recording-0-2019-03-21T13-31-05-847Z-0.wav",
+        "created": "2019-03-21T13:31:17.442811Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 422,
+        "duration": 15.209070294784581,
+        "session_id": "oc16cdndabgedcltfbczcow4lahd4jm3",
+        "path": "submissions/422_recording-0-2019-03-21T13-31-40-718Z-0.wav",
+        "created": "2019-03-21T13:31:41.411343Z",
+        "exercise_id": 20
+    },
+    {
+        "id": 174,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/174_recording-0-2019-03-13T18-44-53-406Z-0.wav",
+        "created": "2019-03-13T18:44:53.733931Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 175,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/175_recording-0-2019-03-13T18-45-16-990Z-0.wav",
+        "created": "2019-03-13T18:45:17.294946Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 176,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/176_recording-0-2019-03-13T18-45-40-381Z-0.wav",
+        "created": "2019-03-13T18:45:40.711351Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 145,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/145_recording-0-2019-03-07T18-20-35-305Z-0.wav",
+        "created": "2019-03-07T18:20:35.579985Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 155,
+        "duration": 14.373151927437641,
+        "session_id": "4d9ubcb6hg99v8qm7d2qnim243r242gs",
+        "path": "submissions/155_recording-0-2019-03-11T22-38-57-802Z-0.wav",
+        "created": "2019-03-11T22:38:59.369229Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 163,
+        "duration": 14.207981859410431,
+        "session_id": "lef1jw8pcapet97u458i2qqa5y5nnqvw",
+        "path": "submissions/163_recording-0-2019-03-13T12-18-07-400Z-0.wav",
+        "created": "2019-03-13T12:18:07.042286Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 171,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/171_recording-0-2019-03-13T18-43-32-017Z-0.wav",
+        "created": "2019-03-13T18:43:32.567229Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 172,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/172_recording-0-2019-03-13T18-44-06-656Z-0.wav",
+        "created": "2019-03-13T18:44:06.968773Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 173,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/173_recording-0-2019-03-13T18-44-28-039Z-0.wav",
+        "created": "2019-03-13T18:44:28.334347Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 177,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/177_recording-0-2019-03-13T18-46-12-573Z-0.wav",
+        "created": "2019-03-13T18:46:12.964372Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 178,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/178_recording-0-2019-03-13T18-46-34-700Z-0.wav",
+        "created": "2019-03-13T18:46:35.036376Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 179,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/179_recording-0-2019-03-13T18-46-59-811Z-0.wav",
+        "created": "2019-03-13T18:47:00.127703Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 180,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/180_recording-0-2019-03-13T18-47-24-282Z-0.wav",
+        "created": "2019-03-13T18:47:24.605490Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 181,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/181_recording-0-2019-03-13T18-47-56-546Z-0.wav",
+        "created": "2019-03-13T18:47:56.958042Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 198,
+        "duration": 28.0497052154195,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/198_recording-0-2019-03-15T16-47-22-229Z-0.wav",
+        "created": "2019-03-15T17:46:14.229669Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 205,
+        "duration": 28.23546485260771,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/205_recording-0-2019-03-15T17-19-06-898Z-0.wav",
+        "created": "2019-03-15T18:17:54.655663Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 229,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/229_recording-0-2019-03-20T10-24-54-571Z-0.wav",
+        "created": "2019-03-20T10:24:55.068683Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 235,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/235_recording-0-2019-03-20T10-39-47-472Z-0.wav",
+        "created": "2019-03-20T10:39:49.078079Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 242,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/242_recording-0-2019-03-20T10-51-39-486Z-0.wav",
+        "created": "2019-03-20T10:51:39.764022Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 248,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/248_recording-0-2019-03-20T11-00-34-034Z-0.wav",
+        "created": "2019-03-20T11:00:34.974736Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 254,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/254_recording-0-2019-03-20T11-11-43-659Z-0.wav",
+        "created": "2019-03-20T11:11:43.941421Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 255,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/255_recording-0-2019-03-20T11-12-06-254Z-0.wav",
+        "created": "2019-03-20T11:12:06.410645Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 264,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/264_recording-0-2019-03-20T11-23-22-466Z-0.wav",
+        "created": "2019-03-20T11:23:22.627870Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 265,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/265_recording-0-2019-03-20T11-23-41-074Z-0.wav",
+        "created": "2019-03-20T11:23:41.218632Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 272,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/272_recording-0-2019-03-20T11-34-19-579Z-0.wav",
+        "created": "2019-03-20T11:34:19.922844Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 273,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/273_recording-0-2019-03-20T11-34-45-660Z-0.wav",
+        "created": "2019-03-20T11:34:45.808880Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 283,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/283_recording-0-2019-03-20T11-47-42-803Z-0.wav",
+        "created": "2019-03-20T11:47:42.942150Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 284,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/284_recording-0-2019-03-20T11-48-05-912Z-0.wav",
+        "created": "2019-03-20T11:48:06.063276Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 293,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/293_recording-0-2019-03-20T12-12-05-284Z-0.wav",
+        "created": "2019-03-20T12:12:05.497222Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 294,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/294_recording-0-2019-03-20T12-13-03-834Z-0.wav",
+        "created": "2019-03-20T12:13:04.247968Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 301,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/301_recording-0-2019-03-20T12-38-00-046Z-0.wav",
+        "created": "2019-03-20T12:38:00.276261Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 302,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/302_recording-0-2019-03-20T12-38-25-471Z-0.wav",
+        "created": "2019-03-20T12:38:25.638422Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 312,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/312_recording-0-2019-03-20T13-00-38-016Z-0.wav",
+        "created": "2019-03-20T13:00:38.228732Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 313,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/313_recording-0-2019-03-20T13-01-04-488Z-0.wav",
+        "created": "2019-03-20T13:01:04.729267Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 322,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/322_recording-0-2019-03-20T13-28-01-481Z-0.wav",
+        "created": "2019-03-20T13:28:01.675180Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 323,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/323_recording-0-2019-03-20T13-29-32-138Z-0.wav",
+        "created": "2019-03-20T13:29:32.675629Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 330,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/330_recording-0-2019-03-20T14-11-18-730Z-0.wav",
+        "created": "2019-03-20T14:11:19.645528Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 337,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/337_recording-0-2019-03-20T14-38-27-034Z-0.wav",
+        "created": "2019-03-20T14:38:27.285481Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 346,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/346_recording-0-2019-03-20T14-51-46-383Z-0.wav",
+        "created": "2019-03-20T14:51:46.556612Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 354,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/354_recording-0-2019-03-20T15-01-52-843Z-0.wav",
+        "created": "2019-03-20T15:01:53.015507Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 363,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/363_recording-0-2019-03-20T15-19-51-805Z-0.wav",
+        "created": "2019-03-20T15:19:52.032948Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 369,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/369_recording-0-2019-03-20T15-34-19-097Z-0.wav",
+        "created": "2019-03-20T15:34:19.640397Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 375,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/375_recording-0-2019-03-20T15-57-53-561Z-0.wav",
+        "created": "2019-03-20T15:57:53.763937Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 383,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/383_recording-0-2019-03-20T16-09-19-627Z-0.wav",
+        "created": "2019-03-20T16:09:19.948816Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 407,
+        "duration": 14.349931972789115,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/407_recording-0-2019-03-21T12-26-40-814Z-0.wav",
+        "created": "2019-03-21T12:26:40.952026Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 414,
+        "duration": 14.396371882086168,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/414_recording-0-2019-03-21T12-49-38-218Z-0.wav",
+        "created": "2019-03-21T12:49:38.320919Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 420,
+        "duration": 14.373151927437641,
+        "session_id": "oc16cdndabgedcltfbczcow4lahd4jm3",
+        "path": "submissions/420_recording-0-2019-03-21T13-30-18-371Z-0.wav",
+        "created": "2019-03-21T13:30:18.994478Z",
+        "exercise_id": 26
+    },
+    {
+        "id": 150,
+        "duration": 15.18827664399093,
+        "session_id": "ouo4cx2wqmq3laxlbwtu78awxwxnc0en",
+        "path": "submissions/150_recording-0-2019-03-11T12-52-27-015Z-0.wav",
+        "created": "2019-03-11T12:52:29.489603Z",
+        "exercise_id": 30
+    },
+    {
+        "id": 151,
+        "duration": 15.156825396825397,
+        "session_id": "71g99by3sqr27rrg2wq2x6fdudawrzfj",
+        "path": "submissions/151_recording-0-2019-03-11T13-09-21-682Z-0.wav",
+        "created": "2019-03-11T13:09:21.869559Z",
+        "exercise_id": 30
+    },
+    {
+        "id": 153,
+        "duration": 15.209070294784581,
+        "session_id": "4d9ubcb6hg99v8qm7d2qnim243r242gs",
+        "path": "submissions/153_recording-0-2019-03-11T22-35-20-932Z-0.wav",
+        "created": "2019-03-11T22:35:22.245186Z",
+        "exercise_id": 30
+    },
+    {
+        "id": 161,
+        "duration": 15.18827664399093,
+        "session_id": "lef1jw8pcapet97u458i2qqa5y5nnqvw",
+        "path": "submissions/161_recording-0-2019-03-13T12-15-54-345Z-0.wav",
+        "created": "2019-03-13T12:15:54.113658Z",
+        "exercise_id": 30
+    },
+    {
+        "id": 169,
+        "duration": 15.209070294784581,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/169_recording-0-2019-03-13T18-39-29-655Z-0.wav",
+        "created": "2019-03-13T18:39:42.923377Z",
+        "exercise_id": 30
+    },
+    {
+        "id": 195,
+        "duration": 30.278820861678003,
+        "session_id": "mk9duavb8f9vqc6cm7drnx8orj6lpstt",
+        "path": "submissions/195_recording-0-2019-03-15T16-24-38-626Z-0.wav",
+        "created": "2019-03-15T16:19:32.728288Z",
+        "exercise_id": 30
+    },
+    {
+        "id": 196,
+        "duration": 27.213786848072562,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/196_recording-0-2019-03-15T16-41-44-842Z-0.wav",
+        "created": "2019-03-15T17:40:32.652309Z",
+        "exercise_id": 30
+    },
+    {
+        "id": 227,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/227_recording-0-2019-03-20T10-22-36-312Z-0.wav",
+        "created": "2019-03-20T10:22:36.662865Z",
+        "exercise_id": 30
+    },
+    {
+        "id": 292,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/292_recording-0-2019-03-20T12-03-09-973Z-0.wav",
+        "created": "2019-03-20T12:03:10.189249Z",
+        "exercise_id": 30
+    },
+    {
+        "id": 405,
+        "duration": 15.185850340136055,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/405_recording-0-2019-03-21T12-22-19-473Z-0.wav",
+        "created": "2019-03-21T12:22:19.595752Z",
+        "exercise_id": 30
+    },
+    {
+        "id": 470,
+        "duration": 15.232290249433106,
+        "session_id": "oc16cdndabgedcltfbczcow4lahd4jm3",
+        "path": "submissions/470_recording-0-2019-04-03T11-06-12-080Z-0.wav",
+        "created": "2019-04-03T11:06:12.405870Z",
+        "exercise_id": 30
+    },
+    {
+        "id": 472,
+        "duration": 15.232290249433106,
+        "session_id": "oc16cdndabgedcltfbczcow4lahd4jm3",
+        "path": "submissions/472_recording-0-2019-04-03T11-18-50-556Z-0.wav",
+        "created": "2019-04-03T11:18:50.850299Z",
+        "exercise_id": 30
+    },
+    {
+        "id": 149,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/149_recording-0-2019-03-08T15-07-06-130Z-0.wav",
+        "created": "2019-03-08T15:07:06.508614Z",
+        "exercise_id": 31
+    },
+    {
+        "id": 154,
+        "duration": 15.209070294784581,
+        "session_id": "4d9ubcb6hg99v8qm7d2qnim243r242gs",
+        "path": "submissions/154_recording-0-2019-03-11T22-35-52-631Z-0.wav",
+        "created": "2019-03-11T22:35:53.854378Z",
+        "exercise_id": 31
+    },
+    {
+        "id": 162,
+        "duration": 15.18827664399093,
+        "session_id": "lef1jw8pcapet97u458i2qqa5y5nnqvw",
+        "path": "submissions/162_recording-0-2019-03-13T12-16-33-641Z-0.wav",
+        "created": "2019-03-13T12:16:33.351476Z",
+        "exercise_id": 31
+    },
+    {
+        "id": 170,
+        "duration": 15.209070294784581,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/170_recording-0-2019-03-13T18-40-12-583Z-0.wav",
+        "created": "2019-03-13T18:40:25.692785Z",
+        "exercise_id": 31
+    },
+    {
+        "id": 197,
+        "duration": 27.12090702947846,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/197_recording-0-2019-03-15T16-44-36-831Z-0.wav",
+        "created": "2019-03-15T17:43:30.098320Z",
+        "exercise_id": 31
+    },
+    {
+        "id": 228,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/228_recording-0-2019-03-20T10-23-09-456Z-0.wav",
+        "created": "2019-03-20T10:23:10.021525Z",
+        "exercise_id": 31
+    },
+    {
+        "id": 406,
+        "duration": 15.185850340136055,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/406_recording-0-2019-03-21T12-22-45-777Z-0.wav",
+        "created": "2019-03-21T12:22:45.865400Z",
+        "exercise_id": 31
+    },
+    {
+        "id": 471,
+        "duration": 15.232290249433106,
+        "session_id": "oc16cdndabgedcltfbczcow4lahd4jm3",
+        "path": "submissions/471_recording-0-2019-04-03T11-07-11-911Z-0.wav",
+        "created": "2019-04-03T11:07:12.232065Z",
+        "exercise_id": 31
+    }
+]

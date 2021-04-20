@@ -1,0 +1,38 @@
+{
+  "mediocre_tuning/fingers2_short.mp3": [
+    {
+      "Timestamp": "2019/04/22 5:58:44 PM GMT+2",
+      "Username": "lwaldo@berklee.edu",
+      "Tuning": "1"
+    },
+    {
+      "Timestamp": "2019/04/25 4:08:55 PM GMT+2",
+      "Username": "vsevolod.eremenko@upf.edu",
+      "Tuning": "3"
+    }
+  ],
+  "bad_tuning/136_short.mp3": [
+    {
+      "Timestamp": "2019/04/22 5:58:44 PM GMT+2",
+      "Username": "lwaldo@berklee.edu",
+      "Tuning": "2"
+    },
+    {
+      "Timestamp": "2019/04/25 4:08:55 PM GMT+2",
+      "Username": "vsevolod.eremenko@upf.edu",
+      "Tuning": "2"
+    }
+  ],
+  "bad_tuning/54_short.mp3": [
+    {
+      "Timestamp": "2019/04/22 5:58:44 PM GMT+2",
+      "Username": "lwaldo@berklee.edu",
+      "Tuning": "1"
+    },
+    {
+      "Timestamp": "2019/04/25 4:08:55 PM GMT+2",
+      "Username": "vsevolod.eremenko@upf.edu",
+      "Tuning": "1"
+    }
+  ]
+}

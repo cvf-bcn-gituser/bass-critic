@@ -1,0 +1,793 @@
+[
+    {
+        "exercise_id": 166,
+        "user_id": 6210,
+        "created": "2019-05-16T21:59:15.743712Z",
+        "path": "submissions/1055_a74830c360044b5b85b46b7fbe4e21b5.wav",
+        "id": 1055,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "chord_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            }
+        ],
+        "duration": 15.696689342403628,
+        "latency": 0.022
+    },
+    {
+        "exercise_id": 166,
+        "user_id": 6214,
+        "created": "2019-06-13T02:48:29.745504Z",
+        "path": "submissions/1075_0984e77afa7d4acfa818d3e257320ac1.wav",
+        "id": 1075,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "chord_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 15.789569160997733,
+        "latency": 0.034
+    },
+    {
+        "exercise_id": 166,
+        "user_id": 6198,
+        "created": "2019-07-30T17:04:05.231708Z",
+        "path": "submissions/1132_39f9c21200f74b7ea28ec4babfd1068b.wav",
+        "id": 1132,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 1,
+                "automatic_grade": 1.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "chord_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 1,
+                "automatic_grade": 1.0,
+                "feedback": null
+            }
+        ],
+        "duration": 15.789569160997733,
+        "latency": 0.07
+    },
+    {
+        "exercise_id": 166,
+        "user_id": 6222,
+        "created": "2019-08-09T02:21:39.539805Z",
+        "path": "submissions/1171_eea42c7d5c0940dcaf0f9cac0688b52d.wav",
+        "id": 1171,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 1,
+                "automatic_grade": 1.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "chord_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 1,
+                "automatic_grade": 1.0,
+                "feedback": null
+            }
+        ],
+        "duration": 15.789569160997733,
+        "latency": 0.024
+    },
+    {
+        "exercise_id": 167,
+        "user_id": 6210,
+        "created": "2019-05-16T22:00:37.304717Z",
+        "path": "submissions/1056_a6c6838dfa04409f8ad0ec3ea5e6684c.wav",
+        "id": 1056,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 3,
+                "automatic_grade": 3.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "pitch_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 15.975328798185942,
+        "latency": 0.022
+    },
+    {
+        "exercise_id": 167,
+        "user_id": 6214,
+        "created": "2019-06-13T03:22:10.458340Z",
+        "path": "submissions/1076_98bd62b7ef56449ba073e1106e59e10d.wav",
+        "id": 1076,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 1,
+                "automatic_grade": 1.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 1,
+                "automatic_grade": 1.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "pitch_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 15.998548752834466,
+        "latency": 0.034
+    },
+    {
+        "exercise_id": 167,
+        "user_id": 6222,
+        "created": "2019-08-15T03:52:44.390865Z",
+        "path": "submissions/1181_18653b74216d4809b69c910dc434f877.wav",
+        "id": 1181,
+        "grades": [],
+        "duration": 15.998548752834466,
+        "latency": 0.024
+    },
+    {
+        "exercise_id": 167,
+        "user_id": 6168,
+        "created": "2019-09-10T10:57:08.311403Z",
+        "path": "submissions/1193_39dd66fb3ef141d4b227aa059ad63bad.wav",
+        "id": 1193,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 3,
+                "automatic_grade": 3.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "pitch_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            }
+        ],
+        "duration": 15.975328798185942,
+        "latency": 0.07
+    },
+    {
+        "exercise_id": 163,
+        "user_id": 6210,
+        "created": "2019-05-16T21:51:07.532306Z",
+        "path": "submissions/1052_015473c065a44e849cbf821aa57f8712.wav",
+        "id": 1052,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 23.962993197278912,
+        "latency": 0.022
+    },
+    {
+        "exercise_id": 163,
+        "user_id": 6214,
+        "created": "2019-06-13T01:29:31.392826Z",
+        "path": "submissions/1072_a93d84c2dfd5494294fdfe4dce0c4063.wav",
+        "id": 1072,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 23.986213151927437,
+        "latency": 0.034
+    },
+    {
+        "exercise_id": 163,
+        "user_id": 6212,
+        "created": "2019-06-01T16:36:08.899022Z",
+        "path": "submissions/1060_db35a79236bf4631b11bce4dcab1cf8c.wav",
+        "id": 1060,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 23.962993197278912,
+        "latency": 0.032
+    },
+    {
+        "exercise_id": 163,
+        "user_id": 6215,
+        "created": "2019-06-18T20:42:20.167026Z",
+        "path": "submissions/1077_1824334538944272befa8705839e6ac7.wav",
+        "id": 1077,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 23.986213151927437,
+        "latency": 0.042
+    },
+    {
+        "exercise_id": 163,
+        "user_id": 6217,
+        "created": "2019-07-03T20:45:04.555538Z",
+        "path": "submissions/1109_2fdde7d108e5409a84fdf81189eb8c0b.wav",
+        "id": 1109,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 23.977619047619047,
+        "latency": 0.292
+    },
+    {
+        "exercise_id": 163,
+        "user_id": 6222,
+        "created": "2019-07-20T20:06:55.234912Z",
+        "path": "submissions/1112_5f651e75ccf14f54b04825e596df1192.wav",
+        "id": 1112,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 23.962993197278912,
+        "latency": 0.024
+    },
+    {
+        "exercise_id": 163,
+        "user_id": 6228,
+        "created": "2019-08-22T01:59:55.588734Z",
+        "path": "submissions/1183_bda251af719449cdb3af8db00910988f.wav",
+        "id": 1183,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 3,
+                "automatic_grade": null,
+                "feedback": ""
+            }
+        ],
+        "duration": 23.977619047619047,
+        "latency": 0.186
+    },
+    {
+        "exercise_id": 163,
+        "user_id": 6226,
+        "created": "2019-08-08T22:47:16.638969Z",
+        "path": "submissions/1170_718b7d6d2df24713a4e16aee1667ec1e.wav",
+        "id": 1170,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 23.892290249433106,
+        "latency": 0.062
+    },
+    {
+        "exercise_id": 163,
+        "user_id": 6233,
+        "created": "2019-10-09T11:29:25.847045Z",
+        "path": "submissions/1237_fab9b4ebd83c4d5f976cf49ebf0ac32a.wav",
+        "id": 1237,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 23.777233560090703,
+        "latency": 0.07
+    },
+    {
+        "exercise_id": 163,
+        "user_id": 6236,
+        "created": "2019-11-08T18:53:52.384473Z",
+        "path": "submissions/1346_40bf326ea83a4595af586cc194bb1e43.wav",
+        "id": 1346,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 23.986213151927437,
+        "latency": 0.058
+    },
+    {
+        "exercise_id": 163,
+        "user_id": 6240,
+        "created": "2019-12-15T02:52:04.191401Z",
+        "path": "submissions/1371_a772b535276a4b71bf25e092ebaae4a7.wav",
+        "id": 1371,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 23.977619047619047,
+        "latency": 0.128
+    },
+    {
+        "exercise_id": 163,
+        "user_id": 6244,
+        "created": "2020-01-27T19:00:26.556011Z",
+        "path": "submissions/1384_fb845acdb68c4356a59e614cebddcb96.wav",
+        "id": 1384,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 23.99997732426304,
+        "latency": 0.064
+    },
+    {
+        "exercise_id": 163,
+        "user_id": 6245,
+        "created": "2020-02-03T18:37:23.496920Z",
+        "path": "submissions/1385_cdfbbd3980ec478f9c953f58017296dd.wav",
+        "id": 1385,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 23.986213151927437,
+        "latency": 0.052
+    },
+    {
+        "exercise_id": 168,
+        "user_id": 6210,
+        "created": "2019-05-16T22:02:09.169753Z",
+        "path": "submissions/1057_6ef3946ac1cf4542a0415f9483d1cbd1.wav",
+        "id": 1057,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 3,
+                "automatic_grade": 3.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "pitch_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 55.913650793650795,
+        "latency": 0.022
+    },
+    {
+        "exercise_id": 169,
+        "user_id": 6210,
+        "created": "2019-05-16T22:03:49.570546Z",
+        "path": "submissions/1058_ae39d91cfa1441f88ae490e56365421b.wav",
+        "id": 1058,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "chord_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            }
+        ],
+        "duration": 39.938321995464854,
+        "latency": 0.022
+    },
+    {
+        "exercise_id": 164,
+        "user_id": 6210,
+        "created": "2019-05-16T21:53:20.209385Z",
+        "path": "submissions/1053_22518ed59149444bad6f014f26e0fb17.wav",
+        "id": 1053,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "chord_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 14.396371882086168,
+        "latency": 0.022
+    },
+    {
+        "exercise_id": 164,
+        "user_id": 6214,
+        "created": "2019-06-13T02:11:31.894793Z",
+        "path": "submissions/1073_16da27e3c31843b09abf0d42aa85c75d.wav",
+        "id": 1073,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "chord_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            }
+        ],
+        "duration": 14.396371882086168,
+        "latency": 0.034
+    },
+    {
+        "exercise_id": 164,
+        "user_id": 6168,
+        "created": "2019-06-04T11:52:11.984504Z",
+        "path": "submissions/1061_ac27c235ecec41d4b172adc0c437fae4.wav",
+        "id": 1061,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 1,
+                "automatic_grade": 1.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "chord_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 1,
+                "automatic_grade": 1.0,
+                "feedback": null
+            }
+        ],
+        "duration": 14.303492063492063,
+        "latency": 0.07
+    },
+    {
+        "exercise_id": 164,
+        "user_id": 6222,
+        "created": "2019-07-31T18:59:40.274246Z",
+        "path": "submissions/1138_550c85e18df44f9880275d6df9bb3b05.wav",
+        "id": 1138,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 1,
+                "automatic_grade": 1.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "chord_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 1,
+                "automatic_grade": 1.0,
+                "feedback": null
+            }
+        ],
+        "duration": 14.396371882086168,
+        "latency": 0.024
+    },
+    {
+        "exercise_id": 165,
+        "user_id": 6222,
+        "created": "2019-08-04T21:26:24.114727Z",
+        "path": "submissions/1139_4d7f1b63541d4680acf9bdcf399a268d.wav",
+        "id": 1139,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 3,
+                "automatic_grade": 3.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "pitch_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 15.231995464852607,
+        "latency": 0.024
+    },
+    {
+        "exercise_id": 165,
+        "user_id": 6214,
+        "created": "2019-06-13T02:36:50.197207Z",
+        "path": "submissions/1074_ee7407d5d9f7430aac91a49d4c0f0db9.wav",
+        "id": 1074,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 3,
+                "automatic_grade": 3.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "pitch_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 15.232290249433106,
+        "latency": 0.034
+    },
+    {
+        "exercise_id": 165,
+        "user_id": 6210,
+        "created": "2019-05-16T21:55:39.224164Z",
+        "path": "submissions/1054_4032b294f0cf471784f828c9836b69ab.wav",
+        "id": 1054,
+        "grades": [
+            {
+                "dimension_name": "overall",
+                "grade": 3,
+                "automatic_grade": 3.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "tuning_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "rhythm_guitar",
+                "grade": 2,
+                "automatic_grade": 2.0,
+                "feedback": null
+            },
+            {
+                "dimension_name": "pitch_guitar",
+                "grade": 4,
+                "automatic_grade": 4.0,
+                "feedback": null
+            }
+        ],
+        "duration": 15.139410430839002,
+        "latency": 0.022
+    }
+]

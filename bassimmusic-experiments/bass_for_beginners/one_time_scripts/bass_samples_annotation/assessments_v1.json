@@ -1,0 +1,3886 @@
+{
+    "244": [
+        {
+            "Timestamp": "2019/04/11 11:21:46 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "231": [
+        {
+            "Timestamp": "2019/04/11 11:21:46 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord detection",
+                "false negatives (?)"
+            ]
+        }
+    ],
+    "200": [
+        {
+            "Timestamp": "2019/04/11 11:21:46 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "237": [
+        {
+            "Timestamp": "2019/04/11 11:21:46 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "187": [
+        {
+            "Timestamp": "2019/04/11 11:21:46 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "188": [
+        {
+            "Timestamp": "2019/04/11 11:21:46 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord detection"
+            ]
+        }
+    ],
+    "165": [
+        {
+            "Timestamp": "2019/04/11 11:21:46 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positives"
+            ]
+        }
+    ],
+    "238": [
+        {
+            "Timestamp": "2019/04/11 11:21:46 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "157": [
+        {
+            "Timestamp": "2019/04/11 11:21:46 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positive"
+            ]
+        }
+    ],
+    "207": [
+        {
+            "Timestamp": "2019/04/11 11:21:46 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "389": [
+        {
+            "Timestamp": "2019/04/15 1:33:18 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positives",
+                "false negatives"
+            ]
+        }
+    ],
+    "393": [
+        {
+            "Timestamp": "2019/04/15 1:33:18 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "uneven chord colorization",
+                "false positives"
+            ]
+        }
+    ],
+    "362": [
+        {
+            "Timestamp": "2019/04/15 1:33:18 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives",
+                "chord misrecognition (D)"
+            ]
+        }
+    ],
+    "361": [
+        {
+            "Timestamp": "2019/04/15 1:33:18 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord misrecognition (C)"
+            ]
+        }
+    ],
+    "381": [
+        {
+            "Timestamp": "2019/04/15 1:33:18 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "413": [
+        {
+            "Timestamp": "2019/04/15 1:33:18 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord misrecognition (F last)"
+            ]
+        }
+    ],
+    "353": [
+        {
+            "Timestamp": "2019/04/15 1:33:18 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "368": [
+        {
+            "Timestamp": "2019/04/15 1:33:18 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord misrecognition (C)"
+            ]
+        }
+    ],
+    "382": [
+        {
+            "Timestamp": "2019/04/15 1:33:18 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord misrecognition",
+                "false positives"
+            ]
+        }
+    ],
+    "427": [
+        {
+            "Timestamp": "2019/04/15 1:33:18 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord misrecognition (Am",
+                "G...)"
+            ]
+        }
+    ],
+    "418": [
+        {
+            "Timestamp": "2019/04/12 5:26:08 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "424": [
+        {
+            "Timestamp": "2019/04/12 5:26:08 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "419": [
+        {
+            "Timestamp": "2019/04/12 5:26:08 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "latency error",
+                "false negatives"
+            ]
+        }
+    ],
+    "411": [
+        {
+            "Timestamp": "2019/04/12 5:26:08 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "350": [
+        {
+            "Timestamp": "2019/04/12 5:20:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "357": [
+        {
+            "Timestamp": "2019/04/12 5:20:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "378": [
+        {
+            "Timestamp": "2019/04/12 5:20:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "missing missing",
+                "excessive missing"
+            ]
+        }
+    ],
+    "386": [
+        {
+            "Timestamp": "2019/04/12 5:20:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "366": [
+        {
+            "Timestamp": "2019/04/12 5:20:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "incorrect pitch unrecognized"
+            ]
+        }
+    ],
+    "410": [
+        {
+            "Timestamp": "2019/04/12 5:20:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "octave error"
+            ]
+        }
+    ],
+    "379": [
+        {
+            "Timestamp": "2019/04/12 5:20:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "missing missing",
+                "excessive missing",
+                "(?) pitch detection silence threshold"
+            ]
+        }
+    ],
+    "358": [
+        {
+            "Timestamp": "2019/04/12 5:20:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negativs(?)"
+            ]
+        }
+    ],
+    "349": [
+        {
+            "Timestamp": "2019/04/12 5:20:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "uncrecognized pitch error",
+                "missing missing"
+            ]
+        }
+    ],
+    "374": [
+        {
+            "Timestamp": "2019/04/12 5:20:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "excessive note visualization"
+            ]
+        }
+    ],
+    "254": [
+        {
+            "Timestamp": "2019/04/11 10:45:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "283": [
+        {
+            "Timestamp": "2019/04/11 10:45:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "3",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "293": [
+        {
+            "Timestamp": "2019/04/11 10:45:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "2",
+            "Tuning": "3",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "294": [
+        {
+            "Timestamp": "2019/04/11 10:45:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "2",
+            "Tuning": "2",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "265": [
+        {
+            "Timestamp": "2019/04/11 10:45:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chords detection"
+            ]
+        }
+    ],
+    "272": [
+        {
+            "Timestamp": "2019/04/11 10:45:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "255": [
+        {
+            "Timestamp": "2019/04/11 10:45:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "attacks too punitive"
+            ]
+        }
+    ],
+    "284": [
+        {
+            "Timestamp": "2019/04/11 10:45:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "3",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "264": [
+        {
+            "Timestamp": "2019/04/11 10:45:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "attacks too punitive",
+                "chord detection"
+            ]
+        }
+    ],
+    "273": [
+        {
+            "Timestamp": "2019/04/11 10:45:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "316": [
+        {
+            "Timestamp": "2019/04/11 11:43:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord detection"
+            ]
+        }
+    ],
+    "356": [
+        {
+            "Timestamp": "2019/04/11 11:43:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord detection(!)"
+            ]
+        }
+    ],
+    "339": [
+        {
+            "Timestamp": "2019/04/11 11:43:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "2",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "348": [
+        {
+            "Timestamp": "2019/04/11 11:43:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "307": [
+        {
+            "Timestamp": "2019/04/11 11:43:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "3",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "306": [
+        {
+            "Timestamp": "2019/04/11 11:43:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "3",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord detection",
+                "false positives"
+            ]
+        }
+    ],
+    "315": [
+        {
+            "Timestamp": "2019/04/11 11:43:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord detection"
+            ]
+        }
+    ],
+    "365": [
+        {
+            "Timestamp": "2019/04/11 11:43:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "? false negatives"
+            ]
+        }
+    ],
+    "326": [
+        {
+            "Timestamp": "2019/04/11 11:43:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "333": [
+        {
+            "Timestamp": "2019/04/11 11:43:50 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "313": [
+        {
+            "Timestamp": "2019/04/11 10:57:39 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "301": [
+        {
+            "Timestamp": "2019/04/11 10:57:39 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "2",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "330": [
+        {
+            "Timestamp": "2019/04/11 10:57:39 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "322": [
+        {
+            "Timestamp": "2019/04/11 10:57:39 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "323": [
+        {
+            "Timestamp": "2019/04/11 10:57:39 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives",
+                "chord detection"
+            ]
+        }
+    ],
+    "337": [
+        {
+            "Timestamp": "2019/04/11 10:57:39 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "2",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "312": [
+        {
+            "Timestamp": "2019/04/11 10:57:39 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "302": [
+        {
+            "Timestamp": "2019/04/11 10:57:39 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "4",
+            "Tuning": "2",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "346": [
+        {
+            "Timestamp": "2019/04/11 10:57:39 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "354": [
+        {
+            "Timestamp": "2019/04/11 10:57:39 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "276": [
+        {
+            "Timestamp": "2019/04/11 11:33:07 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "305": [
+        {
+            "Timestamp": "2019/04/11 11:33:07 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "3",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord detection(?)",
+                "false positives"
+            ]
+        }
+    ],
+    "267": [
+        {
+            "Timestamp": "2019/04/11 11:33:07 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "3",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chords detection(!)",
+                "attacks to punitive"
+            ]
+        }
+    ],
+    "287": [
+        {
+            "Timestamp": "2019/04/11 11:33:07 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "3",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives(?)"
+            ]
+        }
+    ],
+    "296": [
+        {
+            "Timestamp": "2019/04/11 11:33:07 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "3",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "297": [
+        {
+            "Timestamp": "2019/04/11 11:33:07 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "3",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "258": [
+        {
+            "Timestamp": "2019/04/11 11:33:07 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "251": [
+        {
+            "Timestamp": "2019/04/11 11:33:07 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "attacks too punitive"
+            ]
+        }
+    ],
+    "278": [
+        {
+            "Timestamp": "2019/04/11 11:33:07 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "attacks too punitive",
+                "chord detection(!)"
+            ]
+        }
+    ],
+    "277": [
+        {
+            "Timestamp": "2019/04/11 11:33:07 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "279": [
+        {
+            "Timestamp": "2019/04/12 4:33:21 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "Octave error",
+                "false negatives"
+            ]
+        }
+    ],
+    "289": [
+        {
+            "Timestamp": "2019/04/12 4:33:21 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives",
+                "attacks too punitive"
+            ]
+        }
+    ],
+    "309": [
+        {
+            "Timestamp": "2019/04/12 4:33:21 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "288": [
+        {
+            "Timestamp": "2019/04/12 4:33:21 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "octave error"
+            ]
+        }
+    ],
+    "308": [
+        {
+            "Timestamp": "2019/04/12 4:33:21 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "260": [
+        {
+            "Timestamp": "2019/04/12 4:33:21 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "259": [
+        {
+            "Timestamp": "2019/04/12 4:33:21 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positives",
+                "false negatives"
+            ]
+        }
+    ],
+    "268": [
+        {
+            "Timestamp": "2019/04/12 4:33:21 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "299": [
+        {
+            "Timestamp": "2019/04/12 4:33:21 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "missing excessive",
+                "missing missing"
+            ]
+        }
+    ],
+    "298": [
+        {
+            "Timestamp": "2019/04/12 4:33:21 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "missing missing",
+                "missing excessive"
+            ]
+        }
+    ],
+    "341": [
+        {
+            "Timestamp": "2019/04/12 4:47:23 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives",
+                "pitch error undetected"
+            ]
+        }
+    ],
+    "342": [
+        {
+            "Timestamp": "2019/04/12 4:47:23 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "False negatives"
+            ]
+        }
+    ],
+    "329": [
+        {
+            "Timestamp": "2019/04/12 4:47:23 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "328": [
+        {
+            "Timestamp": "2019/04/12 4:47:23 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "310": [
+        {
+            "Timestamp": "2019/04/12 4:47:23 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "missing missing",
+                "false negatives"
+            ]
+        }
+    ],
+    "340": [
+        {
+            "Timestamp": "2019/04/12 4:47:23 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                "false positive: voice"
+            ]
+        }
+    ],
+    "327": [
+        {
+            "Timestamp": "2019/04/12 4:47:23 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "318": [
+        {
+            "Timestamp": "2019/04/12 4:47:23 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "334": [
+        {
+            "Timestamp": "2019/04/12 4:47:23 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "317": [
+        {
+            "Timestamp": "2019/04/12 4:47:23 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "235": [
+        {
+            "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "181": [
+        {
+            "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord recognition"
+            ]
+        }
+    ],
+    "205": [
+        {
+            "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positive"
+            ]
+        }
+    ],
+    "179": [
+        {
+            "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "attacks to punitive"
+            ]
+        }
+    ],
+    "180": [
+        {
+            "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord recognition",
+                "attacks too punitive"
+            ]
+        }
+    ],
+    "229": [
+        {
+            "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "242": [
+        {
+            "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "248": [
+        {
+            "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "3",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "attacks too punitive",
+                "chord recognition(!)"
+            ]
+        }
+    ],
+    "178": [
+        {
+            "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord recognition(!)",
+                "attack too punitive",
+                "false positive"
+            ]
+        }
+    ],
+    "198": [
+        {
+            "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "attacks too punitive"
+            ]
+        }
+    ],
+    "423": [
+        {
+            "Timestamp": "2019/04/11 11:56:04 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord detection"
+            ]
+        }
+    ],
+    "409": [
+        {
+            "Timestamp": "2019/04/11 11:56:04 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord detection(!)"
+            ]
+        }
+    ],
+    "373": [
+        {
+            "Timestamp": "2019/04/11 11:56:04 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "417": [
+        {
+            "Timestamp": "2019/04/11 11:56:04 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "2",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "377": [
+        {
+            "Timestamp": "2019/04/11 11:56:04 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "416": [
+        {
+            "Timestamp": "2019/04/11 11:56:04 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "3",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "385": [
+        {
+            "Timestamp": "2019/04/11 11:56:04 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "3",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "372": [
+        {
+            "Timestamp": "2019/04/11 11:56:04 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "3",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "375": [
+        {
+            "Timestamp": "2019/04/11 11:06:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "414": [
+        {
+            "Timestamp": "2019/04/11 11:06:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "2",
+            "Tuning": "3",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "369": [
+        {
+            "Timestamp": "2019/04/11 11:06:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord detection",
+                "false negatives"
+            ]
+        }
+    ],
+    "363": [
+        {
+            "Timestamp": "2019/04/11 11:06:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "383": [
+        {
+            "Timestamp": "2019/04/11 11:06:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "3",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "420": [
+        {
+            "Timestamp": "2019/04/11 11:06:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord detection"
+            ]
+        }
+    ],
+    "407": [
+        {
+            "Timestamp": "2019/04/11 11:06:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "185": [
+        {
+            "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "unmuted",
+                "false positive"
+            ]
+        }
+    ],
+    "186": [
+        {
+            "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "unmuted",
+                "colorization",
+                "false positive (and negative?)"
+            ]
+        }
+    ],
+    "230": [
+        {
+            "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positive"
+            ]
+        }
+    ],
+    "199": [
+        {
+            "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "156": [
+        {
+            "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "3",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                "random colorization (unmuted)",
+                "missing-missing"
+            ]
+        }
+    ],
+    "206": [
+        {
+            "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "feedback reduction",
+                "false positive"
+            ]
+        }
+    ],
+    "182": [
+        {
+            "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positive",
+                "unmuted"
+            ]
+        }
+    ],
+    "164": [
+        {
+            "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "2",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positives"
+            ]
+        }
+    ],
+    "184": [
+        {
+            "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "missing-missing"
+            ]
+        }
+    ],
+    "183": [
+        {
+            "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "unmuted"
+            ]
+        }
+    ],
+    "192": [
+        {
+            "Timestamp": "2019/04/12 7:07:01 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives",
+                "chord misrecognition",
+                "pitch colorization"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:51:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord misrecognition",
+                "false positives"
+            ]
+        }
+    ],
+    "160": [
+        {
+            "Timestamp": "2019/04/12 7:07:01 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positive",
+                "chord misrecognition",
+                "colorisation"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:51:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives",
+                "chord misrecognition",
+                "attacks too punitive"
+            ]
+        }
+    ],
+    "203": [
+        {
+            "Timestamp": "2019/04/12 7:07:01 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives",
+                "chords misrecognition",
+                "chords colorization"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:51:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord misrecognition"
+            ]
+        }
+    ],
+    "241": [
+        {
+            "Timestamp": "2019/04/12 7:07:01 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positive"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:51:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives",
+                ""
+            ]
+        }
+    ],
+    "234": [
+        {
+            "Timestamp": "2019/04/12 7:07:01 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positive"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:51:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives"
+            ]
+        }
+    ],
+    "253": [
+        {
+            "Timestamp": "2019/04/12 7:07:01 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "attacks too punitive"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:51:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "204": [
+        {
+            "Timestamp": "2019/04/12 7:07:01 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:51:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "247": [
+        {
+            "Timestamp": "2019/04/12 7:07:01 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:51:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positives"
+            ]
+        }
+    ],
+    "210": [
+        {
+            "Timestamp": "2019/04/12 7:07:01 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord misrecognition (E)"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:51:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord misregocgnition (E)"
+            ]
+        }
+    ],
+    "168": [
+        {
+            "Timestamp": "2019/04/12 7:07:01 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives",
+                "chord misrecognition",
+                "false negatives"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:51:37 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord misrecognition"
+            ]
+        }
+    ],
+    "331": [
+        {
+            "Timestamp": "2019/04/10 3:15:02 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives (?)"
+            ]
+        }
+    ],
+    "314": [
+        {
+            "Timestamp": "2019/04/10 3:15:02 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "347": [
+        {
+            "Timestamp": "2019/04/10 3:15:02 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "unmuted"
+            ]
+        }
+    ],
+    "304": [
+        {
+            "Timestamp": "2019/04/10 3:15:02 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives",
+                "false negatives"
+            ]
+        }
+    ],
+    "332": [
+        {
+            "Timestamp": "2019/04/10 3:15:02 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "unmuted",
+                "colorization"
+            ]
+        }
+    ],
+    "325": [
+        {
+            "Timestamp": "2019/04/10 3:15:02 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "3",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "pitch detection! (last E)",
+                "false negatives!"
+            ]
+        }
+    ],
+    "295": [
+        {
+            "Timestamp": "2019/04/10 3:15:02 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "missing missing"
+            ]
+        }
+    ],
+    "303": [
+        {
+            "Timestamp": "2019/04/10 3:15:02 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "3",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "unmuted(?)"
+            ]
+        }
+    ],
+    "324": [
+        {
+            "Timestamp": "2019/04/10 3:15:02 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives",
+                "false positives"
+            ]
+        }
+    ],
+    "338": [
+        {
+            "Timestamp": "2019/04/10 3:15:02 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "2",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives(?)"
+            ]
+        }
+    ],
+    "245": [
+        {
+            "Timestamp": "2019/04/12 12:16:33 AM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "201": [
+        {
+            "Timestamp": "2019/04/12 12:16:33 AM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "239": [
+        {
+            "Timestamp": "2019/04/12 12:16:33 AM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "166": [
+        {
+            "Timestamp": "2019/04/12 12:16:33 AM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives",
+                "false positives"
+            ]
+        }
+    ],
+    "189": [
+        {
+            "Timestamp": "2019/04/12 12:16:33 AM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positives"
+            ]
+        }
+    ],
+    "232": [
+        {
+            "Timestamp": "2019/04/12 12:16:33 AM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "250": [
+        {
+            "Timestamp": "2019/04/12 12:16:33 AM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "190": [
+        {
+            "Timestamp": "2019/04/12 12:16:33 AM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives"
+            ]
+        }
+    ],
+    "208": [
+        {
+            "Timestamp": "2019/04/12 12:16:33 AM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positive"
+            ]
+        }
+    ],
+    "158": [
+        {
+            "Timestamp": "2019/04/12 12:16:33 AM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "281": [
+        {
+            "Timestamp": "2019/04/15 1:08:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives",
+                "false positives"
+            ]
+        }
+    ],
+    "282": [
+        {
+            "Timestamp": "2019/04/15 1:08:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord misrecognition",
+                "false negatives"
+            ]
+        }
+    ],
+    "336": [
+        {
+            "Timestamp": "2019/04/15 1:08:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord misrecognition (Am)"
+            ]
+        }
+    ],
+    "263": [
+        {
+            "Timestamp": "2019/04/15 1:08:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord misrecognition",
+                "false negatives"
+            ]
+        }
+    ],
+    "271": [
+        {
+            "Timestamp": "2019/04/15 1:08:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord misrecognition"
+            ]
+        }
+    ],
+    "270": [
+        {
+            "Timestamp": "2019/04/15 1:08:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord misrecognition"
+            ]
+        }
+    ],
+    "345": [
+        {
+            "Timestamp": "2019/04/15 1:08:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "4",
+            "Tuning": "2",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negativs"
+            ]
+        }
+    ],
+    "321": [
+        {
+            "Timestamp": "2019/04/15 1:08:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord misrecognition",
+                "false negatives",
+                "attacks too punitive"
+            ]
+        }
+    ],
+    "291": [
+        {
+            "Timestamp": "2019/04/15 1:08:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "chord misrecognition"
+            ]
+        }
+    ],
+    "352": [
+        {
+            "Timestamp": "2019/04/15 1:08:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "uneven chord colorization"
+            ]
+        }
+    ],
+    "175": [
+        {
+            "Timestamp": "2019/04/11 5:55:20 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "2",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "Noisy chord not penalized",
+                "attacks too punitive"
+            ]
+        }
+    ],
+    "174": [
+        {
+            "Timestamp": "2019/04/11 5:55:20 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "155": [
+        {
+            "Timestamp": "2019/04/11 5:55:20 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                "attack too punitive"
+            ]
+        }
+    ],
+    "163": [
+        {
+            "Timestamp": "2019/04/11 5:55:20 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "attack too punitive"
+            ]
+        }
+    ],
+    "145": [
+        {
+            "Timestamp": "2019/04/11 5:55:20 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "1",
+            "Rhythm": "1",
+            "Tuning": "1",
+            "Overall": "1",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "missing missing"
+            ]
+        }
+    ],
+    "172": [
+        {
+            "Timestamp": "2019/04/11 5:55:20 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positive",
+                "attack too punitive",
+                "chord detection(!) punitive"
+            ]
+        }
+    ],
+    "177": [
+        {
+            "Timestamp": "2019/04/11 5:55:20 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord recognition(!)",
+                "false positives"
+            ]
+        }
+    ],
+    "173": [
+        {
+            "Timestamp": "2019/04/11 5:55:20 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "chord recognition"
+            ]
+        }
+    ],
+    "176": [
+        {
+            "Timestamp": "2019/04/11 5:55:20 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "3",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "Noisy chord is not penalized (Am)",
+                "attacks too punitive"
+            ]
+        }
+    ],
+    "171": [
+        {
+            "Timestamp": "2019/04/11 5:55:20 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "background sound (E)"
+            ]
+        }
+    ],
+    "364": [
+        {
+            "Timestamp": "2019/04/10 3:29:36 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "unmuted"
+            ]
+        }
+    ],
+    "384": [
+        {
+            "Timestamp": "2019/04/10 3:29:36 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "unmuted"
+            ]
+        }
+    ],
+    "370": [
+        {
+            "Timestamp": "2019/04/10 3:29:36 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "missing missing"
+            ]
+        }
+    ],
+    "421": [
+        {
+            "Timestamp": "2019/04/10 3:29:36 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "408": [
+        {
+            "Timestamp": "2019/04/10 3:29:36 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "unmuted",
+                "flase negatives(?)"
+            ]
+        }
+    ],
+    "422": [
+        {
+            "Timestamp": "2019/04/10 3:29:36 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "unmuted(!)",
+                "attack penalization"
+            ]
+        }
+    ],
+    "415": [
+        {
+            "Timestamp": "2019/04/10 3:29:36 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "376": [
+        {
+            "Timestamp": "2019/04/10 3:29:36 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "371": [
+        {
+            "Timestamp": "2019/04/10 3:29:36 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "penalization for attacks is to high"
+            ]
+        }
+    ],
+    "355": [
+        {
+            "Timestamp": "2019/04/10 3:29:36 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "unmuted(?) 'A' should be yellow",
+                "at least"
+            ]
+        }
+    ],
+    "233": [
+        {
+            "Timestamp": "2019/04/12 5:45:24 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "attacks too punitive"
+            ]
+        }
+    ],
+    "240": [
+        {
+            "Timestamp": "2019/04/12 5:45:24 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives"
+            ]
+        }
+    ],
+    "246": [
+        {
+            "Timestamp": "2019/04/12 5:45:24 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "attacks too punitive"
+            ]
+        }
+    ],
+    "261": [
+        {
+            "Timestamp": "2019/04/12 5:45:24 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "191": [
+        {
+            "Timestamp": "2019/04/12 5:45:24 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "latency(?)",
+                "false positives"
+            ]
+        }
+    ],
+    "159": [
+        {
+            "Timestamp": "2019/04/12 5:45:24 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives",
+                "false positives"
+            ]
+        }
+    ],
+    "202": [
+        {
+            "Timestamp": "2019/04/12 5:45:24 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "167": [
+        {
+            "Timestamp": "2019/04/12 5:45:24 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positives",
+                "metronome on (bad example)"
+            ]
+        }
+    ],
+    "249": [
+        {
+            "Timestamp": "2019/04/12 5:45:24 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "209": [
+        {
+            "Timestamp": "2019/04/12 5:45:24 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives"
+            ]
+        }
+    ],
+    "426": [
+        {
+            "Timestamp": "2019/04/12 6:47:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives",
+                "attacks too punitive"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:35:33 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "412": [
+        {
+            "Timestamp": "2019/04/12 6:47:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "1",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives",
+                "false positives (cough)"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:35:33 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives",
+                "false positives"
+            ]
+        }
+    ],
+    "392": [
+        {
+            "Timestamp": "2019/04/12 6:47:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "attacks too punitive"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:35:33 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "425": [
+        {
+            "Timestamp": "2019/04/12 6:47:05 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:35:33 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives"
+            ]
+        }
+    ],
+    "275": [
+        {
+            "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "3",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "unmuted"
+            ]
+        }
+    ],
+    "256": [
+        {
+            "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives(?)"
+            ]
+        }
+    ],
+    "252": [
+        {
+            "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positives",
+                "unmuted"
+            ]
+        }
+    ],
+    "286": [
+        {
+            "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "unmuted"
+            ]
+        }
+    ],
+    "285": [
+        {
+            "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "3",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "243": [
+        {
+            "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "False positives"
+            ]
+        }
+    ],
+    "236": [
+        {
+            "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives"
+            ]
+        }
+    ],
+    "274": [
+        {
+            "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "missing missing"
+            ]
+        }
+    ],
+    "266": [
+        {
+            "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "257": [
+        {
+            "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "unmuted"
+            ]
+        }
+    ],
+    "335": [
+        {
+            "Timestamp": "2019/04/12 6:15:27 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives"
+            ]
+        }
+    ],
+    "269": [
+        {
+            "Timestamp": "2019/04/12 6:15:27 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positive",
+                "false negatives(?)"
+            ]
+        }
+    ],
+    "319": [
+        {
+            "Timestamp": "2019/04/12 6:15:27 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "343": [
+        {
+            "Timestamp": "2019/04/12 6:15:27 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives",
+                "false positives"
+            ]
+        }
+    ],
+    "280": [
+        {
+            "Timestamp": "2019/04/12 6:15:27 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "pitch detection artefacts"
+            ]
+        }
+    ],
+    "311": [
+        {
+            "Timestamp": "2019/04/12 6:15:27 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "320": [
+        {
+            "Timestamp": "2019/04/12 6:15:27 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "300": [
+        {
+            "Timestamp": "2019/04/12 6:15:27 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "2",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "262": [
+        {
+            "Timestamp": "2019/04/12 6:15:27 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives"
+            ]
+        }
+    ],
+    "290": [
+        {
+            "Timestamp": "2019/04/12 6:15:27 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "380": [
+        {
+            "Timestamp": "2019/04/12 6:39:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:30:40 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "359": [
+        {
+            "Timestamp": "2019/04/12 6:39:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:30:40 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positives",
+                "false negatives"
+            ]
+        }
+    ],
+    "344": [
+        {
+            "Timestamp": "2019/04/12 6:39:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "2",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:30:40 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "3",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positives",
+                "false negatives(?)"
+            ]
+        }
+    ],
+    "367": [
+        {
+            "Timestamp": "2019/04/12 6:39:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:30:40 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "387": [
+        {
+            "Timestamp": "2019/04/12 6:39:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false negatives"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:30:40 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "3",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "3",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives (?)"
+            ]
+        }
+    ],
+    "391": [
+        {
+            "Timestamp": "2019/04/12 6:39:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "missing excessive"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:30:40 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "false positive"
+            ]
+        }
+    ],
+    "388": [
+        {
+            "Timestamp": "2019/04/12 6:39:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false positive"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:30:40 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "360": [
+        {
+            "Timestamp": "2019/04/12 6:39:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives"
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:30:40 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "2",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "2",
+            "Wrong Visualization": true,
+            "L": true,
+            "Comments": [
+                "false negatives",
+                "false positives"
+            ]
+        }
+    ],
+    "351": [
+        {
+            "Timestamp": "2019/04/12 6:39:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:30:40 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "3",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": true,
+            "Comments": [
+                ""
+            ]
+        }
+    ],
+    "390": [
+        {
+            "Timestamp": "2019/04/12 6:39:10 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": false,
+            "L": false,
+            "Comments": [
+                ""
+            ]
+        },
+        {
+            "Timestamp": "2019/04/15 12:30:40 PM GMT+2",
+            "Username": "vsevolod.eremenko@upf.edu",
+            "Pitch": "4",
+            "Rhythm": "4",
+            "Tuning": "4",
+            "Overall": "4",
+            "Wrong Visualization": true,
+            "L": false,
+            "Comments": [
+                "attacks too punitive"
+            ]
+        }
+    ]
+}

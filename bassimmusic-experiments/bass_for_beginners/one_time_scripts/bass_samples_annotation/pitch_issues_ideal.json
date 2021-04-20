@@ -1,0 +1,847 @@
+[
+    {
+        "id": 231,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/231_recording-0-2019-03-20T10-26-29-251Z-0.wav",
+        "created": "2019-03-20T10:26:29.678239Z",
+        "exercise_id": 17,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 11:21:46 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "chord detection",
+                    "false negatives (?)"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 278,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/278_recording-0-2019-03-20T11-38-15-759Z-0.wav",
+        "created": "2019-03-20T11:38:15.973526Z",
+        "exercise_id": 17,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 11:33:07 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "attacks too punitive",
+                    "chord detection(!)"
+                ]
+            }
+        ],
+        "latency": 0.14933333333333335
+    },
+    {
+        "id": 316,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/316_recording-0-2019-03-20T13-05-23-515Z-0.wav",
+        "created": "2019-03-20T13:05:23.688769Z",
+        "exercise_id": 17,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 11:43:50 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "chord detection"
+                ]
+            }
+        ],
+        "latency": 0.14933333333333335
+    },
+    {
+        "id": 409,
+        "duration": 15.74312925170068,
+        "session_id": "xm604qeaywejnoiof7vuipujj8elyxpu",
+        "path": "submissions/409_recording-0-2019-03-21T12-28-28-861Z-0.wav",
+        "created": "2019-03-21T12:28:28.925301Z",
+        "exercise_id": 17,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 11:56:04 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "chord detection(!)"
+                ]
+            }
+        ],
+        "latency": 0.11499999999999999
+    },
+    {
+        "id": 160,
+        "duration": 39.96154195011338,
+        "session_id": "4d9ubcb6hg99v8qm7d2qnim243r242gs",
+        "path": "submissions/160_recording-0-2019-03-11T22-49-38-553Z-0.wav",
+        "created": "2019-03-11T22:49:42.256538Z",
+        "exercise_id": 25,
+        "Issues": {
+            "8": "pitch/chord colorization: false error",
+            "10": "pitch/chord colorization: unaccountable penalization"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/12 7:07:01 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "false positive",
+                    "chord misrecognition",
+                    "colorisation"
+                ]
+            }
+        ],
+        "latency": 0.15
+    },
+    {
+        "id": 271,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/271_recording-0-2019-03-20T11-29-53-707Z-0.wav",
+        "created": "2019-03-20T11:29:54.046174Z",
+        "exercise_id": 25,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/15 1:08:10 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "chord misrecognition"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 282,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/282_recording-0-2019-03-20T11-46-39-813Z-0.wav",
+        "created": "2019-03-20T11:46:40.102331Z",
+        "exercise_id": 25,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/15 1:08:10 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "3",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": true,
+                "Comments": [
+                    "chord misrecognition",
+                    "false negatives"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 291,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/291_recording-0-2019-03-20T11-52-32-934Z-0.wav",
+        "created": "2019-03-20T11:52:33.728901Z",
+        "exercise_id": 25,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/15 1:08:10 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "chord misrecognition"
+                ]
+            }
+        ],
+        "latency": 0.14933333333333335
+    },
+    {
+        "id": 352,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/352_recording-0-2019-03-20T14-58-02-007Z-0.wav",
+        "created": "2019-03-20T14:58:03.201535Z",
+        "exercise_id": 25,
+        "Issues": {
+            "10": "pitch/chord colorization: unaccountable penalization"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/15 1:08:10 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "uneven chord colorization"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 382,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/382_recording-0-2019-03-20T16-07-50-691Z-0.wav",
+        "created": "2019-03-20T16:07:51.105540Z",
+        "exercise_id": 25,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/15 1:33:18 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "3",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "chord misrecognition",
+                    "false positives"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 393,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/393_recording-0-2019-03-20T16-40-31-884Z-0.wav",
+        "created": "2019-03-20T16:40:32.966323Z",
+        "exercise_id": 25,
+        "Issues": {
+            "10": "pitch/chord colorization: unaccountable penalization"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/15 1:33:18 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "uneven chord colorization",
+                    "false positives"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 427,
+        "duration": 39.96154195011338,
+        "session_id": "oc16cdndabgedcltfbczcow4lahd4jm3",
+        "path": "submissions/427_recording-0-2019-03-21T13-43-20-527Z-0.wav",
+        "created": "2019-03-21T13:43:23.569640Z",
+        "exercise_id": 25,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/15 1:33:18 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "3",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "chord misrecognition (Am",
+                    "G...)"
+                ]
+            }
+        ],
+        "latency": 0.124
+    },
+    {
+        "id": 183,
+        "duration": 15.209070294784581,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/183_recording-0-2019-03-13T18-49-49-199Z-0.wav",
+        "created": "2019-03-13T18:49:49.554139Z",
+        "exercise_id": 20,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "3",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": true,
+                "Comments": [
+                    "unmuted"
+                ]
+            }
+        ],
+        "latency": 0.081
+    },
+    {
+        "id": 185,
+        "duration": 15.209070294784581,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/185_recording-0-2019-03-13T18-50-57-997Z-0.wav",
+        "created": "2019-03-13T18:50:58.395721Z",
+        "exercise_id": 20,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "unmuted",
+                    "false positive"
+                ]
+            }
+        ],
+        "latency": 0.162
+    },
+    {
+        "id": 186,
+        "duration": 15.209070294784581,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/186_recording-0-2019-03-13T18-51-38-972Z-0.wav",
+        "created": "2019-03-13T18:51:39.588967Z",
+        "exercise_id": 20,
+        "Issues": {
+            "8": "pitch/chord colorization: false error",
+            "10": "pitch/chord colorization: unaccountable penalization"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "unmuted",
+                    "colorization",
+                    "false positive (and negative?)"
+                ]
+            }
+        ],
+        "latency": 0.081
+    },
+    {
+        "id": 252,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/252_recording-0-2019-03-20T11-03-00-730Z-0.wav",
+        "created": "2019-03-20T11:03:01.069539Z",
+        "exercise_id": 20,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "3",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "false positives",
+                    "unmuted"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 257,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/257_recording-0-2019-03-20T11-13-46-501Z-0.wav",
+        "created": "2019-03-20T11:13:46.671282Z",
+        "exercise_id": 20,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "3",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": true,
+                "Comments": [
+                    "unmuted"
+                ]
+            },
+            {
+                "Timestamp": "2019/04/16 10:17:33 PM GMT+2",
+                "Username": "lwaldo@berklee.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Exercise Comments": "",
+                "Visualization errors": "",
+                "Visualization Comments": "",
+                "Wrong Visualization": false
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 275,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/275_recording-0-2019-03-20T11-35-36-344Z-0.wav",
+        "created": "2019-03-20T11:35:36.526494Z",
+        "exercise_id": 20,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "3",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "unmuted"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 286,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/286_recording-0-2019-03-20T11-48-56-792Z-0.wav",
+        "created": "2019-03-20T11:48:56.951143Z",
+        "exercise_id": 20,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "unmuted"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 332,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/332_recording-0-2019-03-20T14-13-09-429Z-0.wav",
+        "created": "2019-03-20T14:13:09.591092Z",
+        "exercise_id": 20,
+        "Issues": {
+            "8": "pitch/chord colorization: false error",
+            "10": "pitch/chord colorization: unaccountable penalization"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 3:15:02 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "unmuted",
+                    "colorization"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 347,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/347_recording-0-2019-03-20T14-52-23-878Z-0.wav",
+        "created": "2019-03-20T14:52:24.053598Z",
+        "exercise_id": 20,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 3:15:02 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "unmuted"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 355,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/355_recording-0-2019-03-20T15-02-46-530Z-0.wav",
+        "created": "2019-03-20T15:02:46.698291Z",
+        "exercise_id": 20,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 3:29:36 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "3",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "unmuted(?) 'A' should be yellow",
+                    "at least"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 364,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/364_recording-0-2019-03-20T15-21-06-476Z-0.wav",
+        "created": "2019-03-20T15:21:06.651474Z",
+        "exercise_id": 20,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 3:29:36 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "unmuted"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 384,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/384_recording-0-2019-03-20T16-09-51-732Z-0.wav",
+        "created": "2019-03-20T16:09:51.906196Z",
+        "exercise_id": 20,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 3:29:36 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "unmuted"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 171,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/171_recording-0-2019-03-13T18-43-32-017Z-0.wav",
+        "created": "2019-03-13T18:43:32.567229Z",
+        "exercise_id": 26,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 5:55:20 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "background sound (E)"
+                ]
+            }
+        ],
+        "latency": 0.081
+    },
+    {
+        "id": 172,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/172_recording-0-2019-03-13T18-44-06-656Z-0.wav",
+        "created": "2019-03-13T18:44:06.968773Z",
+        "exercise_id": 26,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 5:55:20 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "false positive",
+                    "attack too punitive",
+                    "chord detection(!) punitive"
+                ]
+            }
+        ],
+        "latency": 0.081
+    },
+    {
+        "id": 178,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/178_recording-0-2019-03-13T18-46-34-700Z-0.wav",
+        "created": "2019-03-13T18:46:35.036376Z",
+        "exercise_id": 26,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "chord recognition(!)",
+                    "attack too punitive",
+                    "false positive"
+                ]
+            }
+        ],
+        "latency": 0.081
+    },
+    {
+        "id": 180,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/180_recording-0-2019-03-13T18-47-24-282Z-0.wav",
+        "created": "2019-03-13T18:47:24.605490Z",
+        "exercise_id": 26,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "3",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "chord recognition",
+                    "attacks too punitive"
+                ]
+            }
+        ],
+        "latency": 0.081
+    },
+    {
+        "id": 248,
+        "duration": 14.373151927437641,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/248_recording-0-2019-03-20T11-00-34-034Z-0.wav",
+        "created": "2019-03-20T11:00:34.974736Z",
+        "exercise_id": 26,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "3",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "attacks too punitive",
+                    "chord recognition(!)"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 420,
+        "duration": 14.373151927437641,
+        "session_id": "oc16cdndabgedcltfbczcow4lahd4jm3",
+        "path": "submissions/420_recording-0-2019-03-21T13-30-18-371Z-0.wav",
+        "created": "2019-03-21T13:30:18.994478Z",
+        "exercise_id": 26,
+        "Issues": {
+            "8": "pitch/chord colorization: false error"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 11:06:37 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "chord detection"
+                ]
+            }
+        ],
+        "latency": 0.124
+    }
+]

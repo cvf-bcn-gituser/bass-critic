@@ -1,0 +1,746 @@
+[
+    {
+        "id": 157,
+        "duration": 15.766349206349206,
+        "session_id": "4d9ubcb6hg99v8qm7d2qnim243r242gs",
+        "path": "submissions/157_recording-0-2019-03-11T22-44-18-920Z-0.wav",
+        "created": "2019-03-11T22:44:20.837772Z",
+        "exercise_id": 17,
+        "Issues": {
+            "3": "attack: false positive"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 11:21:46 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "false positive"
+                ]
+            }
+        ],
+        "latency": 0.075
+    },
+    {
+        "id": 231,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/231_recording-0-2019-03-20T10-26-29-251Z-0.wav",
+        "created": "2019-03-20T10:26:29.678239Z",
+        "exercise_id": 17,
+        "Issues": {
+            "4": "attack: not detected (false negative)"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 11:21:46 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "chord detection",
+                    "false negatives (?)"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 251,
+        "duration": 15.766349206349206,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/251_recording-0-2019-03-20T11-02-33-346Z-0.wav",
+        "created": "2019-03-20T11:02:35.665465Z",
+        "exercise_id": 17,
+        "Issues": {
+            "5": "attack: minor deviation is penalized too much"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 11:33:07 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "attacks too punitive"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 160,
+        "duration": 39.96154195011338,
+        "session_id": "4d9ubcb6hg99v8qm7d2qnim243r242gs",
+        "path": "submissions/160_recording-0-2019-03-11T22-49-38-553Z-0.wav",
+        "created": "2019-03-11T22:49:42.256538Z",
+        "exercise_id": 25,
+        "Issues": {
+            "3": "attack: false positive"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/12 7:07:01 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "false positive",
+                    "chord misrecognition",
+                    "colorisation"
+                ]
+            }
+        ],
+        "latency": 0.15
+    },
+    {
+        "id": 253,
+        "duration": 39.9847619047619,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/253_recording-0-2019-03-20T11-03-58-490Z-0.wav",
+        "created": "2019-03-20T11:03:59.255148Z",
+        "exercise_id": 25,
+        "Issues": {
+            "5": "attack: minor deviation is penalized too much"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/12 7:07:01 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "attacks too punitive"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 393,
+        "duration": 39.96154195011338,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/393_recording-0-2019-03-20T16-40-31-884Z-0.wav",
+        "created": "2019-03-20T16:40:32.966323Z",
+        "exercise_id": 25,
+        "Issues": {
+            "3": "attack: false positive"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/15 1:33:18 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "uneven chord colorization",
+                    "false positives"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 189,
+        "duration": 15.975328798185942,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/189_recording-0-2019-03-13T18-53-32-265Z-0.wav",
+        "created": "2019-03-13T18:53:32.655570Z",
+        "exercise_id": 16,
+        "Issues": {
+            "3": "attack: false positive"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/12 12:16:33 AM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "false positives"
+                ]
+            }
+        ],
+        "latency": 0.081
+    },
+    {
+        "id": 208,
+        "duration": 29.071383219954647,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/208_recording-0-2019-03-15T17-25-26-865Z-0.wav",
+        "created": "2019-03-15T18:24:21.849721Z",
+        "exercise_id": 16,
+        "Issues": {
+            "3": "attack: false positive"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/12 12:16:33 AM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "false positive"
+                ]
+            }
+        ],
+        "latency": 0.124
+    },
+    {
+        "id": 289,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/289_recording-0-2019-03-20T11-50-32-107Z-0.wav",
+        "created": "2019-03-20T11:50:32.269415Z",
+        "exercise_id": 16,
+        "Issues": {
+            "4": "attack: not detected (false negative)",
+            "5": "attack: minor deviation is penalized too much"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/12 4:33:21 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "false negatives",
+                    "attacks too punitive"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 358,
+        "duration": 15.975328798185942,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/358_recording-0-2019-03-20T15-05-31-399Z-0.wav",
+        "created": "2019-03-20T15:05:31.631373Z",
+        "exercise_id": 16,
+        "Issues": {
+            "4": "attack: not detected (false negative)"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/12 5:20:05 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "false negativs(?)"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 159,
+        "duration": 55.960090702947845,
+        "session_id": "4d9ubcb6hg99v8qm7d2qnim243r242gs",
+        "path": "submissions/159_recording-0-2019-03-11T22-46-52-965Z-0.wav",
+        "created": "2019-03-11T22:47:03.683000Z",
+        "exercise_id": 27,
+        "Issues": {
+            "4": "attack: not detected (false negative)",
+            "3": "attack: false positive"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/12 5:45:24 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": true,
+                "Comments": [
+                    "false negatives",
+                    "false positives"
+                ]
+            },
+            {
+                "Timestamp": "2019/04/22 5:44:33 PM GMT+2",
+                "Username": "lwaldo@berklee.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Exercise Comments": "",
+                "Visualization errors": "",
+                "Visualization Comments": "",
+                "Wrong Visualization": false
+            }
+        ],
+        "latency": 0.075
+    },
+    {
+        "id": 246,
+        "duration": 55.98331065759637,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/246_recording-0-2019-03-20T10-56-51-618Z-0.wav",
+        "created": "2019-03-20T10:56:53.413563Z",
+        "exercise_id": 27,
+        "Issues": {
+            "5": "attack: minor deviation is penalized too much"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/12 5:45:24 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": true,
+                "Comments": [
+                    "attacks too punitive"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 392,
+        "duration": 55.960090702947845,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/392_recording-0-2019-03-20T16-38-47-287Z-0.wav",
+        "created": "2019-03-20T16:38:48.585086Z",
+        "exercise_id": 27,
+        "Issues": {
+            "5": "attack: minor deviation is penalized too much"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/12 6:47:05 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "attacks too punitive"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 185,
+        "duration": 15.209070294784581,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/185_recording-0-2019-03-13T18-50-57-997Z-0.wav",
+        "created": "2019-03-13T18:50:58.395721Z",
+        "exercise_id": 20,
+        "Issues": {
+            "3": "attack: false positive"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "unmuted",
+                    "false positive"
+                ]
+            }
+        ],
+        "latency": 0.162
+    },
+    {
+        "id": 186,
+        "duration": 15.209070294784581,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/186_recording-0-2019-03-13T18-51-38-972Z-0.wav",
+        "created": "2019-03-13T18:51:39.588967Z",
+        "exercise_id": 20,
+        "Issues": {
+            "4": "attack: not detected (false negative)"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "unmuted",
+                    "colorization",
+                    "false positive (and negative?)"
+                ]
+            }
+        ],
+        "latency": 0.081
+    },
+    {
+        "id": 206,
+        "duration": 27.86394557823129,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/206_recording-0-2019-03-15T17-20-43-361Z-0.wav",
+        "created": "2019-03-15T18:19:31.060907Z",
+        "exercise_id": 20,
+        "Issues": {
+            "3": "attack: false positive"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": true,
+                "Comments": [
+                    "feedback reduction",
+                    "false positive"
+                ]
+            }
+        ],
+        "latency": 0.062
+    },
+    {
+        "id": 230,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/230_recording-0-2019-03-20T10-25-40-953Z-0.wav",
+        "created": "2019-03-20T10:25:41.266326Z",
+        "exercise_id": 20,
+        "Issues": {
+            "3": "attack: false positive"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 1:58:05 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "false positive"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 236,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/236_recording-0-2019-03-20T10-41-39-493Z-0.wav",
+        "created": "2019-03-20T10:41:41.080930Z",
+        "exercise_id": 20,
+        "Issues": {
+            "3": "attack: false positive"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": true,
+                "Comments": [
+                    "false positives"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 243,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/243_recording-0-2019-03-20T10-52-45-267Z-0.wav",
+        "created": "2019-03-20T10:52:45.535969Z",
+        "exercise_id": 20,
+        "Issues": {
+            "3": "attack: false positive"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 2:25:41 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "False positives"
+                ]
+            }
+        ],
+        "latency": 0.14933333333333335
+    },
+    {
+        "id": 371,
+        "duration": 15.209070294784581,
+        "session_id": "i24drlkkqpwclr4uraka4rpktm06fs79",
+        "path": "submissions/371_recording-0-2019-03-20T15-36-25-746Z-0.wav",
+        "created": "2019-03-20T15:36:25.915579Z",
+        "exercise_id": 20,
+        "Issues": {
+            "5": "attack: minor deviation is penalized too much"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/10 3:29:36 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "penalization for attacks is to high"
+                ]
+            }
+        ],
+        "latency": 0.07466666666666667
+    },
+    {
+        "id": 155,
+        "duration": 14.373151927437641,
+        "session_id": "4d9ubcb6hg99v8qm7d2qnim243r242gs",
+        "path": "submissions/155_recording-0-2019-03-11T22-38-57-802Z-0.wav",
+        "created": "2019-03-11T22:38:59.369229Z",
+        "exercise_id": 26,
+        "Issues": {
+            "5": "attack: minor deviation is penalized too much"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 5:55:20 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": false,
+                "L": true,
+                "Comments": [
+                    "attack too punitive"
+                ]
+            }
+        ],
+        "latency": 0.15
+    },
+    {
+        "id": 172,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/172_recording-0-2019-03-13T18-44-06-656Z-0.wav",
+        "created": "2019-03-13T18:44:06.968773Z",
+        "exercise_id": 26,
+        "Issues": {
+            "3": "attack: false positive",
+            "5": "attack: minor deviation is penalized too much"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 5:55:20 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "false positive",
+                    "attack too punitive",
+                    "chord detection(!) punitive"
+                ]
+            }
+        ],
+        "latency": 0.081
+    },
+    {
+        "id": 178,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/178_recording-0-2019-03-13T18-46-34-700Z-0.wav",
+        "created": "2019-03-13T18:46:35.036376Z",
+        "exercise_id": 26,
+        "Issues": {
+            "5": "attack: minor deviation is penalized too much",
+            "3": "attack: false positive"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "chord recognition(!)",
+                    "attack too punitive",
+                    "false positive"
+                ]
+            }
+        ],
+        "latency": 0.081
+    },
+    {
+        "id": 179,
+        "duration": 14.373151927437641,
+        "session_id": "6u7or8e3dd52ux17nbub7cuubztqai2f",
+        "path": "submissions/179_recording-0-2019-03-13T18-46-59-811Z-0.wav",
+        "created": "2019-03-13T18:47:00.127703Z",
+        "exercise_id": 26,
+        "Issues": {
+            "5": "attack: minor deviation is penalized too much"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": true,
+                "Comments": [
+                    "attacks to punitive"
+                ]
+            },
+            {
+                "Timestamp": "2019/04/16 10:08:31 PM GMT+2",
+                "Username": "lwaldo@berklee.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Exercise Comments": "",
+                "Visualization errors": "",
+                "Visualization Comments": "",
+                "Wrong Visualization": false
+            }
+        ],
+        "latency": 0.081
+    },
+    {
+        "id": 198,
+        "duration": 28.0497052154195,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/198_recording-0-2019-03-15T16-47-22-229Z-0.wav",
+        "created": "2019-03-15T17:46:14.229669Z",
+        "exercise_id": 26,
+        "Issues": {
+            "5": "attack: minor deviation is penalized too much"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "attacks too punitive"
+                ]
+            }
+        ],
+        "latency": 0.062
+    },
+    {
+        "id": 205,
+        "duration": 28.23546485260771,
+        "session_id": "ywyzv949q96w1pewtbwxe9gmvrjyeebu",
+        "path": "submissions/205_recording-0-2019-03-15T17-19-06-898Z-0.wav",
+        "created": "2019-03-15T18:17:54.655663Z",
+        "exercise_id": 26,
+        "Issues": {
+            "3": "attack: false positive"
+        },
+        "Grades": [
+            {
+                "Timestamp": "2019/04/11 6:05:26 PM GMT+2",
+                "Username": "vsevolod.eremenko@upf.edu",
+                "Pitch": "4",
+                "Rhythm": "4",
+                "Tuning": "4",
+                "Overall": "4",
+                "Wrong Visualization": true,
+                "L": false,
+                "Comments": [
+                    "false positive"
+                ]
+            }
+        ],
+        "latency": 0.062
+    }
+]

@@ -1,0 +1,185 @@
+                           samples time (hh:mm:ss)
+Ex. Lesson 1 - Getting Started: 47 0:11:43
+Ex. Lesson 2 - Picking        : 40 0:10:21
+Ex. Lesson 2 - Strumming      : 38 0:10:24
+Ex. Lesson 3 - Playing Notes  : 44 0:12:09
+Ex. Lesson 4 - Playing Scales : 34 0:32:10
+Ex. Lesson 5 - Playing Chords : 30 0:20:30
+total                         :233 1:37:17
+
+
+L1ex1
+https://docs.google.com/forms/d/e/1FAIpQLSfQfDf7Y7tgRQa2wkXcy0UWO62COfnGyfjWc4uqivB8yWs0OQ/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSdUiwWkBOOBe5G7E71t1hD5eCOVXBkiFHll74MuLm2UdKp3gQ/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSep35q6swidq95pK0nk1j_XNnAnB8swBCLwPWpKhC_iLkm6QA/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSdEgxRW3r0xQ7QTFnJb3uR3B_P8l3PNCE3flO0mAa2WO-KzHQ/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSeix9piDLI82Ik9TURwHKqP2UZrqBXAmbnazNf7dcZ6HpP-bQ/viewform
+
+L2Ex1
+https://docs.google.com/forms/d/e/1FAIpQLScqpQSq1oHD3ETtp-AxSB9qEZXRG1RadRlzadPLF8q9oHb00w/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSev9OMBOAZ4TBxp7Hf0bLNPmjxJdBqxYIxkLBMETI7oR-w8Hg/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSe3Mx44asTR4_uHZpFpE1a3I5zR7gIQgJmbM1yM_KWcoaudiA/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSfQbR7gKa0H-zgadltEsUTNjshzq_UC-V5XkJpu34epXCBW7A/viewform
+
+L2ex2
+https://docs.google.com/forms/d/e/1FAIpQLSe9wAESk5zTydHbqgXiCd1yvGwEYFzsahscEFv4dGHDyRM8mw/viewform
+https://docs.google.com/forms/d/e/1FAIpQLScqWY0foeduhnAyyiNXuWrM7xR_9RjD8u103KxMKtxbRyK4Hg/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSd7Tf-hzFrCrkxWncbuMipnqMtxMl_ABL9y_xqmnynWhZ_4lg/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSffjzh3KuqDQ_bK4RkCJiJXQYGhFJZ2ExigwtifhM0Uog797Q/viewform
+
+L3ex1
+https://docs.google.com/forms/d/e/1FAIpQLSeLHHtgbFm7wzROduWAoFfkp-KoTmwMKpwIZL2xEyrrXpIATA/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSdyrJXeG-qTDO1EISDB57853MPnbrN9e6j0eNn8h41JqwXgoA/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSfyodiy8ezD3VrdLCU_fxSShs3qRvU6CptztU7SrzNUnvAICw/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSfnzMFbkVDfwPWNYPbIsq9cCNJFvfvVoZjuTCGHTClrrdUeug/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSd7rEft10tTBD1O8Qye9__EB4DNP-h9vsCFzjtfIXLrezM4MQ/viewform
+
+L4ex1
+https://docs.google.com/forms/d/e/1FAIpQLSdrmCz0WXfTlAGxDs3ue7fX52fE1BaoaVkBcZqFYAkrk8vBhA/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSeNUVAbSIJJDUNJ-y7fWg2Ckhl7e_aDKeO5RErgYDtslDSRXQ/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSfoY_je3x1GN9pSWD_MNI18NXW9uTQXIT2nlh-tUNnKEcL1vQ/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSePqlxYvdbt4m_u0EovFkjh1Leckf5w96f14ZSRwS4L-WVGxA/viewform
+
+L5ex1
+https://docs.google.com/forms/d/e/1FAIpQLSe7DkGvCnZPKCnAEGQota7-W9XnDmzb9R39-tgJCDKqbSxx4A/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSc6j2Ip_Yk2RKCeNuEIUVcFc5ErUofJYOxYXlU2kmt3gqrLVA/viewform
+https://docs.google.com/forms/d/e/1FAIpQLSeihyqtOTLSFUrYrSvaQDqItNjugIT-C8uBj12Y7WVdUbbTIw/viewform
+
+missing note is not penalized
+ 'missing missing',
+ 'missing-missing',
+
+excessive note is not penalized
+ 'excessive missing',
+ 'excessive note visualization',
+ 'missing excessive',
+
+attack: false positive
+ 'False positives',
+ 'false positive',
+ 'false positive (and negative?)',
+ 'false positive: voice',
+ 'false positives',
+ 'false positives (cough)',
+
+attack: not detected (false negative)
+ '? false negatives',
+ 'False negatives',
+ 'false negatives',
+ 'false negatives (?)',
+ 'false negatives!',
+ 'false negatives(?)',
+ 'false negativs',
+ 'false negativs(?)',
+ 'false positive (and negative?)',
+ 'flase negatives(?)',
+
+attack: minor deviation is penalized too much
+ 'attack penalization',
+ 'attack too punitive',
+ 'attacks to punitive',
+ 'attacks too punitive',
+ 'penalization for attacks is to high',
+
+octave error
+ 'octave error',
+ 'Octave error',
+
+pitch/chord colorization: error unrecognized
+ 'incorrect pitch unrecognized',
+ 'uncrecognized pitch error',
+
+pitch/chord colorization: false error
+ 'background sound (E)',
+ 'pitch detection! (last E)',
+ 'unmuted',
+ 'unmuted(!)',
+ 'unmuted(?)',
+ "unmuted(?) 'A' should be yellow"}
+'(?) pitch detection silence threshold',
+ 'chord detection',
+ 'chord detection(!)',
+ 'chord detection(!) punitive',
+ 'chord detection(?)',
+ 'chord misrecognition',
+ 'chord misrecognition (Am',
+ 'chord misrecognition (Am)',
+ 'chord misrecognition (C)',
+ 'chord misrecognition (D)',
+ 'chord misrecognition (E)',
+ 'chord misrecognition (F last)',
+ 'chord misregocgnition (E)',
+ 'chord recognition',
+ 'chord recognition(!)',
+ 'chords detection',
+ 'chords detection(!)',
+ 'chords misrecognition',
+
+pitch/chord colorization: noisy sound is not penalized
+ 'Noisy chord is not penalized (Am)',
+ 'Noisy chord not penalized',
+
+pitch/chord colorization: unaccountable penalization
+ 'chords colorization',
+ 'colorisation',
+ 'colorization',
+ 'random colorization (unmuted)',
+ 'uneven chord colorization',
+ 'pitch colorization',
+ 'pitch detection artefacts',
+
+latency detection error
+ 'latency error',
+ 'latency(?)',
+
+ 'feedback reduction',
+ 'metronome on (bad example)',
+
+
+Errors in numbers:
+
+('pitch/chord colorization: false error', 60),
+ ('attack: not detected (false negative)', 56),
+ ('attack: false positive', 49),
+ ('attack: minor deviation is penalized too much', 25),
+ ('missing note is not penalized', 11),
+ ('pitch/chord colorization: unaccountable penalization', 8),
+ ('excessive note is not penalized', 6),
+ ('pitch/chord colorization: error unrecognized', 3),
+ ('pitch/chord colorization: noisy sound is not penalized', 2),
+
+May be will be fixed with WebAudio tuning:
+ ('feedback reduction', 1),
+
+Don't want to fix:
+ ('octave error', 3),
+
+Experiment errors:
+ ('metronome on (bad example)', 1)]
+ ('latency detection error', 2),
+
+[('pitch/chord colorization: false error', 60),
+ ('attack: not detected (false negative)', 56),
+ ('attack: false positive', 49),
+ ('attack: minor deviation is penalized too much', 25),
+ ('missing note is not penalized', 11),
+ ('pitch/chord colorization: unaccountable penalization', 8),
+ ('excessive note is not penalized', 6),
+ ('pitch/chord colorization: error unrecognized', 3),
+ ('pitch/chord colorization: noisy sound is not penalized', 2),
+ ('octave error', 3)]
+
+
+Rhythm issues:
+['attack: not detected (false negative)', 56, 24%],
+['attack: false positive',                49, 21%],
+['attack: minor deviation is penalized too much', 25, 11%],
+['missing note is not penalized', 11, 4%],
+['excessive note is not penalized', 6, 3%],
+Pitch issues:
+['pitch/chord colorization: false error', 60, 26%],
+['pitch/chord colorization: unaccountable penalization',  8,  3%],
+['pitch/chord colorization: error unrecognized', 3, 1%],
+ "Won't fix":
+['pitch/chord colorization: noisy sound is not penalized',  2,  1%],
+['octave error', 3, 1%]]

@@ -8,7 +8,7 @@ Press the Take 1 button and you will hear the faint tick sound coming from the e
 (which at this moment you should not be wearing).
 When the "take" is finished press submit.
 After submitting the latency recording, you should be able to hear the ticks on the play back.
-Now you are ready to record a perfromance.
+Now you are ready to record a performance.
 
 (Please note: It is advised to used the Edge browser if you are using Windows 10 and not Firefox.)
 
