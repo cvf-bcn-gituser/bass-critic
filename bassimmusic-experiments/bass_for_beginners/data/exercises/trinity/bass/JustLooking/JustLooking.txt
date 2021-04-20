@@ -13,5 +13,5 @@ Number of Repitions: 1
 Allowed Submissions: 1
 Counter visualization: no
 BPM: 98
-Countdown number of beats: (2 bar count in)
-Melody length (in beats): 
+Countdown number of beats: (2 bar count in) 10
+Melody length (in beats): 202

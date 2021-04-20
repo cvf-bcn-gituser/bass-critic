@@ -1,0 +1,11 @@
+Name: Billie Jean
+Type: Guitar Picking
+Description:
+Number of Repitions: 1
+Allowed Submissions: 1
+Counter visualization: no
+BPM: 108
+Countdown number of beats: 10
+Melody length (in beats): 178
+
+
