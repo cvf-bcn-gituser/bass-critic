@@ -32,14 +32,6 @@ with open('submissions.json') as outfile:
 with open('backing_tracks.json') as outfile:
     backing_tracks = json.load(outfile)
 
-# TODO: optimized by exercise (load backing track once)
+# TODO: optimize by exercise (load backing track once)
 process(submissions[100])
-# remove latency and mix a single submission.
-# submission number #
-
-# remove latency
-
-# mix
-# TODO
-
 
