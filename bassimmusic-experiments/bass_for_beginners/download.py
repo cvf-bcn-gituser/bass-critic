@@ -9,12 +9,12 @@ from simmusic.latency import latency, onsets
 
 from mcclient import set_token, get_all_metadata, set_hostname, get_contexts, get_full_context, _download_file
 import matplotlib.pyplot as plt
+from datetime import datetime
 
 import essentia.standard as ess
 
 LATENCY_EXERCISE_ID = 182
-BILLIE_JEAN_ID = 203
-BASS_IDS = set([BILLIE_JEAN_ID])
+BASS_IDS = set([203, 204, 205, 206, 207, 208])
 
 def download_exercises(exercise_id, submissions, root_dir, meta):
     if not os.path.exists(root_dir):
@@ -30,6 +30,7 @@ def download_exercises(exercise_id, submissions, root_dir, meta):
             m['path'] = filename
             m['id'] = s['sounds'][0]['id']
             m['grades'] = s['sounds'][0]['grades']
+            m['user_agent'] = s['user_agent']
             _download_file(s['sounds'][0]['id'], filename)
             meta.append(m)
 
@@ -88,32 +89,42 @@ reference_clicks_file = [x['path'] for x in backing_tracks if x['exercise_id'] =
 user_clicks_files = collections.defaultdict(list)
 for s in submissions:
     if s['exercise_id'] == LATENCY_EXERCISE_ID:
-        user_clicks_files[s['session_id']].append(s['path'])
+        user_clicks_files[s['session_id']].append((s['path'], s['created']))
 
 def process_session_latencies(session_id, fps=1000):
     cf=user_clicks_files[session_id]
     ref_onsets = onsets(reference_clicks_file, fps=fps)
     ls = []
     for f in cf:
-        l, x = latency(ref_onsets, f, fps=fps)
-        ls.append(l)
-        print('latency: ', l)
+        l, x = latency(ref_onsets, f[0], fps=fps)
+        ls.append((f[1], l))
+        print('latency: ', l, ' at ', f[1])
         #plt.plot(x)
         #plt.title = session_id
         #plt.show()
     if len(ls) > 0:
-        return np.mean(ls)
+        nums = [x[1] for x in ls]
+        print('mean: ', np.mean(nums), ' std: ', np.std(nums))
+        return ls
     else:
-        return 0.07
+        return [('2020-01-01T01:01:01.000000Z', 0.07)]
 
-uid2latency = {}
+
+FMT = '%Y-%m-%dT%H:%M:%S.%fZ'
+def closest_latency(latencies, created):
+    time_c = datetime.strptime(created, FMT)
+    deltas = [abs(datetime.strptime(x[0], FMT) - time_c) for x in latencies]
+    return latencies[np.argmin(deltas)][1]
+
+
+uid2latencies = {}
 for s in submissions:
-    if (s['session_id'] not in uid2latency):
-        print(s['session_id'], 'Counting...')
-        uid2latency[s['session_id']] = process_session_latencies(s['session_id'], fps=500)
+    if (s['session_id'] not in uid2latencies):
+        print(s['session_id'], s['user_agent'], 'Counting...')
+        uid2latencies[s['session_id']] = process_session_latencies(s['session_id'], fps=500)
 
 for s in submissions:
-    s['latency']=uid2latency[s['session_id']]
+    s['latency']=closest_latency(uid2latencies[s['session_id']], s['created'])
 
 with open('submissions.json', 'w') as outfile:
     json.dump(submissions, outfile, indent=4)
