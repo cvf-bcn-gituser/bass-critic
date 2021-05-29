@@ -7,7 +7,16 @@ from pooling import MaxPoolingWithArgmax2D, MaxUnpooling2D
 import time
 import glob
 from numpy import *
+import scipy 
 
+
+import IPython
+import pickle
+from pickle import load
+from scipy.signal import find_peaks
+import ipywidgets as widgets
+from scipy import signal
+from lxml import etree
 
 
 from lxml import etree
@@ -205,39 +214,6 @@ class BassUNet:
         for x in tree.getroot().xpath("//onsetSec"):
             ground_t_onsets.append(float(x.text))
         return ground_t_onsets, ground_t_offsets
-        
-    def match_events(gt_onsets, onsets, matching_window_size):
-
-        # In case of performance issues for big piecs,
-        # we could try to use simpler/faster local algorithm.
-        m = scipy.spatial.distance_matrix([[x] for x in gt_onsets], [[x] for x in onsets])
-        # don't consider events which are out of matching window size
-        big_distance = 10 ** 6
-        m[m > matching_window_size] = big_distance
-
-        row_ind, col_ind = scipy.optimize.linear_sum_assignment(m)
-        result = []
-        missing_notes= 0
-        deviated_notes = []
-        for (x, y) in zip(row_ind, col_ind):
-            if abs(gt_onsets[x] - onsets[y]) <= matching_window_size:
-                result.append((x, y))
-                # We are within marging lets get mlroe details on difference
-                if (onsets[y]> gt_onsets[x]): # then it is late
-                  deviation = onsets[y] - gt_onsets[x]
-                elif (onsets[y]< gt_onsets[x]): # then it is early
-                  diff =  gt_onsets[x] - onsets[y]
-                  deviation = -diff
-                elif (onsets[y]== gt_onsets[x]): # then it is bang on
-                  deviation=0    
-                deviated_notes.append(deviation)
-            else:
-                missing_notes+=1
-         # How many missing as % of total?
-        total_notes= len(onsets)
-        delta_missing_notes= total_notes-missing_notes
-        fidelity = round( 100.0*(delta_missing_notes/total_notes),4)     
-        return result,fidelity,deviated_notes
 
     def match_duration(gt_onsets, onsets, gt_offsets, offsets, matching_window_size):
         """
@@ -259,115 +235,7 @@ class BassUNet:
         bods=0  # duration short
         bodl=0  # duration long
         bodb=0  # duration bang on
-        onset_early=0
-        onset_late=0
-        onset_bangon=0
-        result = []
-        missing_onset_notes= 0
-        onset_deviation_array = []
-        duration_deviation_array = []
-        for i in range(len(gt_onsets)):
-            # Lets calculate the ground truth duration from onset/offset
-            gt_duration = gt_offsets[i]-gt_onsets[i]
-            #print(len(gt_onsets),len(onsets),i)
-            if abs(gt_onsets[i] - onsets[i]) <= matching_window_size:
-                # We are within marging lets get 
-                if (onsets[i]> gt_onsets[i]): # then it is a late onset wrt GT
-                    # Check the real duratation against the GT duration in this late case
-                    real_duration  = offsets[i]- onsets[i]
-                    # This is initialization of the duration deviation
-                    duration_deviation = 0
-                    if (real_duration<gt_duration):
-                    # late onset,  duration is short
-                        lods+=1
-                        duration_deviation= gt_duration-real_duration
-                        # Since its shiort we call it negative
-                        duration_deviation = -duration_deviation
-                    elif (real_duration<gt_duration):
-                    # late onset,  duration is long
-                        lodl+=1        
-                        duration_deviation = real_duration-gt_duration       
-                    elif (real_duration==gt_duration):
-                    # late onset,  duration bang on
-                        lodb+=1 
-                        duration_deviation= 0
-                    # Calculate the deviations         
-                    onset_deviation = onsets[i] - gt_onsets[i]
-                    onset_late+=1
-                elif (onsets[i]< gt_onsets[i]): # then it is a early onset
-                    # Check the real duratation against the GT duration in this early case
-                    real_duration  = offsets[i] - onsets[i]
-                    if (real_duration<gt_duration):
-                    # early onset,  duration is short
-                        eods+=1  
-                        duration_deviation= gt_duration-real_duration
-                        # Since its shiort we call it negative
-                        duration_deviation = -duration_deviation
-                    elif (real_duration<gt_duration):
-                    # early onset,  duration is long
-                        eodl+=1  
-                        duration_deviation = real_duration-gt_duration   
-                    elif (real_duration==gt_duration):
-                    # early onset,  duration bang on 
-                        eodb+=1  
-                        duration_deviation = 0
-                    # Calculate the deviations         
-                    temp =  gt_onsets[i]-onsets[i] 
-                    onset_deviation = -temp
-                    onset_early+=1
-                elif (onsets[i]== gt_onsets[i]): # default else onset bang on 
-                    real_duration  = offsets[i] - onsets[i]
-                    if (real_duration<gt_duration):
-                    # bang on onset,  duration is short
-                        bods+=1  
-                        duration_deviation= gt_duration-real_duration
-                        # Since its shiort we call it negative
-                        duration_deviation = -duration_deviation
-                    elif (real_duration<gt_duration):
-                    # bang on onset,  duration is long
-                        bodl+=1  
-                        duration_deviation = real_duration-gt_duration 
-                    elif (real_duration==gt_duration):
-                    # bang on onset,  duration bang on 
-                        bodb+=1  
-                        duration_deviation = 0
-                    onset_deviation=0 
-                    onset_bangon+=1   
-                onset_deviation_array.append(onset_deviation) 
-                duration_deviation_array.append(duration_deviation)
-            else:
-                missing_onset_notes+=1
-
-        
-        return onset_deviation_array,duration_deviation_array,missing_onset_notes
-
-    def f_measure(precision, recall):
-        if precision == 0 and recall == 0:
-            return 0.0
-        return 2.0 * precision*recall / (precision + recall)
-
-
-
-    def match_duration2(gt_onsets, onsets, gt_offsets, offsets, matching_window_size):
-        """
-        Finds best matching pairs so
-           - distance between elements is no greater than matching_window_size
-           - sum of all distances is is minimized
-           - also returns the fidelity ( conformance to 100% hit notes)
-        """
-        # Not sure yet what to do with these statistics.
-        # Late onset metrics
-        lods=0 # duration short
-        lodl=0 # duration long               
-        lodb=0 # duration bang on    
-        # Early  onset metrics         
-        eods=0  # duration short
-        eodl=0  # duration long
-        eodb=0  # duration bang on
-        # "Bang on" onset metrics
-        bods=0  # duration short
-        bodl=0  # duration long
-        bodb=0  # duration bang on
+        duration_violation = 0
         onset_early=0
         onset_late=0
         onset_bangon=0
@@ -394,25 +262,25 @@ class BassUNet:
             gt_duration = gt_offsets[xf]-gt_onsets[xn]
             #print("gt_duration",gt_duration)
             if abs(gt_onsets[xn] - onsets[yn]) <= matching_window_size:
-                # We are within marging lets get 
+                # We are within margin
+                # This is initialization of the duration deviation
+                duration_deviation = 0
                 if (onsets[yn]> gt_onsets[xn]): # then it is a late onset wrt GT
                     real_duration  = offsets[yf]- onsets[yn]
-                    # This is initialization of the duration deviation
-                    duration_deviation = 0
                     if (real_duration<gt_duration):
                     # late onset,  duration is short
-                        lods+=1
-                        duration_deviation= gt_duration-real_duration
-                        # Since its shiort we call it negative
-                        duration_deviation = -duration_deviation
+                       lods+=1
+                       duration_deviation= gt_duration-real_duration
+                       # Since its shiort we call it negative
+                       duration_deviation = -duration_deviation
                     elif (real_duration>gt_duration):
                     # late onset,  duration is long
-                        lodl+=1        
-                        duration_deviation = real_duration-gt_duration       
+                       lodl+=1        
+                       duration_deviation = real_duration-gt_duration       
                     elif (real_duration==gt_duration):
                     # late onset,  duration bang on
-                        lodb+=1 
-                        duration_deviation= 0
+                       lodb+=1 
+                       duration_deviation= 0
                     # Calculate the deviations         
                     onset_deviation = onsets[yn] - gt_onsets[xn]
                     onset_late+=1
@@ -423,60 +291,103 @@ class BassUNet:
                     duration_deviation = 0
                     if (real_duration<gt_duration):
                     # early onset,  duration is short
-                        eods+=1  
-                        duration_deviation= gt_duration-real_duration
-                        # Since its shiort we call it negative
-                        duration_deviation = -duration_deviation
+                       eods+=1  
+                       duration_deviation= gt_duration-real_duration
+                       # Since its shiort we call it negative
+                       duration_deviation = -duration_deviation
                     elif (real_duration>gt_duration):
-                    # early onset,  duration is long
-                        eodl+=1  
-                        duration_deviation = real_duration-gt_duration   
+                       # early onset,  duration is long
+                       eodl+=1  
+                       duration_deviation = real_duration-gt_duration   
                     elif (real_duration==gt_duration):
-                    # early onset,  duration bang on 
-                        eodb+=1  
-                        duration_deviation = 0
-                    # Calculate the deviations         
+                       # early onset,  duration bang on 
+                       eodb+=1  
+                       duration_deviation = 0
+                    else:
+                       duration_violation+=1
+                    #Calculate the deviations         
                     temp =  gt_onsets[xn]-onsets[yn] 
                     onset_deviation = -temp
                     onset_early+=1
                 elif (onsets[yn]== gt_onsets[xn]): # default else onset bang on 
                     # Check the real duratation against the GT duration in this early case
                     real_duration  = offsets[yf] - onsets[yn]
-                    # This is initialization of the duration deviation
                     duration_deviation = 0
                     if (real_duration<gt_duration):
                     # bang on onset,  duration is short
-                        bods+=1  
-                        duration_deviation= gt_duration-real_duration
-                        # Since its shiort we call it negative
-                        duration_deviation = -duration_deviation
+                       bods+=1  
+                       duration_deviation= gt_duration-real_duration
+                       # Since its shiort we call it negative
+                       duration_deviation = -duration_deviation
                     elif (real_duration>gt_duration):
                     # bang on onset,  duration is long
-                        bodl+=1  
-                        duration_deviation = real_duration-gt_duration 
+                       bodl+=1  
+                       duration_deviation = real_duration-gt_duration 
                     elif (real_duration==gt_duration):
                     # bang on onset,  duration bang on 
-                        bodb+=1  
-                        duration_deviation = 0
+                       bodb+=1  
+                       duration_deviation = 0
                     onset_deviation=0 
                     onset_bangon+=1   
                 onset_deviation_array.append(onset_deviation) 
-                duration_deviation_array.append(duration_deviation)
+                if (abs(duration_deviation)<1): # remove outliers
+                  duration_deviation_array.append(duration_deviation)
+                else: 
+                  duration_violation+=1
             else:
                 missing_onset_notes+=1
-        print("lods,lodl,lodb, eods,eodl,eodb, bods,bodl,bodb")
-        print(lods,lodl,lodb, eods,eodl,eodb, bods,bodl,bodb)
+        print("lods,lodl,lodb, eods,eodl,eodb, bods,bodl,bodb,duration_violation")
+        print(lods,lodl,lodb, eods,eodl,eodb, bods,bodl,bodb,duration_violation)
         return onset_deviation_array,duration_deviation_array,missing_onset_notes
+        
+    def evaluate_accuracy(gt_onsets, onsets, matching_window_size):
+        def match_events(gt_onsets, onsets, matching_window_size):
 
-def evaluate_accuracy(gt_onsets, onsets, matching_window_size):
-    matching,_,_ = match_events(
-        gt_onsets,
-        onsets,
-        matching_window_size)
-    precision = float(len(matching)) / len(onsets)
-    recall = float(len(matching)) / len(gt_onsets)
-    f_measure_value = f_measure(precision, recall)
-    return precision, recall, f_measure_value
+            # In case of performance issues for big piecs,
+            # we could try to use simpler/faster local algorithm.
+            m = scipy.spatial.distance_matrix([[x] for x in gt_onsets], [[x] for x in onsets])
+            # don't consider events which are out of matching window size
+            big_distance = 10 ** 6
+            m[m > matching_window_size] = big_distance
+
+            row_ind, col_ind = scipy.optimize.linear_sum_assignment(m)
+            result = []
+            missing_notes= 0
+            deviated_notes = []
+            for (x, y) in zip(row_ind, col_ind):
+                if abs(gt_onsets[x] - onsets[y]) <= matching_window_size:
+                    result.append((x, y))
+                    # We are within marging lets get mlroe details on difference
+                    if (onsets[y]> gt_onsets[x]): # then it is late
+                      deviation = onsets[y] - gt_onsets[x]
+                    elif (onsets[y]< gt_onsets[x]): # then it is early
+                      diff =  gt_onsets[x] - onsets[y]
+                      deviation = -diff
+                    elif (onsets[y]== gt_onsets[x]): # then it is bang on
+                      deviation=0    
+                    deviated_notes.append(deviation)
+                else:
+                    missing_notes+=1
+             # How many missing as % of total?
+            total_notes= len(onsets)
+            delta_missing_notes= total_notes-missing_notes
+            fidelity = round( 100.0*(delta_missing_notes/total_notes),4)     
+            return result,fidelity,deviated_notes
+        matching,_,_ = match_events(
+            gt_onsets,
+            onsets,
+            matching_window_size)
+        precision = float(len(matching)) / len(onsets)
+        recall = float(len(matching)) / len(gt_onsets)
+        
+        def f_measure(precision, recall):
+            if precision == 0 and recall == 0:
+                return 0.0
+            return 2.0 * precision*recall / (precision + recall)
+
+
+        f_measure_value = f_measure(precision, recall)
+        return precision, recall, f_measure_value
 if __name__ == '__main__':
     #fn_wav = os.path.join(os.path.dirname(__file__), 'data','2_bassX_Walking On The Moon_The Police_Bass Gr3.wav')
     index=0
@@ -485,14 +396,20 @@ if __name__ == '__main__':
  
     annotation_files =   ['001.xml',     '002.xml',     '003.xml',     '004.xml',     '005.xml',     '006.xml',     '007.xml',     '008.xml',     '009.xml',     '010.xml',     '011.xml',     '012.xml',     '013.xml',     '014.xml',     '015.xml',     '016.xml',     '017.xml']
     
-    while index <     10:
+            
+
+    the_file= "PRF_measure.txt"
+    f1 = open(the_file, "w")
+    f1.write(" precision, recall, f_measure_value \n")
+    while index <  9:
     
-        filename= "00"+str(index+1)+".wav"
+        filename= "00"+str(index+1)+".wav" 
+        print( "\n","Filename *************************" , filename,  "\n")
         fn_wav = os.path.join(os.path.dirname(__file__), 'data',filename)
         bun = BassUNet()
         # transcription
         t, f0, onset, duration, pitch = bun.run(fn_wav)
-        #################
+        #######################################################################################################################
         myOnsetEnergyCheckerThreshold= 0.05 
         matching_window_size = 0.05 # MIREX reference
         assert(len(audio_files) == len(annotation_files))
@@ -509,27 +426,53 @@ if __name__ == '__main__':
 
             ground_t_onsets, ground_t_offsets = BassUNet.extract_onsets_offsets_from_xml(xml_file)  
             ground_t_durations = array(ground_t_offsets)-array(ground_t_onsets)
-            ground_t_offsets_array.append(array(ground_t_offsets))
             ground_t_onsets_array.append(array(ground_t_onsets))
             ground_t_durations_array.append(array(ground_t_durations))
             
+        p = []
+        r = []
+        f = []
         # After break , calculate 
-        precision, recal, f_measure_value=BassUNet.evaluate_accuracy(ground_t_onsets_array[i], onset, matching_window_size)
-        print(i+1 ," precision, recal, f_measure_value",precision, recal, f_measure_value)
+        precision, recal, f_measure_value=BassUNet.evaluate_accuracy(ground_t_onsets_array[index], onset, matching_window_size)
+        print(index+1 ," precision, recal, f_measure_value \n",precision, recal, f_measure_value)
         print("\n")
         p.append(precision)
         r.append(recal)
         f.append(f_measure_value)
 
-        p1=ground_t_onsets_array[i]
-        p2=onsetIndex
-        p3=ground_t_offsets_array[i] 
-        p4=offsetIndex
+        string_to_write=str(index+1) + "\t" + str(precision) + "\t" + str(recal) + "\t" + str(f_measure_value)+"\n"
+        f1.write(string_to_write)
+        p1=ground_t_onsets_array[index]
+        p2=onset
+        p3=ground_t_durations_array[index] 
+        p4=duration
         p5=matching_window_size
-        onset_deviations,duration_deviations,missing_onset_notes =   BassUNet.match_duration2(p1,p2,p3,p4,p5)
-        print(i+1 ," missing_onset_notes",missing_onset_notes)
+        onset_deviations,duration_deviations,missing_onset_notes =   BassUNet.match_duration(p1,p2,p3,p4,p5)
+        print(index+1 ," missing_onset_notes",missing_onset_notes)
+        missing_string = str(index+1) + "missing_onset_notes " + str(missing_onset_notes)
+        f1.write(missing_string)
+        f1.write("\n")
+        j=0 
+        fn_onset_dev = fn_wav.replace('.wav', 'onset_dev')
+        the_file= fn_onset_dev+'.csv'
+        f2 = open(the_file, "w")
+        while j < len(onset_deviations):
+            f2.write(str(onset_deviations[j]))
+            f2.write("\n")
+            j+=1
             
-        #################
+        j=0 
+        fn_duration_dev = fn_wav.replace('.wav', 'duration_dev')         
+        the_file= fn_duration_dev+'.csv'
+        f3 = open(the_file, "w")    
+        
+        while j < len(duration_deviations):
+            f3.write(str(duration_deviations[j]))
+            f3.write("\n")
+            j+=1
+                
+        
+        #######################################################################################################################
         
         # export pitch track
         fn_csv = fn_wav.replace('.wav', '_bass_f0.csv')
@@ -541,15 +484,83 @@ if __name__ == '__main__':
         BassUNet.export_notes_as_csv(onset, duration, pitch, fn_csv)
         print(fn_csv, ' saved!')
         index+=1
-        
-    while index < 18:
-    
-        filename= "0"+str(index)+".wav"
+    #index= 9
+    while index < 17:
+        if (index== 9):
+            filename= "00"+str(index)+".wav"
+        else:
+            filename= "0"+str(index)+".wav"
+            
+        print( "\n","Filename *************************" , filename,  "\n")
         fn_wav = os.path.join(os.path.dirname(__file__), 'data',filename)
         bun = BassUNet()
         # transcription
         t, f0, onset, duration, pitch = bun.run(fn_wav)
+        #######################################################################################################################
+        myOnsetEnergyCheckerThreshold= 0.05 
+        matching_window_size = 0.1 # MIREX reference
+        assert(len(audio_files) == len(annotation_files))
 
+        ground_t_offsets_array = []
+        ground_t_onsets_array = []
+        ground_t_durations_array = []
+
+        # To Colm: just always use absolute time in the annotations.
+        # scaled_factor=1 #or fs depending on whether the graph uses time of samples
+
+
+        for xml_file in annotation_files:
+
+            ground_t_onsets, ground_t_offsets = BassUNet.extract_onsets_offsets_from_xml(xml_file)  
+            ground_t_durations = array(ground_t_offsets)-array(ground_t_onsets)
+            ground_t_onsets_array.append(array(ground_t_onsets))
+            ground_t_durations_array.append(array(ground_t_durations))
+            
+        p = []
+        r = []
+        f = []
+        # After break , calculate 
+        precision, recal, f_measure_value=BassUNet.evaluate_accuracy(ground_t_onsets_array[index], onset, matching_window_size)
+        print(index+1 ," precision, recal, f_measure_value \n",precision, recal, f_measure_value)
+        print("\n")
+        p.append(precision)
+        r.append(recal)
+        f.append(f_measure_value)
+
+        string_to_write=str(index+1) + "\t" + str(precision) + "\t" + str(recal) + "\t" + str(f_measure_value)+"\n"
+        f1.write(string_to_write)
+        p1=ground_t_onsets_array[index]
+        p2=onset
+        p3=ground_t_durations_array[index] 
+        p4=duration
+        p5=matching_window_size
+        onset_deviations,duration_deviations,missing_onset_notes =   BassUNet.match_duration(p1,p2,p3,p4,p5)
+        print(index+1 ," missing_onset_notes",missing_onset_notes)
+        missing_string = str(index+1) + "missing_onset_notes " + str(missing_onset_notes)
+        f1.write(missing_string)
+        f1.write("\n")
+        j=0 
+        fn_onset_dev = fn_wav.replace('.wav', 'onset_dev')
+        the_file= fn_onset_dev+'.csv'
+        f2 = open(the_file, "w")
+        while j < len(onset_deviations):
+            f2.write(str(onset_deviations[j]))
+            f2.write("\n")
+            j+=1
+            
+        j=0 
+        fn_duration_dev = fn_wav.replace('.wav', 'duration_dev')         
+        the_file= fn_duration_dev+'.csv'
+        f3 = open(the_file, "w")    
+        
+        while j < len(duration_deviations):
+            f3.write(str(duration_deviations[j]))
+            f3.write("\n")
+            j+=1
+                
+        
+        #######################################################################################################################
+        
         # export pitch track
         fn_csv = fn_wav.replace('.wav', '_bass_f0.csv')
         BassUNet.export_pitch_track_as_csv(t, f0, fn_csv)
