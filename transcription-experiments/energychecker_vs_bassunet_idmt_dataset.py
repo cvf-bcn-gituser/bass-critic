@@ -348,14 +348,14 @@ def myOnsetEnergyChecker(x,theFrameSize,theHopSize,thresh):
     split_decision_func = np.insert(split_decision_func, 0, 0)
     diff_split_decision = np.diff(split_decision_func)
     #Start indexes: transition from 0 to 1
-    start_indexes = np.nonzero(diff_split_decision > 0)[0] * hopSize/fs
+    start_times = np.nonzero(diff_split_decision > 0)[0] * hopSize/fs
     #Stop indexes: transition from 1 to 0
-    stop_indexes = np.nonzero(diff_split_decision < 0)[0] * hopSize/fs
+    stop_times = np.nonzero(diff_split_decision < 0)[0] * hopSize/fs
     # TODO we have an issue here 
-    #duration  = stop_indexes-start_indexes[1:len(start_indexes-1)]
+    #duration  = stop_times-start_times[1:len(start_times-1)]
 
-    start_indexes=start_indexes[0:len(start_indexes)-1]
-    return (start_indexes, stop_indexes)
+    start_times=start_times[0:len(start_times)-1]
+    return (start_times, stop_times)
 
 frameSize = 2048
 hopSize = 1024
