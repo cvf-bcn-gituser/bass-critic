@@ -1,0 +1,69 @@
+1  precision, recal, f_measure_value 
+0.9444444444444444 0.7727272727272727 0.85
+1  missing_onset_notes 2
+
+2  precision, recal, f_measure_value 
+0.96875 0.6458333333333334 0.775
+2  missing_onset_notes 1
+
+3  precision, recal, f_measure_value 
+0.9836065573770492 0.8571428571428571 0.916030534351145
+lods,lodl,lodb, eods,eodl,eodb, bods,bodl,bodb
+32 0 0 10 0 0 0 0 0
+3  missing_onset_notes 1
+
+4  precision, recal, f_measure_value 
+0.9629629629629629 0.4642857142857143 0.6265060240963856
+4  missing_onset_notes 1
+
+5  precision, recal, f_measure_value 
+0.975 0.5909090909090909 0.7358490566037736
+5  missing_onset_notes 1
+
+6  precision, recal, f_measure_value 
+1.0 0.6590909090909091 0.7945205479452054
+6  missing_onset_notes 0
+
+7  precision, recal, f_measure_value 
+0.8571428571428571 0.6428571428571429 0.7346938775510204
+7  missing_onset_notes 6
+
+8  precision, recal, f_measure_value 
+0.9787234042553191 0.6764705882352942 0.8
+8  missing_onset_notes 1
+
+9  precision, recal, f_measure_value
+0.78125 0.625 0.6944444444444444
+9  missing_onset_notes 7
+
+10  precision, recal, f_measure_value 
+0.9347826086956522 0.6323529411764706 0.7543859649122806
+10  missing_onset_notes 3
+
+11  precision, recal, f_measure_value 
+0.9387755102040817 0.7666666666666667 0.8440366972477065
+11  missing_onset_notes 3
+
+12  precision, recal, f_measure_value 
+0.9761904761904762 0.6833333333333333 0.80392156862745
+12  missing_onset_notes 1
+
+13  precision, recal, f_measure_value 
+1.0 0.375 0.545454545454545
+13  missing_onset_notes 0
+
+14  precision, recal, f_measure_value 
+1.0 0.5769230769230769 0.731707317073170
+14  missing_onset_notes 0
+
+15  precision, recal, f_measure_value 
+1.0 0.7115384615384616 0.831460674157303
+15  missing_onset_notes 0
+
+16  precision, recal, f_measure_value 
+0.9210526315789473 0.6730769230769231 0.777777777777777
+16  missing_onset_notes 3
+
+17  precision, recal, f_measure_value
+0.88 0.39285714285714285 0.5432098765432098
+17  missing_onset_notes 3
