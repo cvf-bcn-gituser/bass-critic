@@ -1,7 +1,9 @@
 
 """EnergyChecker_test.py
 
-
+Hi Colm, thank you for the update. I participated in bachelor theses defences which is finished right now. Considering the repository, I recommend:
+write requirements.txt file, so all requirements could be installed with pip3 install -r requirements.txt
+Add more to README.md: installation instructions, entry points (what to run, etc)
 """
 ############# Library section
 ############# 
@@ -67,61 +69,72 @@ stem_filenames = ['data/bass/2_bassX_Yellow_Coldplay_Bass Gr0.wav',
 fs = 44100
 raw_audio = []
 i= 0
+
 while i < len(stem_filenames):
     audio_file = stem_filenames[i]
     raw = MonoLoader(filename = audio_file, sampleRate = fs)()
     raw = raw / np.max(np.abs(raw))
     raw_audio.append(raw)
     i+=1
-i=0
+
 # Window scaler m, nominally set at 1
 m=1 
 windowSize = int(1024*m)
 hopSize = int(512*m)
 frameSize = windowSize
 
-p = []
-r = []
-f = []
-onsetIndexArray =  []
-offsetIndexArray =  []
-onset_deviationsArray  =  []
-missing_onset_notesArray  =  []
-thesholds = []
-# Truncate yellow 17.21 to 21  22.72 to 27.573, 28.27 to 32
-index = 1
 #These are the different energy thresholds for the different Trinity tracks
 threshIndex = [0.049, 0.049, 0.022, 0.04505, 0.078, 0.1]
 matching_window_size = 0.02  # MIREX reference
 
+# 2. Load the audio for the Dataset
+offset_deviations_array = []
+onset_deviations_array = []
 index=0
 while index < 6:# stem_filenames
     onsetIndex, offsetIndex,split_decision_func = myOnsetEnergyChecker(raw_audio[index],frameSize,hopSize,threshIndex[index])
     df = df_array[index]
     print(stem_filenames[index])
-    onset_list= df["onset"].tolist()    
-    p,r,f=evaluate_accuracy(onset_list, onsetIndex, matching_window_size)
-    print(round(p,3),round(r,3),round(f,3))
-    onset_deviations1,offset_deviations1,missing_onset_notes1 = match_rhythm(df,onsetIndex,offsetIndex,matching_window_size)
+    onset_list = df["onset"].tolist()    
+    p,r,f = evaluate_accuracy(onset_list, onsetIndex, matching_window_size)
+    print(round(p,3), round(r,3), round(f,3))
+    onset_deviations, offset_deviations, missing_onset_notes = match_rhythm(df, onsetIndex, offsetIndex, matching_window_size)
     #multiple_hist(onset_deviations1,"Onsets")
     #plt.show()
     #multiple_hist(offset_deviations1,"Offsets")
     #plt.show()
     index+=1
-    
 
-"""
+student_path = 'data/bass'
+student_audio = []
+gt_onset_file = 'drive/MyDrive/Bass/data/bj_on_gt.csv'
+gt_offset_file = 'drive/MyDrive/Bass/data/bj_of_gt.csv'
 
-IDEAS to try
-lods=0 # duration short
-    lodl=0 # duration long               
-    lodb=0 # duration bang on    
-    # Early  onset metrics         
-    eods=0  # duration short
-    eodl=0  # duration long
-    eodb=0  # duration bang on
-    # "Bang on" onset metrics
-    bods=0  # duration short
-    bodl=0  # duration long
-    bodb=0  # duration bang on
-"""
+student_file_audio_array= []
+index= 0
+
+index= 0
+while index < 812:
+  student = MonoLoader(filename = student_file_audio_array[index], sampleRate = fs)()
+  student = student / np.max(np.abs(student))
+  student_audio.append(student)
+  index+=1
+
+ground_t_offsets_array=[]
+ground_t_onsets_array=[]
+
+
+of = open("drive/MyDrive/Bass/data/bj_of_gt.csv", "r")
+of_array = []
+for x in of:
+  of_array.append(float(x))
+print(len(of_array))
+on = open("drive/MyDrive/Bass/data/bj_on_gt.csv", "r")
+on_array = []
+for x in on:
+  on_array.append(float(x))
+print(len(on_array))
+
+ground_t_offsets_array.append(of_array)
+
+ground_t_onsets_array.append(on_array)
