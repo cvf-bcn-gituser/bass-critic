@@ -73,37 +73,29 @@ for audio_file in audio_files:
     raw = raw / np.max(np.abs(raw))
     raw_audio.append(raw)
     
-
-golden_offsets_0 = array(ground_t_onsets_array[0])
-golden_onsets_0 = array(ground_t_offsets_array[0])
-golden_offsets_1 = array(ground_t_onsets_array[1])
-golden_onsets_1 = array(ground_t_offsets_array[1])
-golden_offsets_2 = array(ground_t_onsets_array[2])
-golden_onsets_2= array(ground_t_offsets_array[2])
-golden_offsets_3 = array(ground_t_onsets_array[3])
-golden_onsets_3 = array(ground_t_offsets_array[3])
-
 m=1
 windowSize = int(1024*m)
 hopSize = int(512*m)
 frameSize = windowSize
 
-rmsCF, offsetCF, onsetCF= calculateOffsetOnset(raw_audio[0],0.1,frameSize,hopSize,90) # short inter note gap
-onsetSOP = onset_SOP(audio_files[0])
-threshold = 0.05
-onsetEC, offsetEC,split_decision_func= myOnsetEnergyChecker(raw_audio[0],frameSize,hopSize, threshold)
+j=0
+while j < len(annotation_files):
 
-matching_window_size= 0.15 #ms
+	rmsCF, offsetCF, onsetCF= calculateOffsetOnset(raw_audio[j],0.1,frameSize,hopSize,90) # short inter note gap
+	onsetSOP = onset_SOP(audio_files[0])
+	threshold = 0.05
+	onsetEC, offsetEC,split_decision_func= myOnsetEnergyChecker(raw_audio[j],frameSize,hopSize, threshold)
+	matching_window_size= 0.15 #ms
+	precision1, recal1, f_measure_value1=    evaluate_accuracy(ground_t_onsets_array[j], onsetCF, matching_window_size)
+	precision2, recal2, f_measure_value2=    evaluate_accuracy(ground_t_onsets_array[j], onsetSOP, matching_window_size)
+	precision3, recal3, f_measure_value3=    evaluate_accuracy(ground_t_onsets_array[j], onsetEC, matching_window_size)
+	print(audio_files[j], "Results for 002.wav  precision , recal1, f_measure_value")
+	print(audio_files[j], "Accuracy for Onset: Colms method             ", round( precision1,3), round(recal1,3), round(f_measure_value1,3))
+	print(audio_files[j], "Accuracy for Onset: Ramon SOP method         ", round(precision2,3), round(recal2,3), round(f_measure_value2,3))
+	print(audio_files[j], "Accuracy for Onset: Ramon EC smethod         ", round(precision3,3), round(recal3,3), round(f_measure_value3,3))
+	j+=1
 
-precision1, recal1, f_measure_value1=    evaluate_accuracy(golden_onsets_0, onsetCF, matching_window_size)
-precision2, recal2, f_measure_value2=    evaluate_accuracy(golden_onsets_0, onsetSOP, matching_window_size)
-precision3, recal3, f_measure_value3=    evaluate_accuracy(golden_onsets_0, onsetEC, matching_window_size)
 
-print("Results for 002.wav  precision , recal1, f_measure_value")
-print("Accuracy for Onset: Colms method")
-print(round( precision1,3), round(recal1,3), round(f_measure_value1,3))
-print("Accuracy for Onset: Ramon SOP method")
-print(round(precision2,3), round(recal2,3), round(f_measure_value2,3))
-print("Accuracy for Onset: Ramon EC smethod")
-print(round(precision3,3), round(recal3,3), round(f_measure_value3,3))
+
+
 

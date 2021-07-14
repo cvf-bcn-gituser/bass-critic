@@ -113,9 +113,9 @@ def multiple_hist(deviationsArray1,title_text1):
     print(summary)
     title =   title_text1
 
-    plt.title(title)
-    plt.figure(1, figsize=(9.5, 6))
-    plt.hist(a)
+    #plt.title(title)
+    #plt.figure(1, figsize=(9.5, 6))
+    #plt.hist(a)
 
 def match_rhythm(df, onsets, offsets, matching_window_size):
     """
@@ -156,8 +156,45 @@ def match_rhythm(df, onsets, offsets, matching_window_size):
         else:
             missing_onset_notes+=1
     return onset_deviation_array,offset_deviation_array,missing_onset_notes
-    
-    
+### TBD rename this
+### This works using the stoeln onsets principle
+def match_onset1(gt_onsets, onsets, gt_offsets, offsets, matching_window_size):
+    """
+    Finds best matching pairs so
+       - distance between elements is no greater than matching_window_size
+       - sum of all distances is is minimized
+       - also returns the fidelity ( conformance to 100% hit notes)
+    """
+    result = []
+    missing_onset_notes= 0
+    missing_offset_notes= 0
+    stolen_onsets= 0
+    onset_deviation_array = []
+    offset_deviation_array = []
+    duration_deviation_array = []
+
+    m = scipy.spatial.distance_matrix([[x] for x in gt_onsets], [[x] for x in onsets])
+    # don't consider events which are out of matching window size
+    big_distance = 10 ** 6
+    m[m > matching_window_size] = big_distance
+
+    row_ons, col_ons = scipy.optimize.linear_sum_assignment(m)
+
+    for (xn, yn) in zip(row_ons, col_ons):
+        if abs(onsets[yn] - gt_onsets[xn]) <= matching_window_size:
+            if offsets[yn-1]>=onsets[yn]:
+                offsets[yn-1]=onsets[yn]
+                stolen_onsets+=1
+            if abs(offsets[yn] - gt_offsets[xn]) <= matching_window_size*1.5:
+                onset_deviation_array.append(onsets[yn] - gt_onsets[xn]) 
+                offset_deviation_array.append(offsets[yn] - gt_offsets[xn])
+            else:
+                missing_offset_notes+=1
+        else:
+            missing_onset_notes+=1  
+    return onset_deviation_array,offset_deviation_array,missing_onset_notes,missing_offset_notes,stolen_onsets
+	
+	
 def calculateOffsetOnset(x,threshold,frameSize,hopSize,hopSizeScaleFactor):
   od1 = OnsetDetection(method='complex')#hfc
   rms_bands = []
