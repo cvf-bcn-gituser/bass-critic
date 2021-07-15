@@ -1,8 +1,3 @@
-
-"""EnergyChecker_test.py
-
-
-"""
 ############# Library section
 ############# 
 import madmom
