@@ -21,7 +21,7 @@ import numpy as np
 import essentia.standard as ess
 import vamp
 import simmusic
-from simmusic.dtw import dtw
+#from simmusic.dtw import dtw
 from joblib import load
 from simmusic import constants
 from scipy.spatial.distance import cosine
@@ -40,10 +40,7 @@ import matplotlib
 matplotlib.use('Agg')
 
 import os
-import matplotlib as mpl
-if os.environ.get('DISPLAY','') == '':
-    #print('no display found. Using non-interactive Agg backend')
-    mpl.use('Agg')
+
 import matplotlib.pyplot as plt
 
 def hist_and_stats(deviations,title_text):
@@ -69,8 +66,9 @@ import plotly.express as px
 def write_stats(deviationsArray1,deviationsArray2,title_text1,title_text2,student_grades,sp,sr,sf,song):
   header = ["Student","precision","recall","f_measure_value","Onset ABS Mean","Onset Mean","Onset Std",
          "Duration ABS Mean","Duration Mean","Duration Std","onsetMark"," DurationMark"," articulationMark ","soundQualityMark","volumeControlMark"," finalMark"]
-         
-  fname = 'data/StudentStatistics_IEC_'+ song + '.csv'
+      
+  ##TODO add a song name as directory here.	  
+  fname = '../data/StudentStatistics_IEC_'+ song + '.csv'
   with open(fname, 'w', encoding='UTF8') as f:
      writer = csv.writer(f)
      # write the header
@@ -93,7 +91,6 @@ def write_stats(deviationsArray1,deviationsArray2,title_text1,title_text2,studen
         studentStatistics.append(str(k+1))
         student_stats1 = [] # onsets
         student_stats2 = [] # durations
-
 
         a = np.array(deviationsArray1[k])
         #print(a[0:11])
@@ -162,7 +159,7 @@ def write_sop_stats(deviationsArray1,title_text1,student_grades,sp,sr,sf,song):
   header = ["Student","precision","recall","f_measure_value","Onset ABS Mean","Onset Mean","Onset Std",
          "Duration ABS Mean","Duration Mean","Duration Std","onsetMark"," DurationMark"," articulationMark ","soundQualityMark","volumeControlMark"," finalMark"]
          
-  fname = 'data/StudentStatistics_SOP_'+ song + '.csv'
+  fname = '../data/StudentStatistics_SOP_'+ song + '.csv'
   with open(fname, 'w', encoding='UTF8') as f:
      writer = csv.writer(f)
      # write the header
@@ -182,8 +179,7 @@ def write_sop_stats(deviationsArray1,title_text1,student_grades,sp,sr,sf,song):
         studentStatistics.append(str(k+1))
         student_stats1 = [] # onsets
         student_stats2 = [] # durations
-
-
+		
         a = np.array(deviationsArray1[k])
         #print(a[0:11])
         onset_m, onset_s = mean(a), sqrt(mean(a*a))
@@ -221,7 +217,7 @@ def write_stem_stats(deviationsArray1,deviationsArray2,title_text1,title_text2,p
   header = ["Stem","precision","recall","f_measure_value","Onset ABS Mean","Onset Mean","Onset Std",
          "Duration ABS Mean","Duration Mean","Duration Std","onsetMark"," DurationMark"," articulationMark ","soundQualityMark","volumeControlMark"," finalMark"]
          
-  fname = 'data/StemStatistics_'+ song + '.csv'
+  fname = '../data/StemStatistics_IEC_'+ song + '.csv'
   with open(fname, 'w', encoding='UTF8') as f:
     writer = csv.writer(f)
     # write the header
@@ -300,7 +296,7 @@ def write_sop_stem_stats(deviationsArray1,title_text1,precision,recall,fmeasure,
   header = ["Stem","precision","recall","f_measure_value","Onset ABS Mean","Onset Mean","Onset Std",
          "Duration ABS Mean","Duration Mean","Duration Std","onsetMark"," DurationMark"," articulationMark ","soundQualityMark","volumeControlMark"," finalMark"]
          
-  fname = 'data/StemStatistics_'+ song + '.csv'
+  fname = '../data/StemStatistics_SOP_'+ song + '.csv'
   with open(fname, 'w', encoding='UTF8') as f:
     writer = csv.writer(f)
     # write the header
