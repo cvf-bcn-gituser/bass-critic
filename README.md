@@ -6,7 +6,7 @@ This repository consists of two main sections. They are still work in progress. 
 
 The first section contains python code that is used for extending Music Critic software to implement performance assessment of electric bass guitar.
 
-Folders:
+## Description of folders and contents
 
 data - 
 
@@ -33,7 +33,7 @@ from sop import *
 
 student_grades_yellow.py  - This file processes the exported Grade Data which is in CSV format. The input is thje  dumped grade data files are called (G0_YellowReview.csv...etc) and the output are the Stem Statistics files and the Student Statistics files.
 
-Files:
+## Description of Files
 
 constantData.py  - The is like a common header file that is included in all the individual main functions of each of the songs in each of the subfolders.
 
@@ -49,7 +49,7 @@ write_stats.py - Helper functions ofor writing statistics to files
 
 energychecker_abesser_test.py - Comparison of Indexed Energy Checker anad Abesser Function
 
-extractors.py
+extractors.py   - Helper Function for processing XML files.
 
 pitch_melody.py - This contains the algorithm based on the Salamon /Gomez techniques-
 check_melody.py - Test file for the above.
