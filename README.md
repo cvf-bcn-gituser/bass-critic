@@ -20,6 +20,9 @@ It is intended to be extendible so that new algorithms for onset, offset detecti
 
 It is intended to be scaleable to add new Student recordings and new TCL songs.
 
+The refactoring cannot be done in one foul swoop. A manual will be made that will be described how to add a new Song, and an new set of Student files.
+There are a lot of optimisations to remove bulk, but working software is the primaary focus, then understandability, then reproducability and then maintainability.
+
 ## Description of folders and contents
 
 data - 
