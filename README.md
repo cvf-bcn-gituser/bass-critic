@@ -6,6 +6,20 @@ This repository consists of two main sections. They are still work in progress. 
 
 The first section contains python code that is used for extending Music Critic software to implement performance assessment of electric bass guitar.
 
+## TBD. (the cleanup work in progress issues are)
+
+Harmonize suffices( bjean, billie,...??)
+Move Energy Checker Algorithm out of the Metrics file.
+Remove redundant functions.
+Remove redundancy across the different songs.
+Please appreciate that each of the grading sheets for each of the songs is unique, and in order to program something working it was necessary to write one grade processing file for each song (e.g. student_grades_yellow.py). You are probably asking why each song has a separate folder for processing, this is the main reason.
+A Global main function is in themaking, the bring this all together.
+The software is built for reproduction of results. It is hoped that it can be expanded to be a useful software package where you can obtain onsets, offset from new student recordings.
+
+It is intended to be extendible so that new algorithms for onset, offset detection can be added to reproduce the the results within the framework
+
+It is intended to be scaleable to add new Student recordings and new TCL songs.
+
 ## Description of folders and contents
 
 data - 
@@ -58,4 +72,4 @@ sweep_sop.py - Sweeping tests to optimise the parameters used in SOP algorithm
 
 test_linear_regression.py .- ( This shall be moved to Noteboks)
 
-The second  sections contains Jupyter Notebooks for obtaining plots generated from first section.
+The second  sections shall contains Jupyter Notebooks for obtaining plots generated from first section.
