@@ -1,10 +1,3 @@
-
-"""EnergyChecker_test.py
-
-Hi Colm, thank you for the update. I participated in bachelor theses defences which is finished right now. Considering the repository, I recommend:
-write requirements.txt file, so all requirements could be installed with pip3 install -r requirements.txt
-Add more to README.md: installation instructions, entry points (what to run, etc)
-"""
 ############# Library section
 ############# 
 import madmom
@@ -21,7 +14,7 @@ import pandas as pd
 import sys
 import csv  
 # My Librares
-from student_grades_billie import *
+from student_grades_just import *
 sys.path.insert(1, '../')
 from constantData import *
 from onsetmetrics import *
@@ -29,10 +22,10 @@ from sop import *
 from energy_checker import *
 from write_stats import *
 
-numOfStudents = 8 
+numOfStudents = 3 
 
-# 1:  Billie Jean
-stem_index=1
+# 1:  Just Looking
+stem_index=2
 # This is used to offset the onset value in the SOP deviations calcaultion
 onsetCompensationFactor= 0
 
@@ -179,10 +172,10 @@ while student_index < numOfStudents:
  
  student_index+=1 
 print ("done")	 
+print(sonset_deviationsArray,soffset_deviationsArray)
 
-
-the_student_grades = returnGradesBillie()
+the_student_grades = returnGradesJust()
  # Write Statistics for  IEC
-write_stats(sonset_deviationsArray,soffset_deviationsArray," onsets", " offset",the_student_grades,sprecision_array,srecall_array,sf_measure_value_array,"Yellow")
+write_stats(sonset_deviationsArray,soffset_deviationsArray," onsets", " offset",the_student_grades,sprecision_array,srecall_array,sf_measure_value_array,songList[stem_index])
  # Write Statistics for  SOP
-write_sop_stats(sonset_SopDeviationsArray," onsets", the_student_grades,sprecision_sop_array,srecall_sop_array,sf_measure_value_sop_array,"yellow")
+write_sop_stats(sonset_SopDeviationsArray," onsets", the_student_grades,sprecision_sop_array,srecall_sop_array,sf_measure_value_sop_array,songList[stem_index])

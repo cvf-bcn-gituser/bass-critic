@@ -13,12 +13,14 @@ from math import sqrt
 import pandas as pd
 import sys
 import csv  
+
 # My Librares
 from student_grades_yellow import *
 sys.path.insert(1, '../')
 from constantData import *
 from onsetmetrics import *
 from sop import *
+from energy_checker import *
 from write_stats import *
 
 numOfStudents = 6 
