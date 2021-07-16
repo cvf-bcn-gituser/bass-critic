@@ -1,10 +1,3 @@
-
-"""EnergyChecker_test.py
-
-Hi Colm, thank you for the update. I participated in bachelor theses defences which is finished right now. Considering the repository, I recommend:
-write requirements.txt file, so all requirements could be installed with pip3 install -r requirements.txt
-Add more to README.md: installation instructions, entry points (what to run, etc)
-"""
 ############# Library section
 ############# 
 import madmom
