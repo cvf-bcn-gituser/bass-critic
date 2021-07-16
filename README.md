@@ -20,8 +20,6 @@ data/bass-- This is a major subfolder where all the audio (WAV format) is stored
 The sub folders (  0_yellow etc) each contain correspongin meain fucntion for each song  ( check_students_yellow.py etc.) 
 Each of these main functions include the following local library functions as follows:
 
-
-# My Librares
 from student_grades_yellow import *
 sys.path.insert(1, '../')
 from constantData import *
