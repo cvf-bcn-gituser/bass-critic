@@ -12,7 +12,7 @@ This software allows you to calculate the onset and offset points in a isoalted 
 In the Data section there are ground truth files which contain the ideal onset and offset position of the ground truth recording  a given song.
 There are a set of algorithsm provided to do the onset, offset calculations of the ideal ground truth recording and statisitical ouptut is provided to show 
 the effectiveness of thes algorithms The main algorithsm are denoted IEC (Indexed Energy Checker) and SOP (Sound Onset Processor).
-They are based on work done byu Ramon Romeu. https://github.com/RamoonRoomeu. There has been some adjustments to make the original code to make it suitable for the context of capturing onsets and offsets for outputs into CSV file and for processing with P, R F measures.
+They are based on work done by Ramon Romeu. https://github.com/RamoonRoomeu. There has been some adjustments to make the original code to make it suitable for the context of capturing onsets and offsets for outputs into CSV file and for processing with P, R F measures.
 There are evaluation helper functions to help with gathering statistics on the onset, offset deviations and the P,R, F measures.
 
 There are a comprehensive set of subfolders for to allow capture of the data on a song by song basis and also to be able to capture the data of the Student Recordings.
