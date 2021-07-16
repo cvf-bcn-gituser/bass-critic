@@ -37,7 +37,7 @@ student_grades_yellow.py  - This file processes the exported Grade Data which is
 
 constantData.py  - The is like a common header file that is included in all the individual main functions of each of the songs in each of the subfolders.
 
-onsetmetrics.py - This contains the measurements (functions for P, R F , deviations etc)
+onsetmetrics.py - This contains the Indexed Energy Checker Function and measurements (functions for P, R F , deviations etc)
 
 sop.py  - This is the wrapper for the Madmom Soudn Onset Processor Algorithm
 
