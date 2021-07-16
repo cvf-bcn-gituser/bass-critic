@@ -8,6 +8,8 @@ The first section contains python code that is used for extending Music Critic s
 
 ## TBD. (the cleanup work in progress issues are)
 
+stemStatistics output for the SOP needs to be modified to include onsets only.
+
 Harmonize suffices( bjean, billie,...??)
 Move Energy Checker Algorithm out of the Metrics file.
 Remove redundant functions.
