@@ -1,40 +1,18 @@
 ############# Library section
 ############# 
-"""
-import madmom
-from essentia.standard import *
-from essentia import Pool, array
-import essentia.standard as es
-import matplotlib.pyplot as plt
-import numpy as np
-import IPython.display as ipd
-import os
-
-import IPython
-import pickle
-from pickle import load
-from scipy.signal import find_peaks
-import ipywidgets as widgets
-from scipy import signal
-from lxml import etree
-
-import plotly.express as px
-import scipy
-
-import mir_eval
-from mir_eval import *
-from statistics import mean
-
-from math import sqrt
-"""
 import math
 import pandas as pd
 import sys
 import csv  
 
-numOfStudents = 6 # Number of graded Students
 
-data= pd.read_csv (r'../data/G0_YellowReview.csv')
+# My Librares
+sys.path.insert(1, '../')
+from gradeConstants import *
+
+numOfStudents = 8# Number of graded Students
+
+data= pd.read_csv (r'data/G0_YellowReview.csv')
 #A Marca de temps
 DateStamp= 'Marca de temps'
 #B
@@ -84,23 +62,18 @@ techFocus1ColumnL2 = "Fullfilled"
 techFocus1ColumnL3 = "Largely fulfilled (ocassion lapse)"
 techFocus1ColumnL4 = "Generally fulfilled"
 techFocus1ColumnL5 = "Often not fullfiulled"
-
 #Q2.  Dynamics (volume control)      techFocus2
 techFocus2ColumnL1 = "Fulfilled to a very high degree"
 techFocus2ColumnL2 = "Fullfilled"
 techFocus2ColumnL3 = "Largely fulfilled (ocassion lapse)"
 techFocus2ColumnL4 = "Generally fulfilled"
 techFocus2ColumnL5 = "Often not fullfiulled"
-
-
 #Q3. Sound Quality                  soundQualityColumn                           
 soundQualityColumnL1 = "Excellent"
 soundQualityColumnL2 = "Very Good"
 soundQualityColumnL3 = "Largely good (ocassion lapse)"
 soundQualityColumnL4 = "A few blemishes"
 soundQualityColumnL5 = "Often not fullfiulled"
-
-
 data_top = data.head() 
     
 # display 
@@ -114,7 +87,6 @@ student_soundQualityMark=0
 student_techFocus2Mark=0
 student_finalMark=0
 
-students = []
 student_onsetMark_Array = []
 student_DurationMark_Array = []
 student_techFocus1Mark_Array = []
@@ -123,97 +95,125 @@ student_techFocus2Mark_Array = []
 student_finalMark_Array = []
 student_finalMark=0
 
+def returnGradesYellow():
+    the_student_grades = []
+    index=0
+
+	
+	# Add the 100% Grade Stem first in Student ZERO slot
+    individual_grade = []
+    individual_grade.append("100")
+    individual_grade.append("100")
+    individual_grade.append("100")
+    individual_grade.append("100")
+    individual_grade.append("100")
+    individual_grade.append("5")
+    the_student_grades.append(individual_grade)
+	
+	
+    for i in range (numOfStudents):
+       individual_grade = []
+       individual_grade.append(student_onsetMark_Array[i])
+       individual_grade.append(student_DurationMark_Array[i])
+       individual_grade.append(student_techFocus1Mark_Array[i])
+       individual_grade.append(student_techFocus2Mark_Array[i])
+       individual_grade.append(student_soundQualityMark_Array[i])
+       individual_grade.append(student_finalMark_Array[i])
+       the_student_grades.append(individual_grade)
+       index+=1
+    return the_student_grades
+
 index= 0
 while index < numOfStudents:
+    print( index ,numOfStudents)
     dfo = pd.DataFrame(data,columns= [nameofTrack,onsetColumn])
 	
     print(index, " ******************DEBUG**************************")
     print(dfo.loc[index, onsetColumn])
     if dfo.loc[index, onsetColumn] == onsetColumnL1:
-        student_onsetMark=100
+        student_onsetMark=ExcellentScaled
     elif dfo.loc[index, onsetColumn] == onsetColumnL2:
-        student_onsetMark=85
-    elif dfo.loc[index, onsetColumn] == onsetColumnL3:    
-        student_onsetMark=70
+        student_onsetMark=NotablePlusScaled
+    elif dfo.loc[index, onsetColumn] == onsetColumnL3:
+        student_onsetMark=NotableScaled
     elif dfo.loc[index, onsetColumn] == onsetColumnL4:
-        student_onsetMark=55
+        student_onsetMark=PassScaled
     elif dfo.loc[index, onsetColumn] == onsetColumnL5:
-        student_onsetMark=40
+        student_onsetMark=FailScaled
     else:
 	    print("PROBLEM 1!")
     student_onsetMark_Array.append(student_onsetMark)
-        
 
-    dfd = pd.DataFrame(data,columns= [nameofTrack,durationColumn])
+    dfd = pd.DataFrame(data, columns=[nameofTrack, durationColumn])
     if dfd.loc[index, durationColumn] == durationColumnL1:
-        student_DurationMark=100
+        student_DurationMark = ExcellentScaled
     elif dfd.loc[index, durationColumn] == durationColumnL2:
-        student_DurationMark=85
-    elif dfd.loc[index, durationColumn] == durationColumnL3:    
-        student_DurationMark=70
+        student_DurationMark = NotablePlusScaled
+    elif dfd.loc[index, durationColumn] == durationColumnL3:
+        student_DurationMark = NotableScaled
     elif dfd.loc[index, durationColumn] == durationColumnL4:
-        student_DurationMark=55
+        student_DurationMark = PassScaled
     elif dfd.loc[index, durationColumn] == durationColumnL5:
-        student_DurationMark=40
+        student_DurationMark = FailScaled
     else:
-	    print("PROBLEM 2!")    
+        print("PROBLEM 2!")
     student_DurationMark_Array.append(student_DurationMark)
     
     dfa = pd.DataFrame(data,columns= [nameofTrack,techFocus1Column])
-        
+
     if dfa.loc[index, techFocus1Column] == techFocus1ColumnL1:
-        student_techFocus1Mark=100
+        student_techFocus1Mark = ExcellentScaled
     elif dfa.loc[index, techFocus1Column] == techFocus1ColumnL2:
-        student_techFocus1Mark=85
-    elif dfa.loc[index, techFocus1Column] == techFocus1ColumnL3:    
-        student_techFocus1Mark=70
+        student_techFocus1Mark = NotablePlusScaled
+    elif dfa.loc[index, techFocus1Column] == techFocus1ColumnL3:
+        student_techFocus1Mark = NotableScaled
     elif dfa.loc[index, techFocus1Column] == techFocus1ColumnL4:
-        student_techFocus1Mark=55
+        student_techFocus1Mark = PassScaled
     elif dfa.loc[index, techFocus1Column] == techFocus1ColumnL5:
-        student_techFocus1Mark=40
+        student_techFocus1Mark = FailScaled
     else:
-	    print("PROBLEM 3!")    
-    student_techFocus1Mark_Array.append(student_techFocus1Mark)    
-  
+        print("PROBLEM 3!")
+    student_techFocus1Mark_Array.append(student_techFocus1Mark)
+
     dfvc = pd.DataFrame(data,columns= [nameofTrack,techFocus2Column])
     
     if dfvc.loc[index, techFocus2Column] == techFocus2ColumnL1:
-        student_techFocus2Mark=100
+        student_techFocus2Mark=ExcellentScaled
     elif dfvc.loc[index, techFocus2Column] == techFocus2ColumnL2:
-        student_techFocus2Mark=85
-    elif dfvc.loc[index, techFocus2Column] == techFocus2ColumnL3:    
-        student_techFocus2Mark=70
+        student_techFocus2Mark=NotablePlusScaled
+    elif dfvc.loc[index, techFocus2Column] == techFocus2ColumnL3:
+        student_techFocus2Mark=NotableScaled
     elif dfvc.loc[index, techFocus2Column] == techFocus2ColumnL4:
-        student_techFocus2Mark=55
+        student_techFocus2Mark=PassScaled
     elif dfvc.loc[index, techFocus2Column] == techFocus2ColumnL5:
-        student_techFocus2Mark=40
+        student_techFocus2Mark=FailScaled
     else:
-        print("PROBLEM 4!")    
+        print("PROBLEM 4!")
 
-    student_techFocus2Mark_Array.append(student_techFocus2Mark) 
-		
-    dfsq = pd.DataFrame(data,columns= [nameofTrack,soundQualityColumn])
+    student_techFocus2Mark_Array.append(student_techFocus2Mark)
+
+    dfsq = pd.DataFrame(data, columns=[nameofTrack, soundQualityColumn])
 
     if dfsq.loc[index, soundQualityColumn] == soundQualityColumnL1:
-        student_soundQualityMark=100
+        student_soundQualityMark = ExcellentScaled
     elif dfsq.loc[index, soundQualityColumn] == soundQualityColumnL2:
-        student_soundQualityMark=85
-    elif dfsq.loc[index, soundQualityColumn] == soundQualityColumnL3:    
-        student_soundQualityMark=70
+        student_soundQualityMark = NotablePlusScaled
+    elif dfsq.loc[index, soundQualityColumn] == soundQualityColumnL3:
+        student_soundQualityMark = NotableScaled
     elif dfsq.loc[index, soundQualityColumn] == soundQualityColumnL4:
-        student_soundQualityMark=55
+        student_soundQualityMark = PassScaled
     elif dfsq.loc[index, soundQualityColumn] == soundQualityColumnL5:
-        student_soundQualityMark=40
+        student_soundQualityMark = FailScaled
     else:
-	    print(dfo.loc[index, soundQualityColumn])      
+        print(dfo.loc[index, soundQualityColumn])
     student_soundQualityMark_Array.append(student_soundQualityMark)
 		
     dffc = pd.DataFrame(data,columns= [nameofTrack,finalColumn])
     final_value = dffc.loc[index, finalColumn]
     if final_value == '4/5':
-        the_final_Mark = 4.5
+        the_final_Mark = 4.5*0.9
     else:
-        the_final_Mark = float(final_value)
+        the_final_Mark = float(final_value)*0.9
     student_finalMark_Array.append(the_final_Mark)    
     index+=1
 print("The six grade areas")
@@ -224,19 +224,4 @@ print(student_soundQualityMark_Array[0])
 print(student_techFocus2Mark_Array[0])
 print(student_finalMark_Array[0])
 
-def returnGradesYellow():
-    print("<<Prcoessing grades >>")
-    the_student_grades = []
-    index=0
-    for i in range (numOfStudents):
-       individual_grade = []
-       individual_grade.append(student_onsetMark_Array[i])
-       individual_grade.append(student_DurationMark_Array[i])
-       individual_grade.append(student_techFocus1Mark_Array[i])
-       individual_grade.append(student_soundQualityMark_Array[i])
-       individual_grade.append(student_techFocus2Mark_Array[i])
-       individual_grade.append(student_finalMark_Array[i])
-       the_student_grades.append(individual_grade)
-       index+=1
-    return the_student_grades
 

@@ -29,31 +29,7 @@ import pandas as pd
 import sys
 
 from onsetmetrics import *
-# The match_events function returns results of matching pairs,deviations of thos pairs and the missing_notes
-def match_events(gt_onsets, onsets, matching_window_size):
-    """
-    Finds best matching pairs so
-       - distance between elements is no greater than matching_window_size
-       - sum of all distances is minimized
-    """
-    # In case of performance issues for big piecs,
-    # we could try to use simpler/faster local algorithm.
-    m = scipy.spatial.distance_matrix([[x] for x in gt_onsets], [[x] for x in onsets])
-    # don't consider events which are out of matching window size
-    big_distance = 10 ** 6
-    m[m > matching_window_size] = big_distance
-    
-    row_ind, col_ind = scipy.optimize.linear_sum_assignment(m)
-    result = []
-    missing_notes= 0
-    deviations = []
-    for (x, y) in zip(row_ind, col_ind):
-        if abs(onsets[y]-gt_onsets[x]) <= matching_window_size:
-            result.append((x, y))
-            deviations.append(gt_onsets[x] - onsets[y])
-        else:
-            missing_notes+=1
-    return result,deviations,missing_notes
+
 #
 # Helper function of f_measure
 #
@@ -75,6 +51,12 @@ def evaluate_accuracy(gt_onsets, onsets, matching_window_size):
     f_measure_value = f_measure(precision, recall)
     return precision, recall, f_measure_value
     
+def evaluate_energy_accuracy(gt_onsets, audio):
+
+
+
+    return precision, recall, f_measure_value
+	
 def multiple_hist(deviationsArray1,title_text1):
     a = np.array(deviationsArray1)
     m, s = mean(a), sqrt(mean(a*a))
@@ -86,6 +68,7 @@ def multiple_hist(deviationsArray1,title_text1):
     #plt.title(title)
     #plt.figure(1, figsize=(9.5, 6))
     #plt.hist(a)
+
 
 def match_rhythm(df, onsets, offsets, matching_window_size):
     """
@@ -118,49 +101,39 @@ def match_rhythm(df, onsets, offsets, matching_window_size):
             # We are within margin
             # Check if Muted
             if gt_muted[xn]=='Y':
-              if abs((offsets[yn]) - gt_offsets[xn]) <= matching_window_size*2:
-                 offset_deviation_array.append(offsets[yn] - gt_offsets[xn])
+               if abs((offsets[yn]) - gt_offsets[xn]) <= matching_window_size*2:
+                  offset_deviation_array.append(offsets[yn] - gt_offsets[xn])
             else:
-              if (xn+1 <len (row_ons)):
-                 offset_deviation_array.append(offsets[yn] - gt_onsets[xn+1])
+               if (xn+1 <len (row_ons)):
+                  offset_deviation_array.append(offsets[yn] - gt_onsets[xn+1])
         else:
             missing_onset_notes+=1
     return onset_deviation_array,offset_deviation_array,missing_onset_notes
-### TBD rename this
-### This works using the stoeln onsets principle
-def match_onset1(gt_onsets, onsets, gt_offsets, offsets, matching_window_size):
+	
+# The match_events function returns results of matching pairs,deviations of thos pairs and the missing_notes
+def match_events(gt_onsets, onsets, matching_window_size):
     """
     Finds best matching pairs so
        - distance between elements is no greater than matching_window_size
-       - sum of all distances is is minimized
-       - also returns the fidelity ( conformance to 100% hit notes)
+       - sum of all distances is minimized
     """
-    result = []
-    missing_onset_notes= 0
-    missing_offset_notes= 0
-    stolen_onsets= 0
-    onset_deviation_array = []
-    offset_deviation_array = []
-    duration_deviation_array = []
-
+    # In case of performance issues for big piecs,
+    # we could try to use simpler/faster local algorithm.
     m = scipy.spatial.distance_matrix([[x] for x in gt_onsets], [[x] for x in onsets])
     # don't consider events which are out of matching window size
     big_distance = 10 ** 6
     m[m > matching_window_size] = big_distance
-
-    row_ons, col_ons = scipy.optimize.linear_sum_assignment(m)
-
-    for (xn, yn) in zip(row_ons, col_ons):
-        if abs(onsets[yn] - gt_onsets[xn]) <= matching_window_size:
-            if offsets[yn-1]>=onsets[yn]:
-                offsets[yn-1]=onsets[yn]
-                stolen_onsets+=1
-            if abs(offsets[yn] - gt_offsets[xn]) <= matching_window_size*1.5:
-                onset_deviation_array.append(onsets[yn] - gt_onsets[xn]) 
-                offset_deviation_array.append(offsets[yn] - gt_offsets[xn])
-            else:
-                missing_offset_notes+=1
+    
+    row_ind, col_ind = scipy.optimize.linear_sum_assignment(m)
+    result = []
+    missing_notes= 0
+    deviations = []
+    for (x, y) in zip(row_ind, col_ind):
+        if abs(onsets[y]-gt_onsets[x]) <= matching_window_size:
+            result.append((x, y))
+            deviations.append(gt_onsets[x] - onsets[y])
         else:
-            missing_onset_notes+=1  
-    return onset_deviation_array,offset_deviation_array,missing_onset_notes,missing_offset_notes,stolen_onsets
-	
+            missing_notes+=1
+    return result,deviations,missing_notes
+
+

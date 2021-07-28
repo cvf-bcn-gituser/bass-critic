@@ -54,7 +54,7 @@ while i < len(rhythm_filenames):
 # Filenames of the trinity ground truth stems
 stem_filenames = ['data/bass/2_bassX_Yellow_Coldplay_Bass Gr0.wav',
 'data/bass/2_bassX_Billie Jean_Michael Jackson_BassGr1.wav',
-'data/bass/2_bassX_Just Looking_Stereophonics_BassGr1.wav',
+'data/bass/2_bassX_Just Looking_Stereophonics_BassGr1_Half.wav',
 'data/bass/2_bassX_Brown Eyed Girl_Van Morrison_BassGr2.wav',
 'data/bass/2_bassX_(I_m A) Road Runner_Jr Walker _ The Allstars_Bass Gr3.wav',
 'data/bass/2_bassX_Walking On The Moon_Half.wav']
@@ -85,15 +85,17 @@ matching_window_size = 0.02  # MIREX reference0
 
 #     sonsetIndex = onset_SOP(student_audio_name[i])
 
-index=0
-while index < len(stem_filenames):# stem_filenames
+index=2
+while index < 3:# stem_filenames
     onsetIndex = onset_SOP(stem_filenames[index])
+    print(onsetIndex)
+    """
     df = df_array[index]
     print(stem_filenames[index])
     onset_list= df["onset"].tolist()    
     p,r,f=evaluate_accuracy(onset_list, onsetIndex, matching_window_size)
     print(round(p,3),round(r,3),round(f,3))
+
+    """
     index+=1
-
-
     

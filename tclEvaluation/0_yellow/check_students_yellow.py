@@ -13,7 +13,6 @@ from math import sqrt
 import pandas as pd
 import sys
 import csv  
-
 # My Librares
 from student_grades_yellow import *
 sys.path.insert(1, '../')
@@ -23,13 +22,23 @@ from sop import *
 from energy_checker import *
 from write_stats import *
 
-numOfStudents = 6 
 
-#0:  Yellow 1:  Billie Jean
-stem_index=0
+
+#0:  Yellow 
+stem_index=STEM_INDEX_YELLOW
+
 # This is used to offset the onset value in the SOP deviations calcaultion
-onsetCompensationFactor= 17.25
-
+onsetCompensationFactor= 17.00
+def FilterBeginning(p_onsetStemIndex, p_offsetStemIndex):
+    the_onsetStemIndex = []
+    the_offsetStemIndex = []
+    x=0
+    while x < len(p_onsetStemIndex):
+        if p_onsetStemIndex[x] > onsetCompensationFactor:
+            the_onsetStemIndex.append(p_onsetStemIndex[x])
+            the_offsetStemIndex.append(p_offsetStemIndex[x])
+        x+=1
+    return(the_onsetStemIndex,the_offsetStemIndex)
 # Student Arrays for Energy Checker
 sonset_deviationsArray=[]
 soffset_deviationsArray=[]
@@ -54,32 +63,12 @@ raw = raw / np.max(np.abs(raw))
 
 ##########################
 # Capture the Energy Island of (0) Yellow 
-onsetStemIndex, offsetStemIndex,_ = myOnsetEnergyChecker(raw,frameSize,hopSize,threshIndex[stem_index])
+onsetStemIndex_, offsetStemIndex_,_,_ = myOnsetEnergyChecker(raw,frameSize,hopSize,threshIndex[stem_index])
+onsetStemIndex, offsetStemIndex = FilterBeginning(onsetStemIndex_, offsetStemIndex_)
 precision, recall, f_measure_value = evaluate_accuracy(onset_list, onsetStemIndex, matching_window_size)
 onset_deviations,offset_deviations, missing_onset_notes = match_rhythm(df,onsetStemIndex,offsetStemIndex,matching_window_size)
 print(songList[stem_index],"STEM  precision, recall, f_measure_value", precision, recall, f_measure_value)
 write_stem_stats(onset_deviations,offset_deviations," onsets", " offset",precision,recall,f_measure_value,songList[stem_index])
-
-##########################
-# Save the IEC onsets in a file for the stem
-theFilePath = "../data/"+songList[stem_index]+'/' +songList[stem_index]+ '_iec_stem.csv'
-f1 = open(theFilePath, "a")
-print(theFilePath)
-f1.write("onset dev")
-f1.write(",")
-f1.write("offset dev")
-f1.write("\n")
-index=0
-while index < len(onset_deviations):
-   f1.write(str(onset_deviations[index]))
-   f1.write(",")
-   if index < len(offset_deviations):
-       f1.write(str(offset_deviations[index]))
-   else:
-       f1.write(str(0.0))   
-   f1.write("\n")
-   index+=1
-f1.close
 
 ##########################
 # Capture the SOP
@@ -89,19 +78,6 @@ precision_sop, recall_sop, f_measure_value_sop = evaluate_accuracy(onset_list, o
 print(round(precision_sop,3), round(recall_sop,3), round(f_measure_value_sop,3))
 write_sop_stem_stats(onsetStemSOP," onsets",precision_sop, recall_sop, f_measure_value_sop,songList[stem_index])
 result,deviations,missing_notes =  match_events(onset_list, onsetStemSOP+onsetCompensationFactor, matching_window_size)
-
-##########################
-# Save the SOP onsets in a file for the stem
-theFilePath = "../data/"+songList[stem_index]+'/' +songList[stem_index]+ '_sop_stem.csv'
-f2 = open(theFilePath, "a")
-index=0
-f2.write("onset dev")
-f2.write("\n")
-while index < len(deviations):
-   f2.write(str(deviations[index]))
-   f2.write("\n")
-   index+=1
-f2.close
 
 ##########################
 
@@ -114,7 +90,7 @@ while student_index < numOfStudents:
  sraw = MonoLoader(filename = studentAudioFilename, sampleRate = fs)()
  sraw = sraw / np.max(np.abs(sraw))
  # Commenting out the version that is for the SOP
- sonsetIndex, soffsetIndex,ssplit_decision_func = myOnsetEnergyChecker(sraw,frameSize,hopSize,threshIndex[stem_index])
+ sonsetIndex, soffsetIndex,ssplit_decision_func,_ = myOnsetEnergyChecker(sraw,frameSize,hopSize,threshIndex[stem_index])
  sprecision, srecall, sf_measure_value = evaluate_accuracy(onset_list, sonsetIndex, matching_window_size)
 
  print(student_index+1 ," IEC Student precision, recall, f_measure_value", sprecision, srecall, sf_measure_value)
@@ -126,7 +102,8 @@ while student_index < numOfStudents:
  sonset_deviationsArray.append(sonset_deviations)
  soffset_deviationsArray.append(soffset_deviations)
  ##########################
- # Save the IEC onsets in a file for the student
+ # Save the IEC onset deviations in a file for the student
+ """
  theFilePath = "../data/"+songList[stem_index]+'/' +songList[stem_index]+ '_iec_student' +str(student_index+1)+'.csv'
  f3 = open(theFilePath, "a")
  f3.write("onset dev")
@@ -144,7 +121,7 @@ while student_index < numOfStudents:
     f3.write("\n")
     dev_index+=1
  f3.close
- 
+ """
  ################# SOP Part
  onsetStudentSOP = onset_SOP(studentAudioFilename)
  print( "YELLOW This is student number ", student_index+1, "Onset Len. length is ", len(sonsetIndex))
@@ -158,6 +135,7 @@ while student_index < numOfStudents:
  sf_measure_value_sop_array.append(sf_measure_value)  
  #################
  # Save the SOP onsets in a file for the stem
+ """
  theFilePath = "../data/"+songList[stem_index]+'/' +songList[stem_index]+ '_sop_student' +str(student_index+1)+'.csv'
  f4 = open(theFilePath, "a")
  index=0
@@ -168,14 +146,15 @@ while student_index < numOfStudents:
     f4.write("\n")
     index+=1
  f4.close
- 
+ """
  
  student_index+=1 
-print ("done")	 
+print ("done")
 
-
+"""
 the_student_grades = returnGradesYellow()
  # Write Statistics for  IEC
 write_stats(sonset_deviationsArray,soffset_deviationsArray," onsets", " offset",the_student_grades,sprecision_array,srecall_array,sf_measure_value_array,"Yellow")
  # Write Statistics for  SOP
 write_sop_stats(sonset_SopDeviationsArray," onsets", the_student_grades,sprecision_sop_array,srecall_sop_array,sf_measure_value_sop_array,"yellow")
+"""
