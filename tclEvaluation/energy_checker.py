@@ -9,29 +9,11 @@ import madmom
 from essentia.standard import *
 from essentia import Pool, array
 import essentia.standard as es
-import matplotlib.pyplot as plt
+
 import numpy as np
-import IPython.display as ipd
-import os
 
-import IPython
-import pickle
-from pickle import load
-from scipy.signal import find_peaks
-import ipywidgets as widgets
-from scipy import signal
-from lxml import etree
-
-import plotly.express as px
-import scipy
-
-import mir_eval
 from mir_eval import *
-from statistics import mean
-import math
-from math import sqrt
-import pandas as pd
-import sys
+
 ##########################
 #include local libs
 from sop  import *
@@ -49,16 +31,19 @@ def pullEnergy(raw,startFrame,endFrame):
 
 def blend_iec_sop(audio_file,file_suffix,stem_index):
     fs = 44100
+    print("audio_file",audio_file)
     raw = MonoLoader(filename = audio_file, sampleRate = fs)()
     raw = raw / np.max(np.abs(raw))
     # Save the IEC  onsets in a file for the stem
-    theFilePath10 = DATA_PATH + dash + OSETS_TAG + dash + songList[stem_index]+file_suffix+'_onsets.csv'
+    theFilePath10 = DATA_PATH + dash + songList[stem_index] + dash + songList[stem_index]+file_suffix+'_onsets.csv'
     f10 = open(theFilePath10, "w")
-    theFilePath11 = DATA_PATH + dash + OSETS_TAG + dash + songList[stem_index]+file_suffix+'_offsets.csv'
+    theFilePath11 = DATA_PATH + dash + songList[stem_index] + dash + songList[stem_index]+file_suffix+'_offsets.csv'
     f11 = open(theFilePath11, "w")
 
     # Capture the SOP
     onsetStemSOP = onset_SOP(audio_file)
+    if (len(onsetStemSOP)==0):
+        print("===============WARNING: EMPTY ONSETS===============")
 
     index=0
 
@@ -68,6 +53,8 @@ def blend_iec_sop(audio_file,file_suffix,stem_index):
     ratio_array = []
     energy_signal_snipbit_array_time = []
 
+    startPoint = getStartPoint(stem_index)
+
     while index < len(onsetStemSOP)-1:   #  This is like a hard code, we know thi is the greater value
         startFrame = int( fs*(onsetStemSOP[index]))
         endFrame =   int( fs*(onsetStemSOP[index+1]))    
@@ -75,17 +62,15 @@ def blend_iec_sop(audio_file,file_suffix,stem_index):
         energy_signal_snipbit,ratio = pullEnergy(raw,startFrame,endFrame)
         energy_signal_snipbit_array.append(round(energy_signal_snipbit,2))
         ratio_array.append(round(ratio,3))
-        if (stem_index==STEM_INDEX_YELLOW):
-            if onsetStemSOP[index] > 17.0: # No music before this point
-                energy_signal_snipbit_array_time.append(onsetStemSOP[index])
-                f10.write(str(onsetStemSOP[index]))
-                new_onset_stem_array.append(onsetStemSOP[index])
-                f10.write("\n")
-                f11.write(str(onsetStemSOP[index+1]))
-                new_offset_stem_array.append(onsetStemSOP[index+1])
-                f11.write("\n")
+        if onsetStemSOP[index] > startPoint: # No music before this point
+            energy_signal_snipbit_array_time.append(onsetStemSOP[index])
+            f10.write(str(onsetStemSOP[index]))
+            new_onset_stem_array.append(onsetStemSOP[index])
+            f10.write("\n")
+            f11.write(str(onsetStemSOP[index+1]))
+            new_offset_stem_array.append(onsetStemSOP[index+1])
+            f11.write("\n")
         index+=1
-
     f10.close
     return (new_onset_stem_array, new_offset_stem_array,energy_signal_snipbit_array,energy_signal_snipbit_array_time,ratio_array)
 

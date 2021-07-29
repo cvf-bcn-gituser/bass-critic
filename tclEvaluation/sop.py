@@ -1,25 +1,13 @@
-import pandas as pd
-import sys
 # TODO 1 optimise imports
 from essentia.standard import *
-from essentia import Pool, array
-import essentia.standard as es
-import matplotlib.pyplot as plt
 import numpy as np
-import IPython.display as ipd
-import pandas as pd
-import os
+
 import madmom
-import IPython
-import pickle
-from pickle import load
+
 from scipy.signal import find_peaks
-import ipywidgets as widgets
-from scipy import signal
-from lxml import etree
-import mir_eval
+
 from mir_eval import *
-import plotly.express as px
+
 
 
 

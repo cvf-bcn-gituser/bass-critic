@@ -39,12 +39,12 @@ wotmStemPath = AUDIO_PATH + dash + wotmStem
 
 stem_filenames = [yellowStemPath,bjeanStemPath,justStemPath,brownStemPath,roadStemPath,wotmStemPath]
 
-yellowStudentAudio  = AUDIO_PATH + dash+yellowTag 
-bjeanStudentAudio =  AUDIO_PATH + dash+bjeanTag 
-justStudentAudio     = AUDIO_PATH + dash+justTag 
-brownStudentAudio    = AUDIO_PATH + dash+brownTag 
-roadStudentAudio   = AUDIO_PATH + dash+roadTag 
-wotmStudentAudio   = AUDIO_PATH + dash+wotmTag 
+yellowStudentAudio  = AUDIO_PATH + dash + yellowTag + dash + yellowTag
+bjeanStudentAudio =  AUDIO_PATH + dash + bjeanTag + dash + bjeanTag
+justStudentAudio     = AUDIO_PATH + dash + justTag + dash + justTag
+brownStudentAudio    = AUDIO_PATH + dash + brownTag + dash + brownTag
+roadStudentAudio   = AUDIO_PATH + dash + roadTag + dash + roadTag
+wotmStudentAudio   = AUDIO_PATH + dash + wotmTag + dash + wotmTag
 
 studentFilenames = [yellowStudentAudio, bjeanStudentAudio, justStudentAudio, brownStudentAudio, roadStudentAudio,wotmStudentAudio]
 
@@ -52,8 +52,9 @@ studentFilenames = [yellowStudentAudio, bjeanStudentAudio, justStudentAudio, bro
 ################################################ DATA PATHS ################################################
 
 DATA_PATH = 'data'
-rhythmTag = '_rhythm.csv`'
-yellowRhythmFilename = 'data/yellow_rhythm.csv' # '../0_yellow/'+ DATA_PATH + dash + yellowTag + rhythmTag
+rhythmTag = '_rhythm.csv'
+
+yellowRhythmFilename =  DATA_PATH + dash+yellowTag + rhythmTag
 bjeanRhythmFilename =  DATA_PATH + dash+bjeanTag + rhythmTag
 justRhythmFilename     = DATA_PATH + dash+justTag + rhythmTag
 brownRhythmFilename    = DATA_PATH + dash+brownTag +rhythmTag
@@ -77,3 +78,35 @@ frameSize = windowSize
 #These are the different energy thresholds for the different Trinity tracks from  Stem 0 to Stem 5
 threshIndex = [0.049, 0.02, 0.1, 0.04505, 0.078, 0.1]
 matching_window_size = 0.02# 0.0125 # MIREX reference
+
+def getNumberOfStudents(stem_index):
+    if stem_index == STEM_INDEX_YELLOW:
+        return(8)
+    elif stem_index == STEM_INDEX_BJEAN:
+        return(12)
+    elif stem_index == STEM_INDEX_JUST:
+        return (8)
+    elif stem_index == STEM_INDEX_BROWN:
+        return (8)
+    elif stem_index == STEM_INDEX_ROAD:
+        return (8)
+    elif stem_index == STEM_INDEX_WOTM:
+        return (8)
+    else:
+        return(8)
+
+def getStartPoint(stem_index):
+    if stem_index == STEM_INDEX_YELLOW:
+        return(17.0)
+    elif stem_index == STEM_INDEX_BJEAN:
+        return(4.8)
+    elif stem_index == STEM_INDEX_JUST:
+        return (15.1)
+    elif stem_index == STEM_INDEX_BROWN:
+        return (3.2)
+    elif stem_index == STEM_INDEX_ROAD:
+        return (3.4)
+    elif stem_index == STEM_INDEX_WOTM:
+        return (3.0)
+    else:
+        return(0.0)

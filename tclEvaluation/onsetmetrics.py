@@ -2,28 +2,23 @@
 ############# 
 import madmom
 from essentia.standard import *
-from essentia import Pool, array
-import essentia.standard as es
-import matplotlib.pyplot as plt
+
 import numpy as np
-import IPython.display as ipd
+
+
 import os
 
-import IPython
 import pickle
 from pickle import load
 from scipy.signal import find_peaks
-import ipywidgets as widgets
-from scipy import signal
-from lxml import etree
-
-import plotly.express as px
 import scipy
 
-import mir_eval
+
+
+
 from mir_eval import *
 from statistics import mean
-import math
+
 from math import sqrt
 import pandas as pd
 import sys
@@ -50,25 +45,6 @@ def evaluate_accuracy(gt_onsets, onsets, matching_window_size):
     recall = float(len(matching)) / len(gt_onsets)
     f_measure_value = f_measure(precision, recall)
     return precision, recall, f_measure_value
-    
-def evaluate_energy_accuracy(gt_onsets, audio):
-
-
-
-    return precision, recall, f_measure_value
-	
-def multiple_hist(deviationsArray1,title_text1):
-    a = np.array(deviationsArray1)
-    m, s = mean(a), sqrt(mean(a*a))
-    am = mean(abs(a))
-
-    summary= title_text1+"ABS Mean: %f, Mean: %f, Dev. from 0: %f" %(am, m, s)
-    print(summary)
-    title =   title_text1
-    #plt.title(title)
-    #plt.figure(1, figsize=(9.5, 6))
-    #plt.hist(a)
-
 
 def match_rhythm(df, onsets, offsets, matching_window_size):
     """
