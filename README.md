@@ -28,10 +28,7 @@ When you choose the option it will generate the associate data to the song in th
 
 The data comes "precooked" with the code,if you want to jump ahead and run notebooks for plots.
 
-There is a folder for each song that contains individual output for each song.
-"StudentStatisics" is important, that cotnains grade vs audio feature stats.
-Then the files with "devs" in the name are the deviations for onset sna offsets.
-The "Review" files are the Teacher Grade Inputs.
+
 
 ## Overview.
 This software allows you to calculate the onset and offset points in a isolated bass recordings of given songs from the TCL syllabus.
@@ -74,28 +71,17 @@ There are a lot of optimisations to remove bulk, but working software is the pri
 
 data - 
 
-Folder where input grading data for each of the 6 songs (e.g. G0_YellowReview.csv), output data of the generated statistics for the stems (e.g.StemStatistics_IEC_yellow.csv). The Suffix "IEC" means algorithm "Indexed Energy Checker" was used, "SOP" refers to "Sound Onset Processor" from Madmom. The suffix used in the filename indicated the algorithm used to generate the data.
-
+Folder where input grading data for each of the 6 songs (e.g. G0_YellowReview.csv), output data of the generated statistics for the stems.
 There are subfolders ( yellow, billieJean, etc) which contain all onset/offset deviation outputs from the stem, all the students and suffix marked indicated the algorithm used.
 
-data/bass-- This is a major subfolder where all the audio (WAV format) is stored. first the main stem and the associated ground truths are marked in the "rhythm" files. (Billiejean_rhythm.csv, etc ). The sub folders here contain the student performances (0_yellow etc.
+"StudentStatisics" is important, that cotnains grade vs audio feature stats.
+Then the files with "devs" in the name are the deviations for onset sna offsets.
+The "Review" files are the Teacher Grade Inputs.
 
 
-The sub folders (  0_yellow etc) each contain corresponding main function for each song  ( check_students_yellow.py etc.) 
-Each of these main functions include the following local library functions as follows:
 
-from student_grades_yellow import *
 
-sys.path.insert(1, '../')
 
-from constantData import *
-
-from onsetmetrics import *
-
-from sop import *
-....
-
-student_grades_yellow.py  - This file processes the exported Grade Data which is in CSV format. The input is the  dumped grade data files are called (G0_YellowReview.csv...etc) and the output are the Stem Statistics files and the Student Statistics files.
 
 ## Description of Files
 
