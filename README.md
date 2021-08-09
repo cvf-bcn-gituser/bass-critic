@@ -2,6 +2,10 @@
 
 The requirements.txt file in the main folder shows all the packages required to run the software in a docker environment.
 
+In the tclEvaluation/ folder there is an audio and a data folder.
+
+The audio folder contains all the stems for analysis and the data the input and output meta-data
+
 This repository consists of two main sections. They are still work in progress. Not fully tested yet.
 
 The first section contains python code that is used for extending Music Critic software to implement performance assessment of electric bass guitar.
