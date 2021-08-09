@@ -1,15 +1,32 @@
 # bass-critic
+(Please note this repo will be made public as soon as copyrighted audio stems are replaced)
 
 The requirements.txt file in the main folder shows all the packages required to run the software in a docker environment.
+
+This repository consists of two main sections. 
+
+The first section contains python code that is used for extending Music Critic software to implement performance assessment of electric bass guitar int tclEvaluation. Te second section is the notebooks folder for producing the plots.
+You need to import generated data from tclEvaluation into your google drive environment for this.
 
 In the tclEvaluation/ folder there is an audio and a data folder.
 
 The audio folder contains all the stems for analysis and the data the input and output meta-data
 
-This repository consists of two main sections. They are still work in progress. Not fully tested yet.
+The main file for reproducing results is "osets_song.py".
 
-The first section contains python code that is used for extending Music Critic software to implement performance assessment of electric bass guitar.
+When you run python3 osets_song.py, you will get a menu with the following options:
 
+0 Yellow
+1 Billie Jean
+2 Just Looking
+3 Brown Eyed Girl
+4 Roadrunner
+5 Walking in the moon.
+
+
+When you choose the option it will generate the associate data to the song in the data folder.
+
+The data comes "precooked" with the code,if you want to jump ahead and run notebooks for plots.
 
 ## Overview.
 This software allows you to calculate the onset and offset points in a isolated bass recordings of given songs from the TCL syllabus.
@@ -77,6 +94,9 @@ student_grades_yellow.py  - This file processes the exported Grade Data which is
 
 ## Description of Files
 
+
+osets_song.py - Main file for running Hybrid algorithms of the TCL songs.
+
 constantData.py  - The is like a common header file that is included in all the individual main functions of each of the songs in each of the subfolders.
 
 onsetmetrics.py - This contains the Indexed Energy Checker Function and measurements (functions for P, R F , deviations etc)
@@ -93,7 +113,7 @@ energychecker_abesser_test.py - Comparison of Indexed Energy Checker and Abesser
 
 extractors.py   - Helper Function for processing XML files.
 
-pitch_melody.py - This contains the algorithm based on the Salamon /Gomez techniques-
+pitch_melody.py - This contains the algorithm based on the Salamon /Gomez techniques.
 check_melody.py - Test file for the above.
 
 sweep_sop.py - Sweeping tests to optimise the parameters used in SOP algorithm
