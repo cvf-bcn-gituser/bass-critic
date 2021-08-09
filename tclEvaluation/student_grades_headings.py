@@ -58,7 +58,7 @@ soundQualityColumnWotm = soundQualityColumnBrown
 soundQualityComment="Please add additional comments on the above Technical Control aspects of the song, to justify your choice."
 
 finalColumn = "Please add additional comments on stylistic understanding (eg mood and character),  listener engagement. Finally write a number between 5 (highly convincing) and 1 (unreliable) classify the overall impact of the song.                            "
-
+finalColumnJust = "Please add additional comments on stylistic understanding (eg mood and character), musical detail (e.g. dynamics and articulation), audience engagement. Finally write a number between 5 (highly convincing) and 1 (unreliable) classify the overall impact of the song.                            "
 #Onset  onsetColumn
 #onsetColumnL1 = "Exact "
 onsetColumnL1 = "Exact"

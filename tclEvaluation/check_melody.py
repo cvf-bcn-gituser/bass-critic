@@ -17,7 +17,7 @@ import ipywidgets as widgets
 from scipy import signal
 from lxml import etree
 
-import plotly.express as px
+
 import scipy
 
 import mir_eval

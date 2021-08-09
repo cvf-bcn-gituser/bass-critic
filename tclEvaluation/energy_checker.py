@@ -29,7 +29,7 @@ def pullEnergy(raw,startFrame,endFrame):
         ratio = 0
     return energy_signal_snipbit,ratio
 
-def blend_iec_sop(audio_file,file_suffix,stem_index):
+def blend_iec_sop_energy(audio_file,file_suffix,stem_index):
     fs = 44100
     print("audio_file",audio_file)
     raw = MonoLoader(filename = audio_file, sampleRate = fs)()
@@ -67,6 +67,92 @@ def blend_iec_sop(audio_file,file_suffix,stem_index):
             f10.write(str(onsetStemSOP[index]))
             new_onset_stem_array.append(onsetStemSOP[index])
             f10.write("\n")
+            f11.write(str(onsetStemSOP[index+1]))
+            new_offset_stem_array.append(onsetStemSOP[index+1])
+            f11.write("\n")
+        index+=1
+    f10.close
+    return (new_onset_stem_array, new_offset_stem_array,energy_signal_snipbit_array,energy_signal_snipbit_array_time,ratio_array)
+
+def blend_iec_sop(audio_file,file_suffix,stem_index):
+    fs = 44100
+    print("audio_file",audio_file)
+    raw = MonoLoader(filename = audio_file, sampleRate = fs)()
+    raw = raw / np.max(np.abs(raw))
+    # Save the IEC  onsets in a file for the stem
+    theFilePath10 = DATA_PATH + dash + songList[stem_index] + dash + songList[stem_index]+file_suffix+'_onsets.csv'
+    f10 = open(theFilePath10, "w")
+    theFilePath11 = DATA_PATH + dash + songList[stem_index] + dash + songList[stem_index]+file_suffix+'_offsets.csv'
+    f11 = open(theFilePath11, "w")
+    theFilePath13 = DATA_PATH + dash + songList[stem_index] + dash + songList[stem_index]+file_suffix+'_edurs.csv'
+    f13 = open(theFilePath13, "w")
+
+    # Capture the SOP
+    onsetStemSOP = onset_SOP(audio_file)
+    if (len(onsetStemSOP)==0):
+        print("===============WARNING: EMPTY ONSETS===============")
+
+
+
+    new_onset_stem_array = []
+    new_offset_stem_array = []
+    ed_array=[]
+    #thresholdRatio(real ∈ [0, 1], default = 0.4):
+    tr= THRESHOLD_FOR_EFFECTIVE_DURATION
+
+    startPoint = getStartPoint(stem_index)
+    index=0
+    while index < len(onsetStemSOP)-1:   #  This is like a hard code, we know thi is the greater value
+        if onsetStemSOP[index] > startPoint:  # No bass before this point
+            f10.write(str(onsetStemSOP[index]))
+            new_onset_stem_array.append(onsetStemSOP[index])
+            f10.write("\n")
+            f11.write(str(onsetStemSOP[index + 1]))
+            new_offset_stem_array.append(onsetStemSOP[index + 1])
+            f11.write("\n")
+
+
+            startFrame = int(fs * (onsetStemSOP[index]))
+            endFrame = int(fs * (onsetStemSOP[index + 1]))
+            frameExtract = raw[startFrame:endFrame]
+            ed = es.EffectiveDuration(thresholdRatio=tr )
+            output_effective_duration = ed(frameExtract)
+            ed_array.append(output_effective_duration)
+            f13.write(str(output_effective_duration))
+            f13.write("\n")
+        index += 1
+    return (new_onset_stem_array, new_offset_stem_array,ed_array)
+
+
+
+
+    # Capture the SOP
+    onsetStemSOP = onset_SOP(audio_file)
+    if (len(onsetStemSOP)==0):
+        print("===============WARNING: EMPTY ONSETS===============")
+
+    index=0
+
+    new_onset_stem_array = []
+    new_offset_stem_array = []
+    energy_signal_snipbit_array = []
+    ratio_array = []
+    energy_signal_snipbit_array_time = []
+
+    startPoint = getStartPoint(stem_index)
+
+    while index < len(onsetStemSOP)-1:   #  This is like a hard code, we know thi is the greater value
+        startFrame = int( fs*(onsetStemSOP[index]))
+        endFrame =   int( fs*(onsetStemSOP[index+1]))
+        ####################################
+        energy_signal_snipbit,ratio = pullEnergy(raw,startFrame,endFrame)
+        energy_signal_snipbit_array.append(round(energy_signal_snipbit,2))
+        ratio_array.append(round(ratio,3))
+        if onsetStemSOP[index] > startPoint: # No music before this point
+            energy_signal_snipbit_array_time.append(onsetStemSOP[index])
+            f20.write(str(onsetStemSOP[index]))
+            new_onset_stem_array.append(onsetStemSOP[index])
+            f20.write("\n")
             f11.write(str(onsetStemSOP[index+1]))
             new_offset_stem_array.append(onsetStemSOP[index+1])
             f11.write("\n")

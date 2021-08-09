@@ -13,24 +13,25 @@ defaultNumOfStudents = 8 # Number of graded Students
 
 # display 
 # iterating the columns
+""" 
 
-student1= [] # like billie1
-student_onsetMark=0
-student_DurationMark=0
-student_techFocus1Mark=0
-student_soundQualityMark=0
-student_techFocus2Mark=0
-student_finalMark=0
-
-student_onsetMark_Array = []
-student_DurationMark_Array = []
-student_techFocus1Mark_Array = []
-student_soundQualityMark_Array = []
-student_techFocus2Mark_Array = []
-student_finalMark_Array = []
-student_finalMark=0
-
+"""
 def processGrades(stem_index):
+
+    student1 = []  # like billie1
+    student_onsetMark = 0
+    student_DurationMark = 0
+    student_techFocus1Mark = 0
+    student_soundQualityMark = 0
+    student_techFocus2Mark = 0
+    student_finalMark = 0
+
+    student_onsetMark_Array = []
+    student_DurationMark_Array = []
+    student_techFocus1Mark_Array = []
+    student_soundQualityMark_Array = []
+    student_techFocus2Mark_Array = []
+    student_finalMark_Array = []
 
     if stem_index == STEM_INDEX_YELLOW:
         data = pd.read_csv(r'data/G0_YellowReview.csv')
@@ -52,13 +53,13 @@ def processGrades(stem_index):
     index= 0
     numOfStudents = getNumberOfStudents(stem_index)
     while index < numOfStudents:
-        print( index ,numOfStudents)
         # Default settings
         theOnsetColumn = onsetColumn
         theDurationColumn = durationColumn
         theTechFocus1Column = techFocus1Column
         theTechFocus2Column = techFocus2Column
         theSoundQualityColumn = soundQualityColumn
+        theFinalColumn = finalColumn
 
         if (stem_index == STEM_INDEX_BJEAN):
             theOnsetColumn = onsetColumnBillie
@@ -71,6 +72,7 @@ def processGrades(stem_index):
             theDurationColumn = durationColumnJust
             theTechFocus1Column = techFocus1ColumnJust
             theTechFocus2Column = techFocus2ColumnJust
+            theFinalColumn = finalColumnJust
         elif (stem_index == STEM_INDEX_BROWN):
             theOnsetColumn = onsetColumnBrown
             theDurationColumn = durationColumnBrown
@@ -164,6 +166,8 @@ def processGrades(stem_index):
                 else:
                     print("PROBLEM 4b!")
             student_techFocus2Mark_Array.append(student_techFocus2Mark)
+        else:
+            student_techFocus2Mark_Array = []
 
         dfsq = pd.DataFrame(data, columns=[nameofTrack, theSoundQualityColumn])
 
@@ -181,8 +185,8 @@ def processGrades(stem_index):
             print("PROBLEM 5!")
         student_soundQualityMark_Array.append(student_soundQualityMark)
 
-        dffc = pd.DataFrame(data,columns= [nameofTrack,finalColumn])
-        final_value = dffc.loc[index, finalColumn]
+        dffc = pd.DataFrame(data,columns= [nameofTrack,theFinalColumn])
+        final_value = dffc.loc[index, theFinalColumn]
         if final_value == '4/5':
             the_final_Mark = 4.5*0.9
         else:
@@ -190,32 +194,35 @@ def processGrades(stem_index):
         student_finalMark_Array.append(the_final_Mark)
         index+=1
 
+    return student_onsetMark_Array,student_DurationMark_Array,student_techFocus1Mark_Array,student_soundQualityMark_Array,student_techFocus2Mark_Array,student_finalMark_Array
+
+
 def returnGrades(stem_index):
-    processGrades(stem_index)
+    student_onsetMark_Array,student_DurationMark_Array,student_techFocus1Mark_Array,student_soundQualityMark_Array,student_techFocus2Mark_Array,student_finalMark_Array= processGrades(stem_index)
     the_student_grades = []
     numOfStudents = getNumberOfStudents(stem_index)
 
     # Add the 100% Grade Stem first in Student ZERO slot
     individual_grade = []
-    individual_grade.append("100")
-    individual_grade.append("100")
-    individual_grade.append("100")
-    if (stem_index != STEM_INDEX_BROWN) and (stem_index != STEM_INDEX_WOTM):
+    individual_grade.append("100") # 0 Onset
+    individual_grade.append("100") # 1 Duration
+    individual_grade.append("100") #2 Techincal Focus 1
+    if (stem_index != STEM_INDEX_BROWN) and (stem_index != STEM_INDEX_WOTM): # 3. Technical Focus
         individual_grade.append("100")
-    individual_grade.append("100")
-    individual_grade.append("5")
+    individual_grade.append("100") # 4 Sound Quality
+    individual_grade.append("5")   #  5 Overal Mark out of 5
     the_student_grades.append(individual_grade)
 
     i = 0
     while i < numOfStudents:
         individual_grade = []
-        individual_grade.append(student_onsetMark_Array[i])
-        individual_grade.append(student_DurationMark_Array[i])
-        individual_grade.append(student_techFocus1Mark_Array[i])
-        if (stem_index != STEM_INDEX_BROWN) and (stem_index != STEM_INDEX_WOTM):
+        individual_grade.append(student_onsetMark_Array[i]) # 0 Onset
+        individual_grade.append(student_DurationMark_Array[i]) # 1 Duration
+        individual_grade.append(student_techFocus1Mark_Array[i]) #2 Techincal Focus 1
+        if (stem_index != STEM_INDEX_BROWN) and (stem_index != STEM_INDEX_WOTM): # 3. Technical Focus 2
             individual_grade.append(student_techFocus2Mark_Array[i])
-        individual_grade.append(student_soundQualityMark_Array[i])
-        individual_grade.append(student_finalMark_Array[i])
+        individual_grade.append(student_soundQualityMark_Array[i]) # 4 Sound Quality
+        individual_grade.append(student_finalMark_Array[i])   #  5 Overal Mark out of 5
         the_student_grades.append(individual_grade)
         i += 1
     return the_student_grades

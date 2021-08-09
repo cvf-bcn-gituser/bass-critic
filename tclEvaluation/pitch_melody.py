@@ -76,9 +76,13 @@ def onsetPitchMelody(sample):
 
     # 3. Now, as we have gathered the required per-frame data, we can feed it to the contour 
     #    tracking and melody detection algorithms:
-    contours_bins, contours_saliences, contours_start_times, duration = run_pitch_contours(
-            pool['allframes_salience_peaks_bins'],
-            pool['allframes_salience_peaks_saliences'])
+    param1= pool['allframes_salience_peaks_bins']
+    param2 = pool['allframes_salience_peaks_saliences']
+
+    print(type(param1))
+    print(type(param2))
+    contours_bins, contours_saliences, contours_start_times, duration = run_pitch_contours(array(param1),array(param2))
+
     pitch, confidence = run_pitch_contours_melody(contours_bins,
                                                   contours_saliences,
                                                   contours_start_times,

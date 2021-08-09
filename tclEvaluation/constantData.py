@@ -63,6 +63,14 @@ wotmRhythmFilename   = DATA_PATH + dash+wotmTag + rhythmTag
 rhythm_filenames = [yellowRhythmFilename, bjeanRhythmFilename, justRhythmFilename, brownRhythmFilename, roadRhythmFilename,wotmRhythmFilename]
 
 STATS_PATH = 'stats_and_devs'
+################################################ Statistics Column Headers  ################################################
+header1TF = ["Student", "precision", "recall", "f_measure_value", "Onset ABS Mean", "Onset Mean", "Onset Std",
+             "Duration ABS Mean", "Duration Mean", "Duration Std", "onsetMark", " DurationMark", " TF 1 Mark ",
+             "Sound Quality Mark",  " finalMark"]
+
+header2TF = ["Student", "precision", "recall", "f_measure_value", "Onset ABS Mean", "Onset Mean", "Onset Std",
+             "Duration ABS Mean", "Duration Mean", "Duration Std", "onsetMark", " DurationMark", " TF 1 Mark ",
+             " TF 2 Mark ", "Sound Quality Mark", " finalMark"]
 
 # Column names of the annotated columns in the rhythm files
 col_list = ["onset", "muted", "offset"]
@@ -75,25 +83,27 @@ fs = 44100
 windowSize = 1024
 hopSize = 512
 frameSize = windowSize
+
+THRESHOLD_FOR_EFFECTIVE_DURATION = 0.05 #  For the Eddesnti library function EffectiveDuration
 #These are the different energy thresholds for the different Trinity tracks from  Stem 0 to Stem 5
 threshIndex = [0.049, 0.02, 0.1, 0.04505, 0.078, 0.1]
-matching_window_size = 0.02# 0.0125 # MIREX reference
+matching_window_size = 0.02 # 0.0125 # MIREX reference
 
 def getNumberOfStudents(stem_index):
     if stem_index == STEM_INDEX_YELLOW:
         return(8)
     elif stem_index == STEM_INDEX_BJEAN:
-        return(12)
+        return(15)
     elif stem_index == STEM_INDEX_JUST:
-        return (8)
+        return (12)
     elif stem_index == STEM_INDEX_BROWN:
         return (8)
     elif stem_index == STEM_INDEX_ROAD:
         return (8)
     elif stem_index == STEM_INDEX_WOTM:
-        return (8)
+        return (11)
     else:
-        return(8)
+        return (8)
 
 def getStartPoint(stem_index):
     if stem_index == STEM_INDEX_YELLOW:
@@ -109,4 +119,4 @@ def getStartPoint(stem_index):
     elif stem_index == STEM_INDEX_WOTM:
         return (3.0)
     else:
-        return(0.0)
+        return (0.0)

@@ -1,9 +1,9 @@
 
 Excellent=100
-NotablePlus= 85
-Notable= 70
-Pass = 55
-Fail= 40
+NotablePlus= 88
+Notable= 80
+Pass = 63
+Fail= 37
 
 # Compensation Factor for shifting grades downwards
 # becaseu Teacher hadnt consdiede these

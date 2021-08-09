@@ -31,12 +31,13 @@ def aggregate_hist_and_stats(deviationArrays,title_text):
 
 def write_stats(deviationsArray1,deviationsArray2,title_text1,title_text2,student_grades,sp,sr,sf,stem_index):
 
+  if (stem_index==STEM_INDEX_BROWN) or (stem_index==STEM_INDEX_WOTM):
+      header = header1TF
+  else:
+      header = header2TF
 
-  header = ["Student","precision","recall","f_measure_value","Onset ABS Mean","Onset Mean","Onset Std",
-         "Duration ABS Mean","Duration Mean","Duration Std","onsetMark"," DurationMark"," articulationMark ","soundQualityMark","volumeControlMark"," finalMark"]
-      
   fname = DATA_PATH + dash + songList[stem_index] + dash + 'StudentStatistics_'+ songList[stem_index]  + '.csv'
-
+  testindex=0
   with open(fname, 'w', encoding='UTF8') as f:
      writer = csv.writer(f)
      # write the header
@@ -56,13 +57,17 @@ def write_stats(deviationsArray1,deviationsArray2,title_text1,title_text2,studen
      #print(len(student_grades))
      jin=0
      for k in range(len(student_grades)):
+        print("************************************************************", k)
+
         studentStatistics.append(str(k+1))
         student_stats1 = [] # onsets
         student_stats2 = [] # durations
 
         a = np.array(deviationsArray1[k])
+        print(len(a))
         #print(a[0:11])
-        onset_m, onset_s = mean(a), sqrt(mean(a*a))
+        onset_m = mean(a)
+        onset_s=sqrt(mean(a*a))
         onset_am= mean(abs(a))
         onset_summary= "Onset ABS  Mean: %f,Onset Mean: %f, Dev. from 0: %f" %(onset_am,onset_m, onset_s)
         #print("onset_summary: ",onset_summary)
@@ -72,10 +77,15 @@ def write_stats(deviationsArray1,deviationsArray2,title_text1,title_text2,studen
         onset_mean.append(onset_m)
         onset_amean.append(onset_am)
         onset_std.append(onset_s)
-
-        a = np.array(deviationsArray2[k])
-        duration_m, duration_s = mean(a), sqrt(mean(a*a))
-        duration_am= mean(abs(a))
+        if (len(deviationsArray2[k])==0):
+            a = np.array(deviationsArray2[k])
+            duration_m = 0
+            duration_s = 0
+            duration_am = 0
+        else:
+            a = np.array(deviationsArray2[k])
+            duration_m, duration_s = mean(a), sqrt(mean(a*a))
+            duration_am= mean(abs(a))
         duration_summary= "Offset Mean: %f, Dev. from 0: %f" %(duration_m, duration_s)
         title =   "Student " + str(k+1)+ title_text2
         #print("duration_summary: ",duration_summary)
@@ -95,13 +105,16 @@ def write_stats(deviationsArray1,deviationsArray2,title_text1,title_text2,studen
         studentStatistics.append(round(duration_am,3))                   
         studentStatistics.append(round(duration_m,3)) 
         studentStatistics.append(round(duration_s,3))   
-        studentStatistics.append(student_grades[k][0])
-        studentStatistics.append(student_grades[k][1])
-        studentStatistics.append(student_grades[k][2])
-        studentStatistics.append(student_grades[k][3])
-        studentStatistics.append(student_grades[k][4])
+        studentStatistics.append(student_grades[k][0]) # Onset
+        studentStatistics.append(student_grades[k][1]) # Duration
+        studentStatistics.append(student_grades[k][2]) # Teschnical focus
         if (stem_index != STEM_INDEX_BROWN) and (stem_index != STEM_INDEX_WOTM) :
-            studentStatistics.append(student_grades[k][5])
+            studentStatistics.append(student_grades[k][3]) # Technical Focus 2
+            studentStatistics.append(student_grades[k][4])  # Sound Quality
+            studentStatistics.append(student_grades[k][5])  # Overall Grade
+        else:
+            studentStatistics.append(student_grades[k][3]) # Sound Quality
+            studentStatistics.append(student_grades[k][4]) # Overall Grade
         # write the data
         writer.writerow(studentStatistics)
 

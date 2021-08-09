@@ -54,7 +54,7 @@ soffset_deviationsArray=[]
 
 audio_file = stem_filenames[stem_index]
 
-new_onset_stem_array, new_offset_stem_array, _, _, _ = blend_iec_sop(audio_file, str(0), stem_index)
+new_onset_stem_array, new_offset_stem_array, new_effective_durs = blend_iec_sop(audio_file, str(0), stem_index)
 
 if (len(new_onset_stem_array)==0) or (len(new_offset_stem_array)==0):
     print("WARNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!, empty deviations returned")
@@ -119,11 +119,15 @@ numOfStudents = getNumberOfStudents (stem_index)
 
 while student_index < numOfStudents:
     studentAudioFilename  = studentFilenames[stem_index]+str(student_index+1)+'.wav'
-    snew_onset_stem_array, snew_offset_stem_array,energy_signal_student_array,energy_signal_student_array_time,_ = blend_iec_sop(studentAudioFilename,str(student_index+1),stem_index)
+    snew_onset_stem_array, snew_offset_stem_array,sed = blend_iec_sop(studentAudioFilename,str(student_index+1),stem_index)
 
     sprecision, srecall, sf_measure_value = evaluate_accuracy(onset_list, snew_onset_stem_array, matching_window_size)
 
     print(student_index+1 ," IEC Student precision, recall, f_measure_value", sprecision, srecall, sf_measure_value)
+
+    #dprecision, drecall, df_measure_value = evaluate_accuracy(onset_list, sed, matching_window_size)
+
+
     #print(student_index+1 ," Duration Energy Fidelity ", dur_Accuracy)
     sonset_deviations,soffset_deviations, smissing_onset_notes = match_rhythm(df, snew_onset_stem_array,snew_offset_stem_array,matching_window_size)
 
