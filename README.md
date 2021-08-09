@@ -5,7 +5,7 @@ The requirements.txt file in the main folder shows all the packages required to 
 
 This repository consists of two main sections. 
 
-The first section contains python code that is used for extending Music Critic software to implement performance assessment of electric bass guitar int tclEvaluation. Te second section is the notebooks folder for producing the plots.
+The first section contains python code that is used for extending Music Critic software to implement performance assessment of electric bass guitar int tclEvaluation. The second section is the "notebooks_for_plots" folder for producing the plots.
 You need to import generated data from tclEvaluation into your google drive environment for this.
 
 In the tclEvaluation/ folder there is an audio and a data folder.
@@ -27,6 +27,11 @@ When you run python3 osets_song.py, you will get a menu with the following optio
 When you choose the option it will generate the associate data to the song in the data folder.
 
 The data comes "precooked" with the code,if you want to jump ahead and run notebooks for plots.
+
+There is a folder for each song that contains individual output for each song.
+"StudentStatisics" is important, that cotnains grade vs audio feature stats.
+Then the files with "devs" in the name are the deviations for onset sna offsets.
+The "Review" files are the Teacher Grade Inputs.
 
 ## Overview.
 This software allows you to calculate the onset and offset points in a isolated bass recordings of given songs from the TCL syllabus.
