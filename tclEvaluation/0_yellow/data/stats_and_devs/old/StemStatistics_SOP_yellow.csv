@@ -1,2 +1,0 @@
-Stem,precision,recall,f_measure_value,Onset ABS Mean,Onset Mean,Onset Std,Duration ABS Mean,Duration Mean,Duration Std,onsetMark, DurationMark, articulationMark ,soundQualityMark,volumeControlMark, finalMark
-0,0.9701492537313433,1.0,0.9848484848484849,51.446592039801,51.446592039801,55.69911866917095,100,100,100,100,100,5
