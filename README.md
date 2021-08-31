@@ -46,27 +46,6 @@ There is some experiments required to obtain optimum parameters within the SOP a
 
 One of the major findings of the  research is that depending on duration length and inter-note intervals, different algorithms with different parameters are required to obtain optimum results.
 
-
-## TBD. (the cleanup work in progress issues are)
-
-stemStatistics CSV output for the SOP needs to be modified to include onsets only.
-
-Harmonize suffices( bjean, billie,...??)
-Move Energy Checker Algorithm out of the Metrics file.
-Remove redundant functions.
-Remove redundancy across the different songs.
-Please appreciate that each of the grading sheets for each of the songs is unique, and in order to program something working it was necessary to write one grade processing file for each song (e.g. student_grades_yellow.py). You are probably asking why each song has a separate folder for processing, this is the main reason.
-A Global main function is in the making, the bring this all together.
-The software is built for reproduction of results. It is hoped that it can be expanded to be a useful software package where you can obtain onsets, offset from new student recordings.
-
-It is intended to be extendible so that new algorithms for onset, offset detection can be added to reproduce the results within the framework
-
-It is intended to be scalable to add new Student recordings and new TCL songs.
-
-The refactoring cannot be done in one foul swoop. A manual will be made that will be described how to add a new Song, and an new set of Student files.
-There are a lot of optimisations to remove bulk, but working software is the primary focus, then understandability, then reproducibility and then maintainability.
-
-
 ## Description of folders and contents
 
 data - 
