@@ -1,5 +1,4 @@
 # bass-critic
-(Please note this repo will be made public as soon as copyrighted audio stems are replaced)
 
 The requirements.txt file in the main folder shows all the packages required to run the software in a docker environment.
 
